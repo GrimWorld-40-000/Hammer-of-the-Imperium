@@ -346,6 +346,7 @@
         <costStuffCount>100</costStuffCount>
         <equippedStatOffsets>
             <SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset>0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>	
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>

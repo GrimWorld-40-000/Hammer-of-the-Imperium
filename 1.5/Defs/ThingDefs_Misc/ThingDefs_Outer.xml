@@ -114,6 +114,7 @@
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset>0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Things/Commissar/Outer/ComissarJacket</wornGraphicPath>
