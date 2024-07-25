@@ -1032,6 +1032,102 @@
         <techHediffsChance>0.3</techHediffsChance>
     </PawnKindDef>
 
+        <!--Elysian-->
+
+    <PawnKindDef ParentName="GW_AM_RangedTier1">
+        <defName>GW_AM_Elysian_RangedTier1</defName>
+        <label>elysian conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_MeleeTier1">
+        <defName>GW_AM_Elysian_MeleeTier1</defName>
+        <label>elysian conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_RangedTier2">
+        <defName>GW_AM_Elysian_RangedTier2</defName>
+        <label>elysian trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_MeleeTier2">
+        <defName>GW_AM_Elysian_MeleeTier2</defName>
+        <label>elysian trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_RangedTier3">
+        <defName>GW_AM_Elysian_RangedTier3</defName>
+        <label>elysian sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_MeleeTier3">
+        <defName>GW_AM_Elysian_MeleeTier3</defName>
+        <label>elysian sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_AM_RangedTier3">
+        <defName>GW_AM_Elysian_Lieutenant</defName>
+        <label>elysian lieutenant</label>
+        <combatPower>160</combatPower>
+        <apparelMoney>4500~5000</apparelMoney>
+        <apparelTags Inherit="False">
+            <li>40kElysian</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_Elysian_Armor</li>
+            <li>GW_AM_Elysian_Helmet</li>
+            <li>GW_AM_Elysian_Jetpack</li>
+        </apparelRequired>
+        <techHediffsChance>0.3</techHediffsChance>
+    </PawnKindDef>            
+
         <!--Leader-->
     <PawnKindDef ParentName="GW_AM_PawnBase">
         <defName>GW_AM_LordGeneral</defName>

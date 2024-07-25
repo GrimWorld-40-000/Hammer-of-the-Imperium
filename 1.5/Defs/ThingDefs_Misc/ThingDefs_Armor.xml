@@ -383,6 +383,43 @@
         </apparel>
     </ThingDef>
 	
+        <!--Elysian-->
+
+    <ThingDef ParentName="GW_AM_ArmorBase">
+        <defName>GW_AM_Elysian_Armor</defName>
+        <label>elisian flak armor</label>
+        <description>.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/ElysianDrop/Armor/ElysianArmor_Display</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>5</Mass>
+            <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+        </costList>	
+        <apparel>
+            <wornGraphicPath>Things/ElysianDrop/Armor/ElysianArmor</wornGraphicPath>
+            <tags>
+                <li>40kElysian</li>
+                <li>40kElysianArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
 		<!-- Priest Gear -->
 		
 	<ThingDef ParentName="GW_AM_ArmorBase">

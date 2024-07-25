@@ -134,7 +134,7 @@
         </statBases>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <recipeMaker>
-            <researchPrerequisite>GW_AM_RegimentsOfRenown</researchPrerequisite>
+            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>

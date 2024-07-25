@@ -38,7 +38,7 @@
         </apparel>
     </ThingDef>
 
- 	        <!-- Cadian Helmet --> 
+        <!-- Cadian Helmet --> 
   
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_Cadian_Helmet</defName>
@@ -70,8 +70,7 @@
         </apparel>
     </ThingDef>
   
-  
-			<!-- Kasrkin Helmet --> 
+        <!-- Kasrkin Helmet --> 
   
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_CadianKasrkin_Helmet</defName>
@@ -115,7 +114,7 @@
         </apparel>
     </ThingDef>  
 
-			<!-- Krieger Helmet --> 
+        <!-- Krieger Helmet --> 
 
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_DKOK_Helmet</defName>
@@ -150,7 +149,7 @@
         </apparel>
     </ThingDef>
   
-			<!-- Krieger Helmet Grenadier --> 
+        <!-- Krieger Helmet Grenadier --> 
   
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_DKOK_GrenadierHelmet</defName>
@@ -185,7 +184,7 @@
         </apparel>
     </ThingDef>
 
-			<!-- Tempestus Scion Helmet --> 
+        <!-- Tempestus Scion Helmet --> 
   
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IM_TempestusScion_Helmet</defName>
@@ -222,4 +221,73 @@
             </tags>
         </apparel>
     </ThingDef>  
+
+    <!-- Elysian Helmets --> 
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
+        <defName>GW_AM_Elysian_Helmet</defName>
+        <label>elysian helmet</label>
+        <description>.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/ElysianDrop/Helmet/Helmet_Display</texPath>
+        </graphicData>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Cloth>10</Cloth>		
+            <Steel>70</Steel>	
+        </costList>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>1.2</Mass>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/ElysianDrop/Helmet/Helmet</wornGraphicPath>
+            <tags>
+                <li>40kElysian</li>
+                <li>40kElysianHelmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
+        <defName>GW_AM_ElysianHelmetOpen</defName>
+        <label>elysian helmet (open)</label>
+        <description>.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/ElysianDrop/Helmet/HelmetOpen_Display</texPath>
+        </graphicData>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Cloth>10</Cloth>		
+            <Steel>70</Steel>	
+        </costList>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>1.2</Mass>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/ElysianDrop/Helmet/HelmetOpen</wornGraphicPath>
+            <tags>
+                <li>40kElysian</li>
+                <li>40kElysianHelmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
 </Defs>

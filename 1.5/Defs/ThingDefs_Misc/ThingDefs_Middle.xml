@@ -72,7 +72,6 @@
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.1</SocialImpact>
-			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Things/Commissar/Middle/CommissarPlate</wornGraphicPath>

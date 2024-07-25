@@ -81,8 +81,7 @@
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
         <researchPrerequisites>
-            <li>GW_BolterTurrets</li>
-            <li>GW_AM_ImperiumDefense</li>
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
     </ThingDef>
 
@@ -218,7 +217,7 @@
         </placeWorkers>
         <researchPrerequisites>
             <li>GW_Autoguns</li>
-            <li>GW_AM_ImperiumDefense</li>
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
     </ThingDef>
 
@@ -349,8 +348,7 @@
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
         <researchPrerequisites>
-            <li>GW_LasCannonTurret</li>
-            <li>GW_AM_ImperiumDefense</li>
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
     </ThingDef>
 
@@ -481,8 +479,7 @@
             <li>PlaceWorker_TurretTop</li>
         </placeWorkers>
         <researchPrerequisites>
-            <li>GW_TarantulaTurrets</li>
-            <li>GW_AM_ImperiumDefense</li>
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
     </ThingDef>
 
@@ -591,8 +588,8 @@
             <li>PlaceWorker_TurretTop</li>
         </placeWorkers>
         <researchPrerequisites>
-            <li>GW_TarantulaTurrets</li>
-            <li>GW_AM_ImperiumDefense</li>
+            <!-- <li>GW_TarantulaTurrets</li> -->
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
     </ThingDef>
 

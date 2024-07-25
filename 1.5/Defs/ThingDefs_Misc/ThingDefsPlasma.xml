@@ -377,7 +377,7 @@
             <recipeUsers Inherit="False">
                 <li>HP_AM_MilitarumFabricationBench</li>
             </recipeUsers>		
-            <researchPrerequisite>GW_MeltaWeapons</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesEnergyWeapon</researchPrerequisite>
             <skillRequirements>
                 <Crafting>15</Crafting>
             </skillRequirements>

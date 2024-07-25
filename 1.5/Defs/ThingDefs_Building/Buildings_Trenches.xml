@@ -11,7 +11,7 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <designationCategory>GrimworldCategory</designationCategory>
     <researchPrerequisites>
-      <li>GW_AM_ImperiumDefense</li>
+      <li>GW_ImperiumDefenseStructure</li>
     </researchPrerequisites>
   </ThingDef>
   
@@ -125,7 +125,7 @@
         <Flammability>1</Flammability>
       </statBases>
 	    <researchPrerequisites>
-        <li>GW_AM_ImperiumDefense</li>
+        <li>GW_ImperiumDefenseStructure</li>
       </researchPrerequisites>
       <building>
         <ai_chillDestination>false</ai_chillDestination>
@@ -218,7 +218,7 @@
             </blueprintGraphicData>
         </building>
         <researchPrerequisites>
-          <li>GW_AM_ImperiumDefense</li>
+          <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
         <placingDraggableDimensions>1</placingDraggableDimensions>
         <repairEffect>Repair</repairEffect>
@@ -268,7 +268,7 @@
             <li>Metallic</li>
         </stuffCategories>
         <researchPrerequisites>
-            <li>GW_AM_ImperiumDefense</li>
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
         <costStuffCount>25</costStuffCount>
         <canOverlapZones>false</canOverlapZones>
@@ -320,7 +320,7 @@
             <li>Stony</li>
         </stuffCategories>
         <researchPrerequisites>
-            <li>GW_AM_ImperiumDefense</li>
+            <li>GW_ImperiumDefenseStructure</li>
         </researchPrerequisites>
         <costStuffCount>30</costStuffCount>
         <canOverlapZones>false</canOverlapZones>

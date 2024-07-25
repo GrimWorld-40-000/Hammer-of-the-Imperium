@@ -203,6 +203,22 @@
                 </options>
             </li>
 
+            <!--Elysian-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_AM_Elysian_RangedTier1>5</GW_AM_Elysian_RangedTier1>
+                    <GW_AM_Elysian_MeleeTier1>3</GW_AM_Elysian_MeleeTier1>
+                    <GW_AM_Elysian_RangedTier2>7</GW_AM_Elysian_RangedTier2>
+                    <GW_AM_Elysian_MeleeTier2>5</GW_AM_Elysian_MeleeTier2>
+                    <GW_AM_Elysian_RangedTier3>10</GW_AM_Elysian_RangedTier3>
+                    <GW_AM_Elysian_MeleeTier3>7</GW_AM_Elysian_MeleeTier3>
+                    <GW_AM_Elysian_Lieutenant>3</GW_AM_Elysian_Lieutenant>
+                    <GW_AM_LordGeneral>1</GW_AM_LordGeneral>
+                </options>
+            </li>
+
             <!--The misfits-->
             <li MayRequire="Phonicmas.40kAbhumans">
                 <kindDef>Combat</kindDef>

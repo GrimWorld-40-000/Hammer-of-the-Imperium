@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
+	
+	<ApparelLayerDef>
+		<defName>Backpack</defName>
+		<label>backpack</label>
+		<drawOrder>220</drawOrder>
+	</ApparelLayerDef>
+	
+	<ThingDef Abstract="true" Name="GW_AM_BackpackBase" ParentName="ArmorMachineableBase">
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>9</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_AM_MilitarumArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+        <costStuffCount>100</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>      
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<tradeTags>
+			<li>GW_AM_Backpacks</li>
+		</tradeTags>
+		<apparel>
+            <drawData>
+				<dataWest>
+					<offset>(0.2, 0.0, 0.0)</offset>
+				</dataWest>
+				<dataEast>
+					<offset>(-0.2, 0.0, 0.0)</offset>
+				</dataEast>
+			</drawData>
+			<layers>
+				<li>Backpack</li>
+			</layers>
+			<tags>
+				<li>Spacer</li>
+                <li>GW_AM_Backpack</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+    <ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_AM_SmallBackpack</defName>
+		<label>small backpack</label>
+        <description>People with this pack can carry a few things with them.</description>
+		<graphicData>
+			<texPath>Things/Backpacks/Small_Backpack_Display</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+		</recipeMaker>
+        <costStuffCount>30</costStuffCount>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+            <CarryingCapacity>30</CarryingCapacity>
+			<VEF_MassCarryCapacity>30</VEF_MassCarryCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">30</CarryBulk>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Backpacks/Small_Backpack</wornGraphicPath>
+			<tags>
+				<li>GW_CadianBackpack</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_AM_LargeBackpack</defName>
+		<label>large backpack</label>
+        <description>People with this pack can carry more things with them, but move slower due to how cumbersome it is.</description>
+		<graphicData>
+			<texPath>Things/Backpacks/Large_Backpack_Display</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+		</recipeMaker>
+        <costStuffCount>100</costStuffCount>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+            <CarryingCapacity>100</CarryingCapacity>
+			<VEF_MassCarryCapacity>100</VEF_MassCarryCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">100</CarryBulk>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Backpacks/Large_Backpack</wornGraphicPath>
+			<tags>
+				<li>GW_CadianBackpack</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_AM_BattlelineBackpack</defName>
+		<label>battleline backpack</label>
+        <description>People with this pack can repair and construct structures more quickly.</description>
+		<graphicData>
+			<texPath>Things/Backpacks/Battleline_Backpack_Display</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+		</recipeMaker>
+        <costStuffCount>100</costStuffCount>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+            <CarryingCapacity>10</CarryingCapacity>
+			<VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">10</CarryBulk>
+            <ConstructionSpeed>0.2</ConstructionSpeed>
+			<ConstructSuccessChance>0.1</ConstructSuccessChance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Backpacks/Battleline_Backpack</wornGraphicPath>
+			<tags>
+				<li>GW_CadianBackpack</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_AM_MedicalBackpack</defName>
+		<label>medicae backpack</label>
+        <description>People with this pack have an easier time patching people up to send back to the front lines.</description>
+		<graphicData>
+			<texPath>Things/Backpacks/Medical_Pack_Display</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MedicalTendSpeed>0.2</MedicalTendSpeed>
+            <MedicalTendQuality>0.1</MedicalTendQuality>
+            <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+            <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+		<costList>
+			<MedicineIndustrial>10</MedicineIndustrial>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Backpacks/Medical_Pack</wornGraphicPath>
+			<tags>
+				<li>GW_CadianBackpack</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_AM_VoxBackpack</defName>
+		<label>vox backpack</label>
+        <description>People with this pack can call in an orbital strike once every 5 days.</description>
+		<graphicData>
+			<texPath>Things/Backpacks/Vox_Pack_Display</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
+		</costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Bombardment</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <useableInPocketMaps>false</useableInPocketMaps>
+                <warmupTime>3</warmupTime>
+                <ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <range>25</range>
+                <burstShotCount>1</burstShotCount>
+                <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+                <soundCast>OrbitalTargeter_Fire</soundCast>
+                <onlyManualCast>true</onlyManualCast>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompProperties_ApparelReloadable">
+                <maxCharges>1</maxCharges>
+                <destroyOnEmpty>false</destroyOnEmpty>
+                <replenishAfterCooldown>True</replenishAfterCooldown>
+                <baseReloadTicks>300000</baseReloadTicks>
+                <hotKey>Misc4</hotKey>
+                <chargeNoun>charge</chargeNoun>
+                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+            </li>
+        </comps>
+		<apparel>
+            <drawData>
+				<dataSouth>
+                    <offset>(0.0, 0.0, 0.4)</offset>
+				</dataSouth>
+				<dataWest>
+					<offset>(0.2, 0.0, 0.4)</offset>
+				</dataWest>
+				<dataEast>
+					<offset>(-0.2, 0.0, 0.4)</offset>
+				</dataEast>
+				<dataNorth>
+					<offset>(0.0, 0.0, 0.4)</offset>
+				</dataNorth>
+			</drawData>
+			<wornGraphicPath>Things/Backpacks/Vox_Pack</wornGraphicPath>
+			<tags>
+				<li>GW_CadianBackpack</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_AM_BackpackBase">
+		<defName>GW_AM_Elysian_Jetpack</defName>
+		<label>elysian jetpack</label>
+        <description>People with this pack can jump long distances.</description>
+		<graphicData>
+			<texPath>Things/ElysianDrop/Backpack/Elysium_Jetpack_Display</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<Steel>80</Steel>
+			<Chemfuel>100</Chemfuel>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>ExplosiveJump.Verb_JumpExplosive</verbClass>
+				<label>jump</label>
+				<commandIcon>UI/Icons/jetpck</commandIcon>
+				<violent>false</violent>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<warmupTime>2</warmupTime>
+				<range>10</range>
+				<!-- <warmupEffecter>JumpWarmupEffect</warmupEffecter> -->
+				<requireLineOfSight>true</requireLineOfSight>
+				<!-- <flightEffecterDef>ExplosiveJumpFlightEffect</flightEffecterDef> No HoI Variant that I know of-->
+				<!-- <soundLanding>JumpPackLand</soundLanding> -->
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+					<canTargetPawns>false</canTargetPawns>
+					<canTargetBuildings>false</canTargetBuildings>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<ammoDef>Chemfuel</ammoDef>
+				<ammoCountPerCharge>20</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>jump</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<apparel>
+            <drawData>
+				<dataWest>
+					<offset>(0.2, 0.0, 0.0)</offset>
+				</dataWest>
+				<dataEast>
+					<offset>(-0.2, 0.0, 0.0)</offset>
+				</dataEast>
+			</drawData>
+			<wornGraphicPath>Things/ElysianDrop/Backpack/Elysium_Jetpack</wornGraphicPath>
+			<tags>
+				<li>40kElysian</li>
+				<li>40kElysianJetpack</li>
+			</tags>
+		</apparel>
+		<modExtensions>
+			<li Class="ExplosiveJump.PawnFlyerExtension">
+				<pawnFlyerDef>GW_AM_JumpyExplody</pawnFlyerDef>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="PawnFlyerBase">
+		<defName>GW_AM_JumpyExplody</defName>
+		<thingClass>ExplosiveJump.PawnFlyer_ExplosiveLanding</thingClass>
+		<pawnFlyer>
+			<flightDurationMin>0.2</flightDurationMin>
+			<flightSpeed>8</flightSpeed>
+		</pawnFlyer>
+		<modExtensions>
+			<li Class="ExplosiveJump.PawnFlyerExtension">
+				<isExplodeOnLanding>false</isExplodeOnLanding>
+				<!-- <radius>10</radius> -->
+				<!-- <damageDef>Bomb</damageDef> -->
+				<!-- <damageAmount>10</damageAmount> -->
+				<!-- <armorPen>1.0</armorPen> -->
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>
