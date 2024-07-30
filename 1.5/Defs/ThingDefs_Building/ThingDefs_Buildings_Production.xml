@@ -13,6 +13,7 @@
         </recipes>
         <graphicData>
             <texPath>Things/Building/Production/MilitarumWeaponBench/AstraMilitarumBench_Weapon</texPath>
+			<drawOffset>(0,0.05,0)</drawOffset>
         </graphicData>
         <researchPrerequisites>
             <li>GW_AM_TacticaImperium</li>
@@ -32,6 +33,7 @@
         </recipes>
         <graphicData>
             <texPath>Things/Building/Production/MilitarumArmorBench/AstraMilitarumBench_Armor</texPath>
+			<drawOffset>(0,0.05,0)</drawOffset>
         </graphicData>
         <researchPrerequisites>
             <li>GW_AM_TacticaImperium</li>
