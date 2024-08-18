@@ -154,6 +154,29 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_LuciferBlack</defName>
+		<label>lucifer black</label>
+		<description>Unlocks grav weapons. Grav-weaponry, also called Graviton Weapons, or just Grav Weapons, are devastating graviton-based personal and vehicular weapons employed by the Imperial Adeptus Astartes and the Collegia Titanica and the military forces of the Leagues of Votann based on ancient and forgotten technology dating back to the time of the Age of Technology.</description>
+		<baseCost>4000</baseCost>
+		<prerequisites>
+			<li MayRequire="grimworld.astramilitarum">GW_AM_TacticaImperium</li>
+		</prerequisites>
+		<researchViewX>9.50</researchViewX>
+		<researchViewY>0.20</researchViewY>
+		<modExtensions>
+			<li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+				<StudyLocation>GW_Cogitator</StudyLocation>
+				<ItemStudyRequirements>
+					<li Class="GW_Frame.StudyRequirement">
+						<StudyObject>GW_STC_Fragment</StudyObject>
+						<NumberRequired>3</NumberRequired>
+					</li>
+				</ItemStudyRequirements>
+			</li>
+		</modExtensions>
+	</ResearchProjectDef>
 
 	<!--Regiments-->
 	<ResearchProjectDef Abstract="True" Name="GW_AM_RegimentResearchBase" ParentName="GW_AM_HoITechBase">
