@@ -71,34 +71,17 @@
                     <count>2</count>
                 </li>
 
-                <li Class="ScenPart_StartingThing_Defined" MayRequire="ceteam.combatextended">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Ammo_AutoGun</thingDef>
-                    <count>100</count>
-                </li>
-
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>Gun_MilitarumShotgun</thingDef>
                     <count>1</count>
                 </li>
 
-                <li Class="ScenPart_StartingThing_Defined" MayRequire="ceteam.combatextended">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Ammo_10Gauge_Slug</thingDef>
-                    <count>40</count>
-                </li>
 
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>GW_AM_Gun_Lascarbinefour</thingDef>
                     <count>2</count>
-                </li>
-
-                <li Class="ScenPart_StartingThing_Defined" MayRequire="ceteam.combatextended">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Ammo_Lasbolt</thingDef>
-                    <count>100</count>
                 </li>
 
                 <!-- Scatter some things near player start -->
