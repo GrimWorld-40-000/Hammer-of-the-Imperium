@@ -16,7 +16,7 @@
                 <li>GW_AM_MilitarumArmorBench</li>
             </recipeUsers>
         </recipeMaker>
-		<uiIconScale>1.6</uiIconScale>
+        <uiIconScale>1.6</uiIconScale>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
             <Flammability>0.25</Flammability>
@@ -24,7 +24,7 @@
             <Insulation_Heat>0</Insulation_Heat>
         </statBases>
         <apparel>
-            <useWornGraphicMask>true</useWornGraphicMask>	
+            <useWornGraphicMask>true</useWornGraphicMask>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <bodyPartGroups>
                 <li>UpperHead</li>
@@ -38,8 +38,8 @@
         </apparel>
     </ThingDef>
 
-        <!-- Cadian Helmet --> 
-  
+    <!-- Cadian Helmet -->
+
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_Cadian_Helmet</defName>
         <label>Cadian helmet</label>
@@ -47,15 +47,15 @@
         <graphicData>
             <texPath>Things/Cadian/Headgear/CadianHelmet_south</texPath>
         </graphicData>
-		<costList>
-            <Steel>70</Steel>	
-        </costList>	
+        <costList>
+            <Steel>70</Steel>
+        </costList>
         <statBases>
             <WorkToMake>4000</WorkToMake>
             <Mass>1.2</Mass>
             <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
         <recipeMaker>
@@ -69,9 +69,9 @@
             </tags>
         </apparel>
     </ThingDef>
-  
-        <!-- Kasrkin Helmet --> 
-  
+
+    <!-- Kasrkin Helmet -->
+
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_CadianKasrkin_Helmet</defName>
         <label>Kasrkin helmet</label>
@@ -81,23 +81,23 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>4</ComponentIndustrial>
-            <DevilstrandCloth>10</DevilstrandCloth>		
-            <Steel>70</Steel>	
-        </costList>		
+            <DevilstrandCloth>10</DevilstrandCloth>
+            <Steel>70</Steel>
+        </costList>
         <statBases>
             <WorkToMake>6000</WorkToMake>
             <MaxHitPoints>200</MaxHitPoints>
             <Mass>1.7</Mass>
             <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.44</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.62</ArmorRating_Heat>
+            <ArmorRating_Heat>0.62</ArmorRating_Heat>
             <Insulation_Cold>3.8</Insulation_Cold>
-			<Insulation_Heat>1.8</Insulation_Heat>
+            <Insulation_Heat>1.8</Insulation_Heat>
             <EquipDelay>2.5</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>  
-        </equippedStatOffsets>	
+            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
         </recipeMaker>
@@ -112,9 +112,9 @@
                 <li>40kKasrkinHelmet</li>
             </tags>
         </apparel>
-    </ThingDef>  
+    </ThingDef>
 
-        <!-- Krieger Helmet --> 
+    <!-- Krieger Helmet -->
 
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_DKOK_Helmet</defName>
@@ -124,17 +124,17 @@
         <graphicData>
             <texPath>Things/DeathKorps/Headgear/KriegHelmet_south</texPath>
         </graphicData>
-		<costList>
+        <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>		
-            <Steel>70</Steel>	
+            <Cloth>10</Cloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
             <Mass>1.2</Mass>
             <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
         <recipeMaker>
@@ -148,9 +148,9 @@
             </tags>
         </apparel>
     </ThingDef>
-  
-        <!-- Krieger Helmet Grenadier --> 
-  
+
+    <!-- Krieger Helmet Grenadier -->
+
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IG_DKOK_GrenadierHelmet</defName>
         <label>Death Korps grenadier helmet</label>
@@ -159,17 +159,17 @@
         <graphicData>
             <texPath>Things/DeathKorps/Headgear/KriegGrenadierHelmet_south</texPath>
         </graphicData>
-		<costList>
+        <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <DevilstrandCloth>50</DevilstrandCloth>	
-            <Steel>70</Steel>		
+            <DevilstrandCloth>50</DevilstrandCloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>3500</WorkToMake>
             <Mass>1.4</Mass>
             <ArmorRating_Sharp>0.87</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <EquipDelay>1.3</EquipDelay>
         </statBases>
         <recipeMaker>
@@ -184,8 +184,8 @@
         </apparel>
     </ThingDef>
 
-        <!-- Tempestus Scion Helmet --> 
-  
+    <!-- Tempestus Scion Helmet -->
+
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>ODZ_40k_IM_TempestusScion_Helmet</defName>
         <label>Tempestus Scion helmet</label>
@@ -195,8 +195,8 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <DevilstrandCloth>10</DevilstrandCloth>	
-            <Steel>100</Steel>		
+            <DevilstrandCloth>10</DevilstrandCloth>
+            <Steel>100</Steel>
         </costList>
         <statBases>
             <WorkToMake>7500</WorkToMake>
@@ -220,9 +220,9 @@
                 <li>40kTempestusScionHelmet</li>
             </tags>
         </apparel>
-    </ThingDef>  
+    </ThingDef>
 
-    <!-- Elysian Helmets --> 
+    <!-- Elysian Helmets -->
 
     <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>GW_AM_Elysian_Helmet</defName>
@@ -234,8 +234,8 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>		
-            <Steel>70</Steel>	
+            <Cloth>10</Cloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -267,8 +267,8 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>		
-            <Steel>70</Steel>	
+            <Cloth>10</Cloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -289,10 +289,10 @@
             </tags>
         </apparel>
     </ThingDef>
-	
-	<!-- Lucifer Black -->
-	
-	<ThingDef ParentName="GW_AM_HelmetBase">
+
+    <!-- Lucifer Black -->
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>GW_AM_LuciferBlackSkull</defName>
         <label>lucifer black skull</label>
         <description>.</description>
@@ -302,8 +302,8 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>		
-            <Steel>70</Steel>	
+            <Cloth>10</Cloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -324,8 +324,8 @@
             </tags>
         </apparel>
     </ThingDef>
-	
-	<ThingDef ParentName="GW_AM_HelmetBase">
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>GW_AM_LuciferBlackAlt</defName>
         <label>lucifer black alt</label>
         <description>.</description>
@@ -335,8 +335,8 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>		
-            <Steel>70</Steel>	
+            <Cloth>10</Cloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -357,8 +357,8 @@
             </tags>
         </apparel>
     </ThingDef>
-	
-	<ThingDef ParentName="GW_AM_HelmetBase">
+
+    <ThingDef ParentName="GW_AM_HelmetBase">
         <defName>GW_AM_LuciferBlackMask</defName>
         <label>lucifer black mask</label>
         <description>.</description>
@@ -368,8 +368,8 @@
         </graphicData>
         <costList>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>		
-            <Steel>70</Steel>	
+            <Cloth>10</Cloth>
+            <Steel>70</Steel>
         </costList>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -384,11 +384,14 @@
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/LuciferBlack/Helmet/Lucifer_SkullMask</wornGraphicPath>
+            <renderSkipFlags>
+                <li>None</li>
+            </renderSkipFlags>
             <tags>
                 <li>40kLucifer</li>
                 <li>40kLuciferHelmet</li>
             </tags>
         </apparel>
     </ThingDef>
-	
+
 </Defs>

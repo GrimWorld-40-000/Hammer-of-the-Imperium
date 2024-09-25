@@ -7,7 +7,7 @@
             <shaderType>CutoutComplex</shaderType>
             <drawSize>1.3</drawSize>
         </graphicData>
-		<uiIconScale>1.6</uiIconScale>
+        <uiIconScale>1.6</uiIconScale>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
             <Mass>0.07</Mass>
@@ -17,8 +17,8 @@
                 <Crafting>4</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="false">
-				        <li>GW_AM_MilitarumArmorBench</li>
-			      </recipeUsers>
+                <li>GW_AM_MilitarumArmorBench</li>
+            </recipeUsers>
         </recipeMaker>
         <tradeTags>
             <li>HPHat</li>
@@ -26,7 +26,7 @@
         </tradeTags>
         <apparel>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
-            <useWornGraphicMask>true</useWornGraphicMask>	
+            <useWornGraphicMask>true</useWornGraphicMask>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <layers>
                 <li>Overhead</li>
@@ -37,7 +37,7 @@
         </apparel>
     </ThingDef>
 
-            <!-- Caps/Berets -->
+    <!-- Caps/Berets -->
 
     <ThingDef Abstract="true" ParentName="GW_AM_HatBase" Name="GW_AM_Hat_CapBase">
         <costStuffCount>40</costStuffCount>
@@ -57,7 +57,7 @@
         </apparel>
     </ThingDef>
 
-        <!-- Cadian Fieldcap -->
+    <!-- Cadian Fieldcap -->
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>ODZ_40k_IG_Cadian_Fieldcap</defName>
@@ -73,7 +73,7 @@
             <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
         </statBases>
-		<equippedStatOffsets>
+        <equippedStatOffsets>
             <SocialImpact>0.4</SocialImpact>
         </equippedStatOffsets>
         <recipeMaker>
@@ -90,8 +90,8 @@
             </defaultOutfitTags>
         </apparel>
     </ThingDef>
-  
-	    <!-- Cadian Crusher Cap -->
+
+    <!-- Cadian Crusher Cap -->
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>ODZ_40k_IG_Cadian_CrusherCap</defName>
@@ -102,18 +102,18 @@
         </graphicData>
         <costList>
             <Leather_Plain>5</Leather_Plain>
-        </costList>	
+        </costList>
         <statBases>
             <WorkToMake>1600</WorkToMake>
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.6</SocialImpact>
-        </equippedStatOffsets>	
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
-            </skillRequirements>	  
+            </skillRequirements>
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Cadian/Headgear/OfficerCap</wornGraphicPath>
@@ -125,9 +125,9 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
-    </ThingDef>  
+    </ThingDef>
 
- 	    <!-- Tempestus Scion Beret -->
+    <!-- Tempestus Scion Beret -->
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>ODZ_40k_IM_TempestusScion_Beret</defName>
@@ -141,12 +141,12 @@
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.7</SocialImpact>
-        </equippedStatOffsets>	
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_TempestusScions</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
-            </skillRequirements>	  
+            </skillRequirements>
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/TempestusScions/Headgear/TempestusScionBeret</wornGraphicPath>
@@ -155,9 +155,9 @@
                 <li>40kTempestusOfficerHats</li>
             </tags>
         </apparel>
-    </ThingDef>   
+    </ThingDef>
 
- 	    <!-- Catachan Bandana -->
+    <!-- Catachan Bandana -->
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>GW_AM_CatachanBandana</defName>
@@ -173,14 +173,14 @@
             <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
         </statBases>
-		<equippedStatOffsets>
+        <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_Catachan</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
-            </skillRequirements>	  
+            </skillRequirements>
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Catachan/CatachanBandana/CatachanBandana</wornGraphicPath>
@@ -189,9 +189,9 @@
                 <li>40kCatachanBandana</li>
             </tags>
         </apparel>
-    </ThingDef>   
+    </ThingDef>
 
-        <!-- Mordian Hat -->
+    <!-- Mordian Hat -->
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>GW_AM_MordianHat</defName>
@@ -206,14 +206,14 @@
             <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
         </statBases>
-		<equippedStatOffsets>
+        <equippedStatOffsets>
             <SocialImpact>0.4</SocialImpact>
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_Mordian</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
-            </skillRequirements>	  
+            </skillRequirements>
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Mordian/Headgear/MordianHat</wornGraphicPath>
@@ -222,10 +222,10 @@
                 <li>40kMordianHat</li>
             </tags>
         </apparel>
-    </ThingDef> 
+    </ThingDef>
 
 
-	    <!-- Valhallan Cap -->
+    <!-- Valhallan Cap -->
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>GW_AM_Valhallan_GarrisonCap</defName>
@@ -236,13 +236,13 @@
         </graphicData>
         <costList>
             <Leather_Plain>5</Leather_Plain>
-        </costList>	
+        </costList>
         <statBases>
             <WorkToMake>1200</WorkToMake>
             <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
         </statBases>
-		<equippedStatOffsets>
+        <equippedStatOffsets>
             <SocialImpact>0.4</SocialImpact>
         </equippedStatOffsets>
         <recipeMaker>
@@ -258,7 +258,7 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
-    </ThingDef>  
+    </ThingDef>
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>GW_AM_Valhallan_Ushanka</defName>
@@ -285,7 +285,7 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
-    </ThingDef>  
+    </ThingDef>
 
     <ThingDef ParentName="GW_AM_Hat_CapBase">
         <defName>GW_AM_Valhallan_OfficerUshanka</defName>
@@ -301,12 +301,12 @@
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.25</SocialImpact>
-        </equippedStatOffsets>	
+        </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_Valhallan</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
-            </skillRequirements>	  
+            </skillRequirements>
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Valhallan/Headgear/officerushanka</wornGraphicPath>
@@ -318,81 +318,81 @@
                 <li>Worker</li>
             </defaultOutfitTags>
         </apparel>
-    </ThingDef>  
+    </ThingDef>
 
-            <!-- Eyes -->
+    <!-- Eyes -->
     <ThingDef Abstract="true" ParentName="GW_AM_HatBase" Name="GW_AM_Hat_EyesBase">
         <generateCommonality>0.25</generateCommonality>
         <statBases>
-			<MaxHitPoints>75</MaxHitPoints>
-			<WorkToMake>1000</WorkToMake>
-			<Mass>0.1</Mass>
-			<Insulation_Cold>1.2</Insulation_Cold>
-			<Insulation_Heat>0</Insulation_Heat>
-			<EquipDelay>1</EquipDelay>
-		</statBases>
+            <MaxHitPoints>75</MaxHitPoints>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.1</Mass>
+            <Insulation_Cold>1.2</Insulation_Cold>
+            <Insulation_Heat>0</Insulation_Heat>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>  
+            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <apparel>
             <layers Inherit="False">
                 <li>EyeCover</li>
             </layers>
             <bodyPartGroups>
-				<li>Eyes</li>
-			</bodyPartGroups>
+                <li>Eyes</li>
+            </bodyPartGroups>
             <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
         </apparel>
     </ThingDef>
 
     <ThingDef ParentName="GW_AM_Hat_EyesBase">
-		<defName>GW_AM_TDR_Goggles</defName>
-		<label>Tallarn desert goggles</label>
-		<description>Tallarn Desert Goggles:\n\n A vital asset for warriors traversing the sun-scorched expanses of Warhammer 40,000, the Tallarn Desert Goggles are a fusion of form and function. Designed for the harsh conditions of arid landscapes, these goggles boast shatter-resistant lenses and an adjustable strap for a secure fit. Worn by soldiers navigating the shifting sands, the goggles provide essential eye protection against the glaring sunlight and blowing sandstorms. As a symbol of tactical readiness and adaptability, the Tallarn Desert Goggles embody the resourcefulness required to confront the myriad challenges presented by the unforgiving deserts of the 41st millennium.</description>
-		<graphicData>
-			<texPath>Things/Tallarn/Headgear/TDRGoggles_south</texPath>
-		</graphicData>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
+        <defName>GW_AM_TDR_Goggles</defName>
+        <label>Tallarn desert goggles</label>
+        <description>Tallarn Desert Goggles:\n\n A vital asset for warriors traversing the sun-scorched expanses of Warhammer 40,000, the Tallarn Desert Goggles are a fusion of form and function. Designed for the harsh conditions of arid landscapes, these goggles boast shatter-resistant lenses and an adjustable strap for a secure fit. Worn by soldiers navigating the shifting sands, the goggles provide essential eye protection against the glaring sunlight and blowing sandstorms. As a symbol of tactical readiness and adaptability, the Tallarn Desert Goggles embody the resourcefulness required to confront the myriad challenges presented by the unforgiving deserts of the 41st millennium.</description>
+        <graphicData>
+            <texPath>Things/Tallarn/Headgear/TDRGoggles_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
         <statBases>
-			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.35</ArmorRating_Heat>
-		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
-		</recipeMaker>
-		<apparel>
-			<wornGraphicPath>Things/Tallarn/Headgear/TDRGoggles</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-			<tags>
-				<li>40kTallarnDesertRaiders</li>
+            <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Tallarn/Headgear/TDRGoggles</wornGraphicPath>
+            <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+            <tags>
+                <li>40kTallarnDesertRaiders</li>
                 <li>40kTallarnDesertRaidersGoggles</li>
-			</tags>
-		</apparel>
-	</ThingDef>
+            </tags>
+        </apparel>
+    </ThingDef>
 
-            <!-- Full Head -->
+    <!-- Full Head -->
 
     <ThingDef Abstract="true" ParentName="GW_AM_HatBase" Name="GW_AM_Hat_FullWrapBase">
         <costStuffCount>30</costStuffCount>
         <stuffCategories>
-			<li>Fabric</li>
-		</stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
         <statBases>
-			<MaxHitPoints>150</MaxHitPoints>
-			<WorkToMake>2200</WorkToMake>
-			<Mass>0.2</Mass>
-			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>2200</WorkToMake>
+            <Mass>0.2</Mass>
+            <StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
         <apparel>
             <countsAsClothingForNudity>true</countsAsClothingForNudity>
             <bodyPartGroups>
-				<li>FullHead</li>
-				<li>Neck</li>
+                <li>FullHead</li>
+                <li>Neck</li>
             </bodyPartGroups>
             <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
             <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
@@ -401,104 +401,104 @@
     </ThingDef>
 
     <ThingDef ParentName="GW_AM_Hat_FullWrapBase">
-		<defName>GW_AM_TDR_GogglesHeadwrap</defName>
-		<label>Tallarn goggled headwrap</label>
-		<description>Tallarn Goggled Headwrap:\n\n A distinctive blend of practicality and style, the Tallarn Goggled Headwrap stands as a signature accessory for the desert warriors of Warhammer 40,000. Crafted for both protection and stealth, this headwrap features integrated goggles and a camouflage pattern suited for the arid expanses of the battlefield. Worn with pride by the Tallarn Desert Raiders, it not only shields against the sun and sand but also symbolizes their strategic acumen and adaptability. The Tallarn Goggled Headwrap embodies the regiment's commitment to both survival and tactical finesse in the relentless deserts of the 41st millennium.</description>
-		<graphicData>
-			<texPath>Things/Tallarn/Headgear/TDRGogglesHeadwrap_south</texPath>
-		</graphicData>
-		<costStuffCount>30</costStuffCount>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
+        <defName>GW_AM_TDR_GogglesHeadwrap</defName>
+        <label>Tallarn goggled headwrap</label>
+        <description>Tallarn Goggled Headwrap:\n\n A distinctive blend of practicality and style, the Tallarn Goggled Headwrap stands as a signature accessory for the desert warriors of Warhammer 40,000. Crafted for both protection and stealth, this headwrap features integrated goggles and a camouflage pattern suited for the arid expanses of the battlefield. Worn with pride by the Tallarn Desert Raiders, it not only shields against the sun and sand but also symbolizes their strategic acumen and adaptability. The Tallarn Goggled Headwrap embodies the regiment's commitment to both survival and tactical finesse in the relentless deserts of the 41st millennium.</description>
+        <graphicData>
+            <texPath>Things/Tallarn/Headgear/TDRGogglesHeadwrap_south</texPath>
+        </graphicData>
+        <costStuffCount>30</costStuffCount>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
         <statBases>
-			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
-		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
-		</recipeMaker>
-		<apparel>
-			<wornGraphicPath>Things/Tallarn/Headgear/TDRGogglesHeadwrap</wornGraphicPath>
-			<tags>
-				<li>40kTallarnDesertRaiders</li>
+            <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Tallarn/Headgear/TDRGogglesHeadwrap</wornGraphicPath>
+            <tags>
+                <li>40kTallarnDesertRaiders</li>
                 <li>40kTallarnDesertRaidersHeadwrap</li>
-			</tags>
-			<forceEyesVisibleForRotations>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-			</forceEyesVisibleForRotations>
-		</apparel>
+            </tags>
+            <forceEyesVisibleForRotations>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </forceEyesVisibleForRotations>
+        </apparel>
 
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-	</ThingDef>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
 
-	<ThingDef ParentName="GW_AM_Hat_FullWrapBase">
-		<defName>GW_AM_TDR_OfficerHeadwrap</defName>
-		<label>Tallarn officer headwrap</label>
-		<description>Tallarn Officer Headwrap:\n\n An emblem of command and tactical expertise in the scorching deserts of Warhammer 40,000, the Tallarn Officer Headwrap blends authority with practicality. Meticulously crafted with a desert camouflage pattern, this headwrap symbolizes both rank and the ability to navigate the challenging landscapes with strategic finesse. Worn by officers leading the Tallarn Desert Raiders, it stands as a testament to their leadership, resilience, and adaptability in the unforgiving terrain of the 41st millennium. The Tallarn Officer Headwrap embodies the perfect union of battlefield command and survival instincts.</description>
-		<graphicData>
-			<texPath>Things/Tallarn/Headgear/TDROfficerHeadwrap_south</texPath>
-		</graphicData>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
+    <ThingDef ParentName="GW_AM_Hat_FullWrapBase">
+        <defName>GW_AM_TDR_OfficerHeadwrap</defName>
+        <label>Tallarn officer headwrap</label>
+        <description>Tallarn Officer Headwrap:\n\n An emblem of command and tactical expertise in the scorching deserts of Warhammer 40,000, the Tallarn Officer Headwrap blends authority with practicality. Meticulously crafted with a desert camouflage pattern, this headwrap symbolizes both rank and the ability to navigate the challenging landscapes with strategic finesse. Worn by officers leading the Tallarn Desert Raiders, it stands as a testament to their leadership, resilience, and adaptability in the unforgiving terrain of the 41st millennium. The Tallarn Officer Headwrap embodies the perfect union of battlefield command and survival instincts.</description>
+        <graphicData>
+            <texPath>Things/Tallarn/Headgear/TDROfficerHeadwrap_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
         <statBases>
-			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
-		</statBases>
+            <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+        </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.5</SocialImpact>
-        </equippedStatOffsets>	
-		<recipeMaker>
-			<researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
-		</recipeMaker>
-		<apparel>
-			<wornGraphicPath>Things/Tallarn/Headgear/TDROfficerHeadwrap</wornGraphicPath>
-			<tags>
-				<li>40kTallarnDesertRaiders</li>
-                <li>40kTallarnDesertRaidersOfficerHeadwrap</li>
-			</tags>
-			<forceEyesVisibleForRotations>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-			</forceEyesVisibleForRotations>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="GW_AM_Hat_FullWrapBase">
-		<defName>GW_AM_TDR_Headwrap</defName>
-		<label>Tallarn Headwrap</label>
-		<description>Tallarn Headwrap:\n\n A quintessential accessory for the desert warriors of Warhammer 40,000, the Tallarn Headwrap is both practical and emblematic. Crafted with a desert-themed camouflage pattern, it shields against the relentless sun and sand while allowing for efficient camouflage. Worn by the resilient Tallarn Desert Raiders, the headwrap signifies not only their adaptability in the harsh desert environments but also their commitment to stealth and strategic prowess. As a symbol of survival and tactical finesse, the Tallarn Headwrap embodies the indomitable spirit of those who navigate the treacherous landscapes of the 41st millennium.</description>
-		<graphicData>
-			<texPath>Things/Tallarn/Headgear/TDRHeadwrap_south</texPath>
-		</graphicData>
-		<statBases>
-			<WorkToMake>1800</WorkToMake>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<EquipDelay>1.5</EquipDelay>
-		</statBases>
+        </equippedStatOffsets>
         <recipeMaker>
-			<researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
-		</recipeMaker>
-		<apparel>
-			<wornGraphicPath>Things/Tallarn/Headgear/TDRHeadwrap</wornGraphicPath>
-			<tags>
-				<li>40kTallarnDesertRaiders</li>
-                <li>40kTallarnDesertRaidersHeadwrap</li>
-			</tags>
-			<forceEyesVisibleForRotations>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-			</forceEyesVisibleForRotations>
-		</apparel>
-	</ThingDef>
+            <researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Tallarn/Headgear/TDROfficerHeadwrap</wornGraphicPath>
+            <tags>
+                <li>40kTallarnDesertRaiders</li>
+                <li>40kTallarnDesertRaidersOfficerHeadwrap</li>
+            </tags>
+            <forceEyesVisibleForRotations>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </forceEyesVisibleForRotations>
+        </apparel>
+    </ThingDef>
 
-            <!-- Gas Masks -->
+    <ThingDef ParentName="GW_AM_Hat_FullWrapBase">
+        <defName>GW_AM_TDR_Headwrap</defName>
+        <label>Tallarn Headwrap</label>
+        <description>Tallarn Headwrap:\n\n A quintessential accessory for the desert warriors of Warhammer 40,000, the Tallarn Headwrap is both practical and emblematic. Crafted with a desert-themed camouflage pattern, it shields against the relentless sun and sand while allowing for efficient camouflage. Worn by the resilient Tallarn Desert Raiders, the headwrap signifies not only their adaptability in the harsh desert environments but also their commitment to stealth and strategic prowess. As a symbol of survival and tactical finesse, the Tallarn Headwrap embodies the indomitable spirit of those who navigate the treacherous landscapes of the 41st millennium.</description>
+        <graphicData>
+            <texPath>Things/Tallarn/Headgear/TDRHeadwrap_south</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>1800</WorkToMake>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Tallarn/Headgear/TDRHeadwrap</wornGraphicPath>
+            <tags>
+                <li>40kTallarnDesertRaiders</li>
+                <li>40kTallarnDesertRaidersHeadwrap</li>
+            </tags>
+            <forceEyesVisibleForRotations>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </forceEyesVisibleForRotations>
+        </apparel>
+    </ThingDef>
+
+    <!-- Gas Masks -->
 
     <ThingDef Abstract="true" ParentName="GW_AM_HatBase" Name="GW_AM_Hat_GasMaskBase">
         <costStuffCount>20</costStuffCount>
@@ -513,7 +513,7 @@
             <EquipDelay>1.2</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>  
+            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <apparel>
             <countsAsClothingForNudity>true</countsAsClothingForNudity>
@@ -521,17 +521,17 @@
                 <li>EyeCover</li>
             </layers>
             <bodyPartGroups>
-				<li>Eyes</li>
+                <li>Eyes</li>
                 <li>Mouth</li>
                 <li>Neck</li>
             </bodyPartGroups>
             <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-            <immuneToToxGasExposure>true</immuneToToxGasExposure>	
+            <immuneToToxGasExposure>true</immuneToToxGasExposure>
         </apparel>
     </ThingDef>
 
-       <!-- Krieger Gas Mask -->
-  
+    <!-- Krieger Gas Mask -->
+
     <ThingDef ParentName="GW_AM_Hat_GasMaskBase">
         <defName>ODZ_40k_IG_DKOK_Gasmask</defName>
         <label>Death Korps gas mask</label>
@@ -544,8 +544,8 @@
             <li>Leathery</li>
         </stuffCategories>
         <costList>
-            <Steel>8</Steel>			
-        </costList>			
+            <Steel>8</Steel>
+        </costList>
         <statBases>
             <WorkToMake>1500</WorkToMake>
         </statBases>
@@ -556,13 +556,13 @@
             <wornGraphicPath>Things/DeathKorps/Headgear/KriegGasmask</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
-                <li>40kDeathKorpsMask</li>		
-            </tags>	  
+                <li>40kDeathKorpsMask</li>
+            </tags>
         </apparel>
-    </ThingDef> 
+    </ThingDef>
 
-       <!-- Krieger Grenadier Gas Mask -->
-  
+    <!-- Krieger Grenadier Gas Mask -->
+
     <ThingDef ParentName="GW_AM_Hat_GasMaskBase">
         <defName>ODZ_40k_IG_DKOK_GrenadierGasmask</defName>
         <label>Death Korps grenadier gas mask</label>
@@ -575,14 +575,14 @@
             <li>Leathery</li>
         </stuffCategories>
         <costList>
-            <Steel>8</Steel>			
-        </costList>		
+            <Steel>8</Steel>
+        </costList>
         <recipeMaker>
             <researchPrerequisite>GW_AM_DeathKorpsOfKrieg</researchPrerequisite>
             <recipeUsers>
                 <li>GW_AM_MilitarumArmorBench</li>
-            </recipeUsers>  
-        </recipeMaker>	
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <WorkToMake>2000</WorkToMake>
             <MaxHitPoints>120</MaxHitPoints>
@@ -592,13 +592,13 @@
             <wornGraphicPath>Things/DeathKorps/Headgear/KriegGrenadierGasmask</wornGraphicPath>
             <tags>
                 <li>40kDeathKorps</li>
-                <li>40kDeathKorpsGrenadierMask</li>		
-            </tags>	  
+                <li>40kDeathKorpsGrenadierMask</li>
+            </tags>
         </apparel>
     </ThingDef>
 
-       <!-- Steel legion Gas Mask -->
-  
+    <!-- Steel legion Gas Mask -->
+
     <ThingDef ParentName="GW_AM_Hat_GasMaskBase">
         <defName>GW_AM_SL_GasMask</defName>
         <label>Steel Legion gas mask</label>
@@ -611,14 +611,14 @@
             <li>Leathery</li>
         </stuffCategories>
         <costList>
-            <Steel>8</Steel>			
-        </costList>		
+            <Steel>8</Steel>
+        </costList>
         <recipeMaker>
             <researchPrerequisite>GW_AM_SteelLegion</researchPrerequisite>
             <recipeUsers>
                 <li>GW_AM_MilitarumArmorBench</li>
-            </recipeUsers>  
-        </recipeMaker>	
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <WorkToMake>2000</WorkToMake>
             <MaxHitPoints>120</MaxHitPoints>
@@ -628,13 +628,13 @@
             <wornGraphicPath>Things/SteelLegion/Headgear/SteelLegionHeadgear</wornGraphicPath>
             <tags>
                 <li>40kSteelLegion</li>
-                <li>40kSteelLegionMask</li>		
-            </tags>	  
+                <li>40kSteelLegionMask</li>
+            </tags>
         </apparel>
     </ThingDef>
 
-     <!-- Tempestus Scion Omni Mask -->
-  
+    <!-- Tempestus Scion Omni Mask -->
+
     <ThingDef ParentName="GW_AM_Hat_GasMaskBase">
         <defName>ODZ_40k_IM_TempestusScion_Mask</defName>
         <label>Scion Omni mask</label>
@@ -657,14 +657,17 @@
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/TempestusScions/Headgear/OmniMask</wornGraphicPath>
+            <renderSkipFlags>
+                <li>None</li>
+            </renderSkipFlags>
             <tags>
                 <li>40kTempestusScion</li>
                 <li>40kTempestusScionMask</li>
-            </tags>	  
+            </tags>
         </apparel>
     </ThingDef>
-    
-        <!-- Vostoyan Firstborn Headgear -->
+
+    <!-- Vostoyan Firstborn Headgear -->
 
     <ThingDef ParentName="GW_AM_HatBase">
         <defName>GW_AM_VostoyanFirstbornHeadgear</defName>
@@ -692,24 +695,24 @@
             <researchPrerequisite>GW_AM_VostoyanFirstborn</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
-            </skillRequirements>	  
+            </skillRequirements>
         </recipeMaker>
         <equippedStatOffsets>
-            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>  
+            <ToxicEnvironmentResistance>0.9</ToxicEnvironmentResistance>
         </equippedStatOffsets>
         <apparel>
             <countsAsClothingForNudity>true</countsAsClothingForNudity>
             <wornGraphicPath>Things/VostoyanFirstborn/Headgear/VostoyanFirstbornHeadgear</wornGraphicPath>
             <bodyPartGroups Inherit="False">
-				<li>FullHead</li>
+                <li>FullHead</li>
             </bodyPartGroups>
             <tags>
                 <li>40kVostoyanFirstborn</li>
                 <li>40kVostoyanFirstbornHeadgear</li>
             </tags>
-            <immuneToToxGasExposure>true</immuneToToxGasExposure>	
+            <immuneToToxGasExposure>true</immuneToToxGasExposure>
         </apparel>
     </ThingDef>
-		
+
 
 </Defs>
