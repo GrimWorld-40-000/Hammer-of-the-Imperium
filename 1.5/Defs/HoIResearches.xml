@@ -194,7 +194,7 @@
 	<ResearchProjectDef ParentName="GW_AM_RegimentResearchBase">
 		<defName>GW_AM_ElysianDropTroopers</defName>
 		<label>Elysian Drop Troopers</label>
-        <description>.</description>
+        <description>Produce the armor and weapons of the Elysian Drop Troopers - fearless airborne infantry who rain from the sky.</description>
 		<researchViewX>6.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
