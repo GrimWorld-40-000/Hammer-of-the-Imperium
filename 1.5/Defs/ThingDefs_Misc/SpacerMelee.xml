@@ -326,7 +326,7 @@
             <WorkToMake>6400</WorkToMake>
             <Mass>1.0</Mass>
         </statBases>
-		<equippedAngleOffset>25</equippedAngleOffset>
+		<equippedAngleOffset>-75</equippedAngleOffset>
 		<equippedStatOffsets>
 			<MoveSpeed>0.20</MoveSpeed>
 		</equippedStatOffsets>

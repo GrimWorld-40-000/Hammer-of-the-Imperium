@@ -65,13 +65,14 @@
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Bullet</damageDef>
-            <damageAmountBase>30</damageAmountBase>
-			<armorPenetrationBase>1.00</armorPenetrationBase>
-            <speed>55</speed>
-        </projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>100</speed>
+		</projectile>
     </ThingDef>
 
             <!-- Autoguns -->
@@ -695,10 +696,20 @@
                 <defaultProjectile>GW_AM_Bullet_LasLock</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>40</range>
-                <soundCast>GW_AM_Bullet_Stubround</soundCast>
+                <soundCast>Shot_SniperRifle</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
+			<!-- <li> -->
+                <!-- <verbClass>Verb_Shoot</verbClass> -->
+                <!-- <hasStandardCommand>true</hasStandardCommand> -->
+                <!-- <defaultProjectile>GW_AM_Bullet_LasLock</defaultProjectile> -->
+                <!-- <warmupTime>0.6</warmupTime> -->
+                <!-- <range>40</range> -->
+                <!-- <soundCast>GW_AM_Gun_MilitarumShotgunSawn</soundCast> -->
+                <!-- <soundCastTail>GunTail_Heavy</soundCastTail> -->
+                <!-- <muzzleFlashScale>9</muzzleFlashScale> -->
+            <!-- </li> -->
         </verbs>
         <tools>
             <li>
@@ -719,27 +730,45 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-		<equippedAngleOffset>140</equippedAngleOffset>
+		<equippedAngleOffset>50</equippedAngleOffset>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
-				<weaponCarryDrawOffsets>
+				<!-- <weaponCarryDrawOffsets> -->
+					<!-- <north> -->
+						<!-- <drawOffset>(-0.15,0,0.0)</drawOffset> -->
+						<!-- <angleOffset>-230</angleOffset> -->
+					<!-- </north> -->
+					<!-- <east> -->
+						<!-- <drawOffset>(-0.15,0,0.0)</drawOffset> -->
+						<!-- <angleOffset>-230</angleOffset> -->
+					<!-- </east> -->
+					<!-- <west> -->
+						<!-- <drawOffset>(0.15,-0.1,0.0)</drawOffset> -->
+						<!-- <angleOffset>760</angleOffset> -->
+					<!-- </west> -->
+					<!-- <south> -->
+						<!-- <drawOffset>(-0.15,0,0.0)</drawOffset> -->
+						<!-- <angleOffset>-230</angleOffset> -->
+					<!-- </south> -->
+				<!-- </weaponCarryDrawOffsets> -->
+				<weaponDraftedDrawOffsets>
 					<north>
 						<drawOffset>(-0.25,0,0.4)</drawOffset>
-						<angleOffset>-230</angleOffset>
+						<angleOffset>220</angleOffset>
 					</north>
 					<east>
 						<drawOffset>(-0.25,0,0.4)</drawOffset>
-						<angleOffset>-230</angleOffset>
+						<angleOffset>220</angleOffset>
 					</east>
 					<west>
 						<drawOffset>(0.25,-0.1,0.4)</drawOffset>
-						<angleOffset>760</angleOffset>
+						<angleOffset>120</angleOffset>
 					</west>
 					<south>
 						<drawOffset>(-0.25,0,0.4)</drawOffset>
-						<angleOffset>-230</angleOffset>
+						<angleOffset>220</angleOffset>
 					</south>
-				</weaponCarryDrawOffsets>
+				</weaponDraftedDrawOffsets>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -787,11 +816,11 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GW_AM_Bullet_AutoGun</defaultProjectile>
+                <defaultProjectile>GW_AM_Bullet_Bolter</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>16</range>
 				<burstShotCount>4</burstShotCount>
-                <soundCast>GW_AM_Gun_MilitarumShotgun</soundCast>
+                <soundCast>GW_AM_Bolt_Pistol_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -818,6 +847,21 @@
 		<!-- <equippedAngleOffset>45</equippedAngleOffset> -->
     </ThingDef>
 	
+	<ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+        <defName>VWELMG_Bullet_LasboltLucifer</defName>
+        <label>Lucifer Lasbolt</label>
+        <description>A beam of focused light that burns the target.</description>
+        <textures>
+            <li>Projectiles/Las_Bolt</li>
+        </textures>
+        <seam>0</seam>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationBase>0.67</armorPenetrationBase>
+            <stoppingPower>1.5</stoppingPower>
+        </projectile>
+    </ThingDef>
 	<ThingDef ParentName="GW_AM_AutogunBase">
         <defName>GW_AM_Gun_LuciferHellgun</defName>
         <label>Lucifer Black Hellgun</label>
@@ -859,11 +903,11 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GW_AM_Bullet_AutoGun</defaultProjectile>
+                <defaultProjectile>VWELMG_Bullet_LasboltLucifer</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>16</range>
 				<burstShotCount>8</burstShotCount>
-                <soundCast>GW_AM_Gun_MilitarumShotgun</soundCast>
+                <soundCast>GW_AM_Gun_Locke</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -931,11 +975,11 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>GW_AM_Bullet_AutoGun</defaultProjectile>
+                <defaultProjectile>VWELMG_Bullet_LasboltLucifer</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>16</range>
 				<burstShotCount>2</burstShotCount>
-                <soundCast>GW_AM_Gun_MilitarumShotgun</soundCast>
+                <soundCast>GW_AM_Gun_Locke</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>

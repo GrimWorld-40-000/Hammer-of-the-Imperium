@@ -228,7 +228,7 @@
         <description>A large backpack containing a vox-caster, an Imperial Guard device. Similar to a modern radio backpack, this vox-caster allows the user to communicate over long distances on the battlefield. This particular vox-caster is linked to an Imperial Navy ship in orbit above the rimworld, allowing the user to call in a low-powered support strike on a target of their choosing - though that can only be used every five days. \n\nVox-casters are vital to maintaining battlefield communication within Imperial Guard units. Without them, commanders would have no way of sending orders to their units, and enemy forces would quickly isolate and destroy them in piecemeal fashion.</description>
 		<graphicData>
 			<texPath>Things/Backpacks/Vox_Pack_north</texPath>
-			<drawSize>(2,2)</drawSize>	
+			<drawSize>(1.25,1.25)</drawSize>	
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
@@ -339,10 +339,10 @@
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<warmupTime>2</warmupTime>
 				<range>10</range>
-				<!-- <warmupEffecter>JumpWarmupEffect</warmupEffecter> -->
+				<warmupEffecter MayRequire="ludeon.rimworld.royalty">JumpWarmupEffect</warmupEffecter>
 				<requireLineOfSight>true</requireLineOfSight>
-				<!-- <flightEffecterDef>ExplosiveJumpFlightEffect</flightEffecterDef> No HoI Variant that I know of-->
-				<!-- <soundLanding>JumpPackLand</soundLanding> -->
+				<flightEffecterDef MayRequire="ludeon.rimworld.royalty">JumpFlightEffect</flightEffecterDef>
+				<soundLanding MayRequire="ludeon.rimworld.royalty">JumpPackLand</soundLanding>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 					<canTargetPawns>false</canTargetPawns>
@@ -436,18 +436,20 @@
 		</costList>
 		<apparel>
             <drawData>
-				<!-- <dataSouth> -->
+				<dataSouth>
+					<layer>50</layer>
                     <!-- <offset>(0.0, 0.0, 0.4)</offset> -->
-				<!-- </dataSouth> -->
-				<!-- <dataWest> -->
+				</dataSouth>
+				<dataWest>
 					<!-- <offset>(0.2, 0.0, 0.4)</offset> -->
-				<!-- </dataWest> -->
-				<!-- <dataEast> -->
+				</dataWest>
+				<dataEast>
 					<!-- <offset>(-0.2, 0.0, 0.4)</offset> -->
-				<!-- </dataEast> -->
-				<!-- <dataNorth> -->
-					<!-- <offset>(0.0, 0.0, 0.4)</offset> -->
-				<!-- </dataNorth> -->
+				</dataEast>
+				<dataNorth>
+					<!-- <layer>1</layer> -->
+					<offset>(0.0, -0.0001, 0.0)</offset>
+				</dataNorth>
 			</drawData>
 			<wornGraphicPath>Things/LuciferBlack/Cape/Lucifer_Cape</wornGraphicPath>
 			<tags>
@@ -462,7 +464,7 @@
         <description>People with this pack can call in an orbital strike once every 5 days.</description>
 		<graphicData>
             <texPath>Things/MilitarumEngineseerer/Backpack_north</texPath>		
-			<drawSize>(2,2)</drawSize>				
+			<drawSize>(1.5,1.5)</drawSize>				
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
@@ -479,6 +481,10 @@
 			<Insulation_Heat>5</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+			<ConstructionSpeed>0.25</ConstructionSpeed>
+		</equippedStatOffsets>
 		<stuffCategories Inherit="False">
 			<li>Metallic</li>
 		</stuffCategories>

@@ -349,6 +349,9 @@
             <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>1</ToxicResistance>
+		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
         </recipeMaker>
@@ -382,6 +385,9 @@
             <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>1</ToxicResistance>
+		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
         </recipeMaker>
@@ -426,7 +432,7 @@
         <apparel>
             <wornGraphicPath>Things/MilitarumEngineseerer/Hood</wornGraphicPath>
             <renderSkipFlags>
-                <li>None</li>
+                <li>Hair</li>
             </renderSkipFlags>
             <tags>
                 <li>40kEngineer</li>
@@ -456,6 +462,9 @@
             <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>1</ToxicResistance>
+		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
         </recipeMaker>
