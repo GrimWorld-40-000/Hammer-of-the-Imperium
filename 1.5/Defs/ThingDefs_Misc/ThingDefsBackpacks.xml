@@ -405,58 +405,59 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="GW_AM_BackpackBase">
-		<defName>GW_AM_LuciferCape</defName>
-		<label>lucifer cape</label>
-        <description>People with this pack can call in an orbital strike once every 5 days.</description>
-		<graphicData>
-			<texPath>Things/LuciferBlack/Cape/Lucifer_Cape_north</texPath>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>5000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
-			<Mass>2</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.4</ArmorRating_Heat>
-			<Insulation_Cold>5</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
-			<EquipDelay>2</EquipDelay>
-		</statBases>
-		<stuffCategories Inherit="False">
-			<li>Fabric</li>
-		</stuffCategories>
-		<costList>
-			<ComponentIndustrial>10</ComponentIndustrial>
-            <ComponentSpacer>3</ComponentSpacer>
-		</costList>
-		<apparel>
-            <drawData>
-				<dataSouth>
-					<layer>50</layer>
-                    <offset>(-0.1, 0.0, 0.0)</offset>
-				</dataSouth>
-				<dataWest>
-					<!-- <offset>(0.2, 0.0, 0.4)</offset> -->
-				</dataWest>
-				<dataEast>
-					<!-- <offset>(-0.2, 0.0, 0.4)</offset> -->
-				</dataEast>
-				<dataNorth>
-					<!-- <layer>1</layer> -->
-					<offset>(0.0, -0.0001, 0.0)</offset>
-				</dataNorth>
-			</drawData>
-			<wornGraphicPath>Things/LuciferBlack/Cape/Lucifer_Cape</wornGraphicPath>
-			<tags>
-				<li>GW_LuciferCape</li>
-			</tags>
-		</apparel>
-	</ThingDef>
+	<!-- <ThingDef ParentName="GW_AM_BackpackBase"> -->
+		<!-- <defName>GW_AM_LuciferCape</defName> -->
+		<!-- <label>lucifer cape</label> -->
+        <!-- <description>People with this pack can call in an orbital strike once every 5 days.</description> -->
+		<!-- <graphicData> -->
+			<!-- <texPath>Things/LuciferBlack/Cape/Luci_Cape_display</texPath> -->
+		<!-- </graphicData> -->
+		<!-- <recipeMaker> -->
+			<!-- <researchPrerequisite>GW_LuciferBlack</researchPrerequisite> -->
+		<!-- </recipeMaker> -->
+		<!-- <statBases> -->
+			<!-- <WorkToMake>5000</WorkToMake> -->
+			<!-- <MaxHitPoints>500</MaxHitPoints> -->
+			<!-- <Mass>2</Mass> -->
+			<!-- <Flammability>0.2</Flammability> -->
+			<!-- <ArmorRating_Sharp>0.45</ArmorRating_Sharp> -->
+			<!-- <ArmorRating_Blunt>0.35</ArmorRating_Blunt> -->
+			<!-- <ArmorRating_Heat>0.4</ArmorRating_Heat> -->
+			<!-- <Insulation_Cold>5</Insulation_Cold> -->
+			<!-- <Insulation_Heat>5</Insulation_Heat> -->
+			<!-- <EquipDelay>2</EquipDelay> -->
+		<!-- </statBases> -->
+		<!-- <stuffCategories Inherit="False"> -->
+			<!-- <li>Fabric</li> -->
+		<!-- </stuffCategories> -->
+		<!-- <costList> -->
+			<!-- <ComponentIndustrial>10</ComponentIndustrial> -->
+            <!-- <ComponentSpacer>3</ComponentSpacer> -->
+		<!-- </costList> -->
+		<!-- <apparel> -->
+            <!-- <drawData> -->
+				<!-- <dataSouth> -->
+					<!-- <layer>75</layer> -->
+                    <!-- <offset>(-0.0, 0.0, 0.0)</offset> -->
+				<!-- </dataSouth> -->
+				<!-- <dataWest> -->
+					<!-- <layer>20</layer> -->
+					<!-- <offset>(-0.2, 0.0, 0.0)</offset> -->
+				<!-- </dataWest> -->
+				<!-- <dataEast> -->
+					<!-- <layer>75</layer> -->
+					<!-- <offset>(0.0, 0.0, 0.0)</offset> -->
+				<!-- </dataEast> -->
+				<!-- <dataNorth> -->
+					<!-- <offset>(0.0, -0.0001, 0.0)</offset> -->
+				<!-- </dataNorth> -->
+			<!-- </drawData> -->
+			<!-- <wornGraphicPath>Things/LuciferBlack/Cape/Luci_Cape</wornGraphicPath> -->
+			<!-- <tags> -->
+				<!-- <li>GW_LuciferCape</li> -->
+			<!-- </tags> -->
+		<!-- </apparel> -->
+	<!-- </ThingDef> -->
 	
 	<ThingDef ParentName="GW_AM_BackpackBase">
 		<defName>GW_AM_EngineseererBackpack</defName>
