@@ -249,34 +249,10 @@
 			<ComponentIndustrial>10</ComponentIndustrial>
             <ComponentSpacer>3</ComponentSpacer>
 		</costList>
-        <verbs>
-            <li>
-                <verbClass>Verb_Bombardment</verbClass>
-                <hasStandardCommand>true</hasStandardCommand>
-                <useableInPocketMaps>false</useableInPocketMaps>
-                <warmupTime>5</warmupTime>
-                <ai_AvoidFriendlyFireRadius>23</ai_AvoidFriendlyFireRadius>
-                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-                <range>25</range>
-                <burstShotCount>1</burstShotCount>
-                <soundAiming>OrbitalTargeter_Aiming</soundAiming>
-                <soundCast>OrbitalTargeter_Fire</soundCast>
-                <onlyManualCast>true</onlyManualCast>
-                <targetParams>
-                    <canTargetLocations>true</canTargetLocations>
-                </targetParams>
-            </li>
-        </verbs>
         <comps>
-            <li Class="CompProperties_ApparelReloadable">
-                <maxCharges>1</maxCharges>
-                <destroyOnEmpty>false</destroyOnEmpty>
-                <replenishAfterCooldown>True</replenishAfterCooldown>
-                <baseReloadTicks>600000</baseReloadTicks>
-                <hotKey>Misc4</hotKey>
-                <chargeNoun>charge</chargeNoun>
-                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-            </li>
+			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
+				<hediffDef>GW40k_AM_VoxAura</hediffDef>
+			</li>
         </comps>
 		<apparel>
             <drawData>

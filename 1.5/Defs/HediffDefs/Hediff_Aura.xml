@@ -1,0 +1,49 @@
+<Defs>
+
+	<HediffDef>
+		<defName>GW40k_AM_VoxAura</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>coordination aura</label>
+		<description>vox aura</description>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
+				<allyOrNeutralHediff>GW40k_AM_VoxAuraBuff</allyOrNeutralHediff>
+				<ownerFactionHediff>GW40k_AM_VoxAuraBuff</ownerFactionHediff>
+				<severityPerTrigger>1</severityPerTrigger>
+				<tickInterval>250</tickInterval>
+				<uiIconEnabled>Things/Backpacks/Vox_Pack_north</uiIconEnabled>
+				<uiIconDisabled>Things/Backpacks/Vox_Pack_north</uiIconDisabled>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>				
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>GW40k_AM_VoxAuraBuff</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>coordination buff</label>
+		<description>vox buff</description>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<statOffsets>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>				
+					<ResearchSpeed>0.25</ResearchSpeed>				
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>
