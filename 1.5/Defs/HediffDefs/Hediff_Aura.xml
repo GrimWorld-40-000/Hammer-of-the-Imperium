@@ -39,8 +39,7 @@
 			<li>
 				<minSeverity>1</minSeverity>
 				<statOffsets>
-					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>				
-					<ResearchSpeed>0.25</ResearchSpeed>				
+					<MoveSpeed>1.0</MoveSpeed>
 				</statOffsets>
 			</li>
 		</stages>
