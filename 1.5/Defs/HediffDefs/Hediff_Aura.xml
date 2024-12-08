@@ -41,7 +41,7 @@
 				<minSeverity>1</minSeverity>
 				<statOffsets>
 					<MoveSpeed>0.3</MoveSpeed>
-					<ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
+					<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 				</statOffsets>
 			</li>
 		</stages>
