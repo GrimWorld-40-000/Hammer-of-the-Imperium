@@ -438,7 +438,7 @@
 	<ThingDef ParentName="GW_AM_BackpackBase">
 		<defName>GW_AM_EngineseererBackpack</defName>
 		<label>militarum engineseerer backpack</label>
-        <description>People with this pack can call in an orbital strike once every 5 days.</description>
+        <description>Militarum engineserer backpack equpt with additional arm and servoskull for better performance in crafting and other mechanicus duties.</description>
 		<graphicData>
             <texPath>Things/MilitarumEngineseerer/Backpack_north</texPath>		
 			<drawSize>(1.5,1.5)</drawSize>				
