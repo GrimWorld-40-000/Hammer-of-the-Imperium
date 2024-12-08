@@ -90,9 +90,9 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-            <CarryingCapacity>30</CarryingCapacity>
-			<VEF_MassCarryCapacity>30</VEF_MassCarryCapacity>
-            <CarryBulk MayRequire="CETeam.CombatExtended">30</CarryBulk>
+            <CarryingCapacity>15</CarryingCapacity>
+			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">15</CarryBulk>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/Backpacks/Small_Backpack</wornGraphicPath>
@@ -127,10 +127,10 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.5</MoveSpeed>
-            <CarryingCapacity>100</CarryingCapacity>
-			<VEF_MassCarryCapacity>100</VEF_MassCarryCapacity>
-            <CarryBulk MayRequire="CETeam.CombatExtended">100</CarryBulk>
+			<MoveSpeed>-0.4</MoveSpeed>
+            <CarryingCapacity>30</CarryingCapacity>
+			<VEF_MassCarryCapacity>30</VEF_MassCarryCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">30</CarryBulk>
 		</equippedStatOffsets>
 		<apparel>
 			<wornGraphicPath>Things/Backpacks/Large_Backpack</wornGraphicPath>
@@ -165,9 +165,9 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-            <CarryingCapacity>10</CarryingCapacity>
-			<VEF_MassCarryCapacity>10</VEF_MassCarryCapacity>
-            <CarryBulk MayRequire="CETeam.CombatExtended">10</CarryBulk>
+            <CarryingCapacity>7</CarryingCapacity>
+			<VEF_MassCarryCapacity>7</VEF_MassCarryCapacity>
+            <CarryBulk MayRequire="CETeam.CombatExtended">7</CarryBulk>
             <ConstructionSpeed>0.2</ConstructionSpeed>
 			<ConstructSuccessChance>0.1</ConstructSuccessChance>
 		</equippedStatOffsets>
@@ -460,7 +460,6 @@
 		</statBases>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
-			<ConstructionSpeed>0.25</ConstructionSpeed>
 		</equippedStatOffsets>
 		<stuffCategories Inherit="False">
 			<li>Metallic</li>
