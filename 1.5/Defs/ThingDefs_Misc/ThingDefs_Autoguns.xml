@@ -682,7 +682,7 @@
         <costList>
             <Steel>50</Steel>
             <ComponentIndustrial>5</ComponentIndustrial>
-            <Wood>20</Wood>
+            <wood>20</wood>
         </costList>
         <recipeMaker>
             <skillRequirements>
