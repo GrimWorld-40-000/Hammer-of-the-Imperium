@@ -14,6 +14,7 @@
 				<ownerFactionHediff>GW40k_AM_VoxAuraBuff</ownerFactionHediff>
 				<severityPerTrigger>1</severityPerTrigger>
 				<tickInterval>250</tickInterval>
+				<mote>GW40k_SS_Aura</mote>
 				<uiIconEnabled>Things/Backpacks/Vox_Pack_north</uiIconEnabled>
 				<uiIconDisabled>Things/Backpacks/Vox_Pack_north</uiIconDisabled>
 			</li>
@@ -39,7 +40,8 @@
 			<li>
 				<minSeverity>1</minSeverity>
 				<statOffsets>
-					<MoveSpeed>1.0</MoveSpeed>
+					<MoveSpeed>0.3</MoveSpeed>
+					<ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
 				</statOffsets>
 			</li>
 		</stages>
