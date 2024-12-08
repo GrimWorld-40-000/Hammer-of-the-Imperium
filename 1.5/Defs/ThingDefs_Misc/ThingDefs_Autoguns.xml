@@ -663,7 +663,7 @@
         <description>In the brutal theatres of the Warhammer 40,000 universe, the Sawn-Off Militarum Shotgun emerges as a visceral and ruthless close-quarters weapon, embodying the grim determination of Astra Militarum forces engaged in the perpetual struggle against the galaxy's myriad threats. Stripped down to its brutal essentials, this sawn-off variant is a testament to the brutal pragmatism required in the crucible of war.\n\nThe Sawn-Off Militarum Shotgun retains the rugged and durable construction of its standard counterpart, but its shortened barrel and compact design make it a lethal tool for engagements where proximity is the defining factor. The matte-black ceramite finish, symbolic of the Imperium's unyielding might, adorns this brutal firearm.\n\nAs a double-barreled, close-quarters weapon, the Sawn-Off Shotgun unleashes devastating power with each thunderous blast. Its abbreviated form is an embodiment of the Imperium's uncompromising stance in the face of adversity, as Astra Militarum forces wield it to turn the tide in their favor in the relentless struggle against the forces that threaten humanity.\n\nDeployed in the chaotic and claustrophobic environments of urban warfare or subterranean battles, the Sawn-Off Militarum Shotgun becomes a symbol of raw, unbridled force—a grim harbinger for those who stand against the Imperium in the grim and war-torn galaxy of Warhammer 40,000.</description>
         <possessionCount>1</possessionCount>
         <graphicData>
-            <drawSize>1.25</drawSize>
+            <drawSize>1.0</drawSize>
             <texPath>Weapons/Laslock</texPath>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>

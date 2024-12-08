@@ -90,6 +90,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
             <CarryingCapacity>15</CarryingCapacity>
 			<VEF_MassCarryCapacity>15</VEF_MassCarryCapacity>
             <CarryBulk MayRequire="CETeam.CombatExtended">15</CarryBulk>
