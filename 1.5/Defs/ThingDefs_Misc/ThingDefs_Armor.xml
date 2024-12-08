@@ -428,7 +428,7 @@
 		
 	<ThingDef ParentName="GW_AM_ArmorBase">
         <defName>GW_AM_PriestGear</defName>
-        <label>Priest Robe</label>
+        <label>Priest robe</label>
         <description>The Priest robe\n\n In the grim darkness of the 41st millennium is a garment that symbolizes both the sacred and the utilitarian. Crafted from heavy, coarse fabrics adorned with intricate iconography and religious symbols, it serves as the outer vestment of the devout clergy within the Imperium of Man.</description>
         <recipeMaker>
             <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
