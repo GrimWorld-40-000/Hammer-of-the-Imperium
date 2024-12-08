@@ -682,7 +682,7 @@
         <costList>
             <Steel>50</Steel>
             <ComponentIndustrial>5</ComponentIndustrial>
-            <wood>20</wood>
+            <WoodLog>20</WoodLog>
         </costList>
         <recipeMaker>
             <skillRequirements>
@@ -803,13 +803,15 @@
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>50</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
+            <Steel>300</Steel>
+            <ComponentIndustrial>20</ComponentIndustrial>
+            <ComponentSpacer>5</ComponentSpacer>
+            <Plasteel>100</Plasteel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
             <skillRequirements>
-                <Crafting>5</Crafting>
+                <Crafting>14</Crafting>
             </skillRequirements>
             <displayPriority>430</displayPriority>
         </recipeMaker>
@@ -890,13 +892,14 @@
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>50</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
+            <Steel>200</Steel>
+            <ComponentIndustrial>11</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
         </costList>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
             <skillRequirements>
-                <Crafting>5</Crafting>
+                <Crafting>12</Crafting>
             </skillRequirements>
             <displayPriority>430</displayPriority>
         </recipeMaker>
@@ -962,13 +965,14 @@
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>50</Steel>
+            <Steel>100</Steel>
             <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
         </costList>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
             <skillRequirements>
-                <Crafting>5</Crafting>
+                <Crafting>12</Crafting>
             </skillRequirements>
             <displayPriority>430</displayPriority>
         </recipeMaker>

@@ -152,6 +152,10 @@
         <thingCategories>
             <li>ApparelMisc</li>
         </thingCategories>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>70</Steel>
+        </costList>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>

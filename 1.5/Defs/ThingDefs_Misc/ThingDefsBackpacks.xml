@@ -74,7 +74,7 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
 		</recipeMaker>
         <costStuffCount>30</costStuffCount>
 		<statBases>
@@ -112,7 +112,7 @@
 			<drawSize>(2,2)</drawSize>			
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
 		</recipeMaker>
         <costStuffCount>100</costStuffCount>
 		<statBases>
@@ -150,7 +150,7 @@
 			<drawSize>(2,2)</drawSize>	
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
 		</recipeMaker>
         <costStuffCount>60</costStuffCount>
 		<statBases>
@@ -192,7 +192,7 @@
 			<drawSize>(2,2)</drawSize>	
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
@@ -232,7 +232,7 @@
 			<drawSize>(1.25,1.25)</drawSize>	
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
+			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>7000</WorkToMake>
