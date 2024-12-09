@@ -203,7 +203,7 @@
         <label>Tanith 1st ghili</label>
         <description>. . .</description>
         <recipeMaker>
-            <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
+            <researchPrerequisite>GW_Tanith1st</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Tanith1st/Ghili_Male_south</texPath>

@@ -986,7 +986,7 @@
 		<label>Tanith 1st goggle</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
+			<researchPrerequisite>GW_Tanith1st</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>

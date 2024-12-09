@@ -852,7 +852,7 @@
             <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>GW_AM_RatlingIntegration</researchPrerequisite>
+            <researchPrerequisite>GW_Tanith1st</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>140</Steel>

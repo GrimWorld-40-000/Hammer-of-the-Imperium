@@ -372,7 +372,7 @@
         <label>Tanith 1st armor</label>
         <description>. . .</description>
         <recipeMaker>
-            <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
+            <researchPrerequisite>GW_Tanith1st</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Tanith1st/Armor_Male_south</texPath>

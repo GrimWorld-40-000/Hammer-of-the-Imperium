@@ -531,7 +531,7 @@
             <EquipDelay>1.2</EquipDelay>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>GW_AM_OfficersOfAM</researchPrerequisite>
+            <researchPrerequisite>GW_Tanith1st</researchPrerequisite>
         </recipeMaker>
         <apparel>
             <wornGraphicPath>Things/Tanith1st/Hood</wornGraphicPath>
