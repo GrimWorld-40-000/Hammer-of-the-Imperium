@@ -108,19 +108,8 @@
 		<prerequisites>
 			<li MayRequire="grimworld.astramilitarum">GW_AM_RegimentsOfRenown</li>
 		</prerequisites>
-		<researchViewX>6.00</researchViewX>
-		<researchViewY>1.40</researchViewY>
-		<modExtensions>
-			<li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-				<StudyLocation>GW_Cogitator</StudyLocation>
-				<ItemStudyRequirements>
-					<li Class="GW_Frame.StudyRequirement">
-						<StudyObject>GW_STC_Fragment</StudyObject>
-						<NumberRequired>3</NumberRequired>
-					</li>
-				</ItemStudyRequirements>
-			</li>
-		</modExtensions>
+ 		<researchViewX>6.00</researchViewX>
+ 		<researchViewY>1.30</researchViewY>
 	</ResearchProjectDef>
 
 		<!--Regiments-->
@@ -247,7 +236,7 @@
 		<researchViewY>5.40</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="GW_AM_HoITechBase">
+	<!--<ResearchProjectDef ParentName="GW_AM_HoITechBase">
 		<defName>GW_AM_RatlingIntegration</defName>
 		<label>ratling integration</label>
         <description>Produce gear used by the small and sneaky Ratling abhumans.</description>
@@ -257,5 +246,5 @@
         <baseCost>1500</baseCost>
 		<researchViewX>5.00</researchViewX>
 		<researchViewY>6.00</researchViewY>
-	</ResearchProjectDef>
+	</ResearchProjectDef>-->
 </Defs>
