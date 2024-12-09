@@ -15,17 +15,6 @@
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
 	</ResearchProjectDef>
-	<!-- <ResearchProjectDef ParentName="GW_AM_HoITechBase"> -->
-		<!-- <defName>GW_AM_TacticaImperium</defName> -->
-		<!-- <label>tactica imperium</label> -->
-        <!-- <description>Study the Tactica Imperium, the Astra Militarum’s most prominent manual. Though it is incredibly long and sometimes contradicts itself, it remains highly useful for both the rookie officer, the grizzled NCO, and the newly-minted enlisted troops.</description> -->
-        <!-- <baseCost>1000</baseCost> -->
-		<!-- <prerequisites> -->
-			<!-- <li>Electricity</li> -->
-		<!-- </prerequisites> -->
-		<!-- <researchViewX>2.00</researchViewX> -->
-		<!-- <researchViewY>3.00</researchViewY> -->
-	<!-- </ResearchProjectDef> -->
 
 	<ResearchProjectDef ParentName="GW_AM_HoITechBase">
 		<defName>GW_AM_ImperiumDefense</defName>
@@ -38,17 +27,6 @@
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>2.00</researchViewY>
 	</ResearchProjectDef>
-	<!-- <ResearchProjectDef ParentName="GW_AM_HoITechBase"> -->
-		<!-- <defName>GW_AM_ImperiumDefense</defName> -->
-		<!-- <label>imperium defense</label> -->
-        <!-- <description>Research and produce Imperium-style defenses. While researching this allows for the construction of basic field fortifications such as trenches and tank traps, it is also a requirement for other defensive emplacements.</description> -->
-        <!-- <baseCost>2000</baseCost> -->
-		<!-- <prerequisites> -->
-			<!-- <li>GW_AM_TacticaImperium</li> -->
-		<!-- </prerequisites> -->
-		<!-- <researchViewX>3.00</researchViewX> -->
-		<!-- <researchViewY>2.00</researchViewY> -->
-	<!-- </ResearchProjectDef> -->
 
 	<ResearchProjectDef ParentName="GW_AM_HoITechBase">
 		<defName>GW_AM_MilitariumArmor</defName>
