@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ScenarioDef Name="Astra Militarum Regiment">
@@ -6,7 +6,7 @@
     <label>Astra Militarum Regiment</label>
     <description>In the face of threat on a distant planet, the Imperial Guard, loyal to the Emperor, is dispatched to conquer and subjugate this mysterious realm in the Emperor's Glory. The planet is inhabited by various factions, none of which recognize the authority of the Imperium.\n\nUnder the command of a seasoned leader, the guardsmen land on the planet's surface, ready to fight and seize control. They must confront not only armed enemy forces but also diverse environmental challenges.\n\nThe planet's environment is harsh and inhospitable, with varied landscapes ranging from rocky mountains to impenetrable jungles, coupled with hazardous weather conditions. The guardsmen must swiftly adapt their tactics and employ their combat and logistical skills to survive and gain control over key areas critical to the mission's success.</description>
     <scenario>
-      <summary>Led by a seasoned commander, this Astra Militarum Regiment embarks on conquering a hostile planet, aiming for victory!</summary>
+      <summary>Led by a seasoned commander, this Regiment aims to conquer a hostile planet!</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>PlayerGrimworld</factionDef>
