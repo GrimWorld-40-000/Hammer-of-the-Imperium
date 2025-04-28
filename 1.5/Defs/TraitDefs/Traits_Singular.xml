@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- These traits are specialized to Child Backgrounds-->
+
+  <TraitDef>
+    <defName>FBS_Agri</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Rural Upbringing</label>
+        <description>[PAWN_nameDef] lived in a rural setting of large farms tending to crops and animals.</description>
+        <statOffsets>
+		  <PlantWorkSpeed>0.05</PlantWorkSpeed>
+		  <PlantHarvestYield>0.05</PlantHarvestYield>
+		  <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
+		  <AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+		  <AnimalGatherYield>0.05</AnimalGatherYield>
+          <TrainAnimalChance>0.05</TrainAnimalChance>
+          <TameAnimalChance>0.05</TameAnimalChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Cardinal</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Religious Upbringing</label>
+        <description>[PAWN_nameDef] has been indoctrinated and devout to the Emperor and the Imperium. Living among the ecclesiarchy has left clear marks.</description>
+        <statOffsets>
+          <PainShockThreshold>0.05</PainShockThreshold>
+		  <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <NegotiationAbility>0.05</NegotiationAbility>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+	
+  <TraitDef>
+    <defName>FBS_Death</defName>
+	<commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Extreme Upbringing</label>
+        <description>[PAWN_nameDef] has endured the extreme and brutal conditions of a death world, making them adept at surviving in a variety of environments.</description>
+        <statOffsets>
+          <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+          <ComfyTemperatureMax>3</ComfyTemperatureMax>
+		  <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		  <ToxicResistance>0.05</ToxicResistance>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Deathkorp</defName>
+	<commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Death Korps Upbringing</label>
+        <description>[PAWN_nameDef] has endured the extreme and brutal conditions of Krieg, making them adept at melee combat, trench warfare, and extremely toxic environments.</description>
+        <statOffsets>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          <ComfyTemperatureMax>5</ComfyTemperatureMax>
+		  <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+		  <ToxicResistance>0.10</ToxicResistance>
+          <PainShockThreshold>0.10</PainShockThreshold>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+		  <ConstructionSpeed>0.1</ConstructionSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Desert</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Desert Upbringing</label>
+		<description>{PAWN_nameDef} Grew up in a very hot and dry enviornment, making them ideal for combat in desert or arid climates.</description>
+		<statOffsets>
+		  <ComfyTemperatureMax>10.0</ComfyTemperatureMax>
+          <ComfyTemperatureMin>5</ComfyTemperatureMin>		   
+		</statOffsets>
+	  </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FBS_Feral</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Primitive Upbringing</label>
+        <description>Due to their upbringing, [PAWN_nameDef], while not as adept with technology, is quite adept with melee weapons and close quarters combat.</description>
+        <statOffsets>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+		  <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Feudal</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Medieval Upbringing</label>
+        <description>[PAWN_nameDef] has endured extreme weather making them more adept in a variety of temperature environments.</description>
+        <statOffsets>
+          <NegotiationAbility>0.05</NegotiationAbility>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Fortress</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Military Upbringing</label>
+        <description>[PAWN_nameDef] has been educated in the ways of war and martial discipline since [PAWN_pronoun] was a child.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+		  <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Forge</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Mechanicus Upbringing</label>
+        <description>[PAWN_nameDef] lived among the Adeptus Mechanius, while never joining their order, [PAWN_pronoun] learned valuable skills none the less.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+		  <ConstructionSpeed>0.05</ConstructionSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FBS_Hive</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Urban Upbringing</label>
+		<description>{PAWN_nameDef} has spent much of their life surrounded by towers and choking concrete toiling away</description>
+		<statOffsets>
+		  <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Ice</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Frozen Upbringing</label>
+		<description>{PAWN_nameDef} grew up on a frozen and icy world, making them ideal for combat in artic or cold climates</description>
+		<statOffsets>
+		  <ComfyTemperatureMin>-10.0</ComfyTemperatureMin>
+          <ComfyTemperatureMax>-5</ComfyTemperatureMax>		   
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Imperial</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Imperial Citizen</label>
+		<description>{PAWN_nameDef} enjoyed life before draft as a regular citizen of the Imperium, well educated and free of many concerns</description>
+		<statOffsets>
+		  <ResearchSpeed>0.25</ResearchSpeed>  
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Industrial</defName>
+	<commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Industrial Heritage</label>
+        <description>[PAWN_nameDef] grew up on an industrial world learning various forms of manufacturing and other physical labour skills.</description>
+        <statOffsets>
+		  <GeneralLaborSpeed>0.25</GeneralLaborSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Void</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Flying City</label>
+		<description>{PAWN_nameDef}, growing up among the hundreds of thousands of souls aboard their vessel learned a viarety of tricks to optimize their work in difficult situations</description>
+		<statOffsets>
+		  <WorkSpeedGlobal>0.1</WorkSpeedGlobal>	   
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FBS_Schola</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Schola Orphan</label>
+		<description>Being raised in one of the Schola orphanages {PAWN_nameDef} was well taught by the Adeptus Ministorum developing an aptitude for learning</description>
+		<statOffsets>
+		  <GlobalLearningFactor>1</GlobalLearningFactor>
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Miner</defName>
+    <commonality>0.0001</commonality>
+	<degreeDatas>
+	  <li>
+		<label>Miner Initiate</label>
+		<description>{PAWN_nameDef} spent much of their life in the mines, learning from more experienced Mining Adepts</description>
+		<statOffsets>
+		  <MiningYield>0.05</MiningYield>
+		  <MiningSpeed>0.05</MiningSpeed>
+		  <DeepDrillingSpeed>0.05</DeepDrillingSpeed>		   
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+  </TraitDef>
+
+<!-- These traits are for the main Imperial Guard Adult Backgrounds-->
+
+  <TraitDef>
+    <defName>FBS_Conscripted</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Conscript</label>
+        <description>{PAWN_nameDef} was conscripted and given barely enough training to function as a soldier before being cast onto the battlefield. Unprepared for the horrors of war, {PAWN_nameDef} is trigger happy and likely to crack under pressure.</description>
+        <statOffsets>
+          <AimingDelayFactor>-0.5</AimingDelayFactor>
+          <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
+          <MentalBreakThreshold>0.10</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+          <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FBS_Prisoner</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Former Prisoner</label>
+        <description>{PAWN_nameDef}, accused of whatever crime, {PAWN_pronoun} has been told they either fight or die. {PAWN_pronoun} is very likely to start fights or cause general disorder due to their past experiences.</description>
+        <statOffsets>
+          <MentalBreakThreshold>0.05</MentalBreakThreshold>
+        </statOffsets>
+	  </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </TraitDef>
+
+  <TraitDef>  
+    <defName>FBS_Heavyweapon</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Heavy Weapons Training</label>
+        <description>[PAWN_nameDef] received special training firing heavy weaponry making them more accurate when shooting at targets and carrying more.</description>
+        <statOffsets>
+          <CarryingCapacity>5</CarryingCapacity>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>  
+    <defName>FBS_Fieldmedic</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Field Medic Training</label>
+        <description>[PAWN_nameDef] has training as a field medic and is capable of tending to wounds and injuries for stabilizing and transport to a proper medicae facility.</description>
+        <statOffsets>
+		  <MedicalTendQuality>0.1</MedicalTendQuality>
+		  <MedicalTendSpeed>0.1</MedicalTendSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Operator</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Vehicle Operator</label>
+        <description>[PAWN_nameDef] is trained in maintance of vehicles and repairs.</description>
+        <statOffsets>
+		  <ConstructionSpeed>0.1</ConstructionSpeed>
+		  <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+   
+  <TraitDef>  
+    <defName>FBS_Specialweapon</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Special Weapons Training</label>
+        <description>[PAWN_nameDef] received special training, making them more accurate when shooting at targets and faster on their feet.</description>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Roughrider</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Mounted Soldier</label>
+        <description>[PAWN_nameDef] is trained in mounted cavalry tactics, along with the maintenance and training of their animal.</description>
+        <statOffsets>
+          <TrainAnimalChance>0.1</TrainAnimalChance>
+          <TameAnimalChance>0.1</TameAnimalChance>
+		  <AnimalGatherSpeed>0.1</AnimalGatherSpeed>
+		  <AnimalGatherYield>0.1</AnimalGatherYield>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Scout</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Scout Training</label>
+        <description>[PAWN_nameDef] received special training, making them more accurate when shooting at targets and faster on their feet.</description>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+          <HuntingStealth>0.2</HuntingStealth>
+		  <ToxicResistance>0.05</ToxicResistance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+    
+  <TraitDef>
+    <defName>FBS_Lawsenforce</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Law Enforcement</label>
+        <description>[PAWN_nameDef] is a member of the Adeptus Arbites and exceptional when subduing individuals.</description>
+        <statOffsets>
+          <ArrestSuccessChance>0.2</ArrestSuccessChance>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+		  <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+		  <SuppressionPower>0.5</SuppressionPower>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Battlehardened</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Battle Hardened</label>
+        <description>[PAWN_nameDef] has seen frequent combat and lived, making them tougher and more resilient than their counterparts.</description>
+        <statOffsets>
+		  <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Elitesoldier</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Tempestus Training</label>
+        <description>As a Stormtrooper, [PAWN_nameDef] is exceptionally well trained and battlehardened.</description>
+        <statOffsets>
+          <MoveSpeed>0.2</MoveSpeed>
+		  <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Command1</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Platoon Commander</label>
+        <description>[PAWN_nameDef] is a commander of a Platoon, responsible for leading squads of Guardsmen into battle and maintaining calm order.</description>
+        <statOffsets>
+		  <MentalBreakThreshold>-0.10</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+          <NegotiationAbility>0.05</NegotiationAbility>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Command2</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Regiment Commander</label>
+        <description>[PAWN_nameDef] is a Regimental Commander, responsible for leading Platoons of Imperial Guard. Having survived through multiple conflicts, their skill is a step above others.</description>
+        <statOffsets>
+		  <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+          <NegotiationAbility>0.1</NegotiationAbility>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Command3</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Tempestus Commander</label>
+        <description>[PAWN_nameDef] is a Commander of the Tempestus Scions, the Storm Troopers. Responsible for leading these elite soldiers in battle.</description>
+        <statOffsets>
+		  <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+          <NegotiationAbility>0.1</NegotiationAbility>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>  
+    <defName>FBS_Fervor</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Religious Fervor</label>
+        <description>[PAWN_nameDef] is a Priest of the Ecclesiarchy, a leader and guide of moral devotion to the Emperor of Man among the troops. Extremely fanatical, they will throw themselves at their foes and encourage others to do the same.</description>
+        <statOffsets>
+		  <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <PainShockThreshold>0.20</PainShockThreshold>
+          <MeleeDodgeChance>10</MeleeDodgeChance>
+          <MeleeHitChance>10</MeleeHitChance>
+          <ConversionPower>0.5</ConversionPower>
+          <ArrestSuccessChance>0.2</ArrestSuccessChance>  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>  
+    <defName>FBS_Commissar</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Prefectus Officer</label>
+        <description>[PAWN_nameDef] is a Commissar of the Offico Prefectus. Brutal, uncaring, and skilled in combat, they despise cowardice and have full authority to punish those who would flee or go AWOL.</description>
+        <statOffsets>
+		  <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+          <MeleeDodgeChance>10</MeleeDodgeChance>
+          <MeleeHitChance>10</MeleeHitChance>
+          <NegotiationAbility>0.2</NegotiationAbility>
+          <ArrestSuccessChance>0.2</ArrestSuccessChance>
+		  <SuppressionPower>0.25</SuppressionPower>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+<!-- These traits are for the Adept backgrounds, generally a +20% to specific aspects of their profession-->
+	
+  <TraitDef>
+    <defName>FBS_Diplomat</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Diplomatic</label>
+        <description>[PAWN_nameDef] is skilled with negotiation and trade negotiations.</description>
+        <statOffsets>
+          <NegotiationAbility>0.2</NegotiationAbility>
+		  <TradePriceImprovement>0.2</TradePriceImprovement>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Medicae</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Medicae Doctor</label>
+        <description>[PAWN_nameDef] is skilled in surgery and tending to the medical needs of others.</description>
+        <statOffsets>
+		  <SurgerySuccessChanceFactor>0.2</SurgerySuccessChanceFactor>
+		  <MedicalTendQuality>0.2</MedicalTendQuality>
+		  <MedicalTendSpeed>0.2</MedicalTendSpeed>
+		  <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+	  <requiredWorkTypes>
+		<li>Doctor</li>
+	  </requiredWorkTypes>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Agricultae</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Agricultae Worker</label>
+        <description>[PAWN_nameDef] is a skilled with farmwork and crop tending.</description>
+        <statOffsets>
+		  <PlantWorkSpeed>0.2</PlantWorkSpeed>
+		  <PlantHarvestYield>0.2</PlantHarvestYield>
+		  <ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency>
+		  <AnimalGatherSpeed>0.2</AnimalGatherSpeed>
+		  <AnimalGatherYield>0.2</AnimalGatherYield>
+          <TrainAnimalChance>0.2</TrainAnimalChance>
+          <TameAnimalChance>0.2</TameAnimalChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>FBS_Mining</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Mining Guildmember</label>
+        <description>[PAWN_nameDef] has knowledge on how best to mine resources and maximizing yields.</description>
+        <statOffsets>
+		  <MiningYield>0.2</MiningYield>
+		  <MiningSpeed>0.2</MiningSpeed>
+		  <DeepDrillingSpeed>0.2</DeepDrillingSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FBS_Historica</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Historica Researcher</label>
+        <description>[PAWN_nameDef] is skilled at research, study, and recovery of lost technologies.</description>
+		<statOffsets>
+		  <ResearchSpeed>0.5</ResearchSpeed>
+		</statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>FBS_Aedificantium</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Master Artisan</label>
+        <description>[PAWN_nameDef] has great skill in construction, building, smithing, and artistry.</description>
+        <statOffsets>
+		  <ConstructionSpeed>0.3</ConstructionSpeed>
+		  <GeneralLaborSpeed>0.3</GeneralLaborSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>PVP_Mental</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>PVP Mental Break Resist</label>
+        <description>[PAWN_nameDef] This trait is strictly for PVP</description>
+        <statOffsets>      
+		  <MentalBreakThreshold>-0.5</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>SM_General</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Space Marine</label>
+        <description>[PAWN_nameDef] is a Space Marine, a genetically modified super soldier of the Imperium of Man, they know no fear</description>
+        <statOffsets>      
+		  <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+		  <MoveSpeed>0.2</MoveSpeed>
+          <ImmunityGainSpeed>0.30</ImmunityGainSpeed>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>		  
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>SM_Apothecary</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Medicae Doctor</label>
+        <description>[PAWN_nameDef] is skilled in surgery and tending to the medical needs of others.</description>
+        <statOffsets>
+		  <SurgerySuccessChanceFactor>0.2</SurgerySuccessChanceFactor>
+		  <MedicalTendQuality>0.2</MedicalTendQuality>
+		  <MedicalTendSpeed>0.2</MedicalTendSpeed>
+		  <MedicalOperationSpeed>0.2</MedicalOperationSpeed>
+		</statOffsets>
+	  </li>
+	</degreeDatas>
+	  <requiredWorkTypes>
+		<li>Doctor</li>
+	  </requiredWorkTypes>
+  </TraitDef>
+
+<!-- These traits are for Space Marines!-->
+
+</Defs>

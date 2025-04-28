@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase" Abstract="True" Name="PlayerFactionBase">
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+    <!-- NOTE: Player factions lack a xenotype set. Player pawns have their xenotypes set by the player/scenario. -->
+  </FactionDef>
+  
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerGrimworld</defName>
+    <label>Astra Militarum</label>
+    <description>A regiment of Astra Militarum recently disembarked, hailing from a wide variety of homeworlds.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>AstramilitarumGeneral</basicMemberKind>
+    <pawnSingular>Soldier</pawnSingular>
+    <pawnsPlural>Soldiers</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Grimworld Backstories</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerGrimworldCadia</defName>
+    <label>Cadia</label>
+    <description>A regiment of Cadia's finest recently disembarked, hailing from a what was once the Imperium's greatest fortress world.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>AstramilitarumKrieg</basicMemberKind>
+    <pawnSingular>Soldier</pawnSingular>
+    <pawnsPlural>Soldiers</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Cadia</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerGrimworldKrieg</defName>
+    <label>Deathkorps</label>
+    <description>A regiment of Death Korps soldiers, speicalized in trench warfare and survival in extreme conditions. Devout and loyal, they fight and die for the Emperor.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>AstramilitarumKrieg</basicMemberKind>
+    <pawnSingular>Soldier</pawnSingular>
+    <pawnsPlural>Soldiers</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Death Korps</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+        
+</Defs>

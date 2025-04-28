@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Imperial Guard Backgrounds -->
+
+<!-- Conscript is hard mode, not meant to be balanced -->
+<Defs>
+   <BackstoryDef>
+    <defName>Imperialguard01</defName>   
+    <title>Conscript</title>  
+    <titleShort>Conscript</titleShort>  
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum, either by volunteering or force. Given little basic training and the barest minimum of equipment, [PAWN_pronoun] and many others were gathered up and shipped off to wage war on the rim.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>1</Shooting>    
+      <Melee>1</Melee>    
+      <Construction>1</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Conscripted>0</FBS_Conscripted>
+    </forcedTraits>
+   </BackstoryDef>
+   
+<!-- Low Tier Imperial Guard -->   
+
+   <BackstoryDef>
+    <defName>Imperialguard02</defName>   
+    <title>Imperial Guardsman</title>  
+    <titleShort>Guardsman</titleShort>  
+    <baseDesc>[PAWN_nameDef] was trained to serve the Astra Militarum as an Imperial Guardsman. Billions of Guardsmen serve on the front lines, untold numbers perishing every day to ensure the survival of the Imperium of Man. It is a great honor to be a Guardsman, something [PAWN_nameDef] holds close to their heart as [PAWN_pronoun] screams ‘FOR THE EMPEROR’ as they charge the enemy. To be a Guardsman is to be a Hammer of the Emperor, to fight and die, for in Grimworld of the Rim, there is only war.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>2</Shooting>    
+      <Melee>2</Melee>    
+      <Construction>2</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+   </BackstoryDef>
+      
+   <BackstoryDef>
+    <defName>Imperialguard03</defName>   
+    <title>Penal Legionare</title>  
+    <titleShort>Penal Guard</titleShort>  
+    <baseDesc>[PAWN_nameDef] was imprisoned or arrested for some crime against the Imperium. Was it murder? Was it disloyalty? [PAWN_nameDef] refuses to say. What is certain is their prowess for dealing death and fighting with few cares which is what makes [PAWN_nameDef] useful. Promised with a pardoning of crimes, [PAWN_nameDef] was taken into the penal legions, told to fight and that those who survive would find their freedom.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Melee>3</Melee>
+      <Social>-2</Social>
+      <Construction>2</Construction>	  
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>	
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Prisoner>0</FBS_Prisoner>
+	  <Abrasive>0</Abrasive>
+    </forcedTraits>
+   </BackstoryDef>
+      
+   <BackstoryDef>
+    <defName>Imperialguard04</defName>   
+    <title>Weapon Specialist</title>  
+    <titleShort>Specialist</titleShort>  
+    <baseDesc>[PAWN_nameDef] was trained as a weapons specialist, operating in a larger squad using anything from flamers to plasma guns in support of their fellow Guardsmen. Often these specialists operate as small several man teams, who are deployed alongside full sized squads to provide cover, very similar to heavy weapons teams. [PAWN_nameDef] learned to be accurate, precise, and brave, as they often end up close to the enemy.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>
+      <Construction>2</Construction>	  
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Specialweapon>0</FBS_Specialweapon>
+    </forcedTraits>
+   </BackstoryDef>
+      
+   <BackstoryDef>
+    <defName>Imperialguard05</defName>   
+    <title>Heavy Weapon Specialist</title>  
+    <titleShort>Heavy Specialist</titleShort>  
+    <baseDesc>[PAWN_nameDef] was trained as a heavy weapons specialist, operating as part of a small unit in the Astra Militarum who man gun emplacements. Firing everything from heavy bolters, autocannons, to missile launchers, [PAWN_nameDef] gained strength in lifting and carrying the heavy equipment they man, and maintaining calm while under fire. </baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Construction>3</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Heavyweapon>0</FBS_Heavyweapon>
+    </forcedTraits>
+   </BackstoryDef>
+      
+   <BackstoryDef>
+    <defName>Imperialguard06</defName>   
+    <title>Combat Medic</title>  
+    <titleShort>Medic</titleShort>  
+    <baseDesc>[PAWN_nameDef] studied under the Officio Medicae, the medical staff who save the lives of Imperial Citizens from sickness and injury. Taking this a step further, [PAWN_pronoun] decided to enlist with the Astra Militarum, learning basic drills alongside being able to practice their skills in medicine on the front lines. [PAWN_nameDef], serving as a Combat Medic, does all [PAWN_pronoun] can to keep their fellow Guardsmen alive on the battlefield.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>1</Shooting>    
+      <Melee>1</Melee>    
+      <Medicine>3</Medicine>
+      <Intellectual>1</Intellectual>
+      <Plants>1</Plants>
+      <Construction>-1</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Fieldmedic>0</FBS_Fieldmedic>
+    </forcedTraits>	
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard07</defName>   
+    <title>Vehicle Operator</title>  
+    <titleShort>Operator</titleShort>  
+    <baseDesc>[PAWN_nameDef] trained as a pilot of one of many vehicles throughout the Imperium. Valkyries, Leman Russ’, Chimera, whatever [PAWN_nameDef] was required to drive, they would serve to the best of their ability and ensure it got to where it needed to go.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>2</Shooting>    
+      <Construction>4</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Operator>0</FBS_Operator>
+    </forcedTraits>	
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard08</defName>   
+    <title>Rough Rider</title>  
+    <titleShort>Operator</titleShort>  
+    <baseDesc>[PAWN_nameDef] is a Rough Rider, part of a more 'primitive' batch of recruits usually hailing from less advanced worlds in the Imperium. Trained in cavalry based tactics, [PAWN_nameDef] is able to handle their care while also still being a competent soldier on the battlefield akin to any Guardsman.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Melee>2</Melee>
+	  <Shooting>2</Shooting>
+      <Animals>6</Animals>
+	  <Intellectual>-4</Intellectual>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Roughrider>0</FBS_Roughrider>
+    </forcedTraits>	
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard09</defName>   
+    <title>Scout</title>  
+    <titleShort>Operator</titleShort>  
+    <baseDesc>[PAWN_nameDef] serves in the Astra Militarum as a scout, trained to use Long Las or other Sniper style equipment as part of forward operations, infiltration, and scouting. [PAWN_nameDef] is always on the look out for targets of opportunity to eliminate with a carefully placed shot, or a called in strike from allies.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Social>-2</Social>
+	  <Plants>2</Plants>
+	  <Animals>2</Animals>
+	  <Melee>2</Melee>
+	  <Intellectual>-2</Intellectual>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Scout>0</FBS_Scout>
+    </forcedTraits>	
+   </BackstoryDef>
+   
+<!-- Mid Tiwe Imperial Guard -->   
+   
+   <BackstoryDef>
+    <defName>Imperialguard10</defName>   
+    <title>Sergeant</title>  
+    <titleShort>Sergeant</titleShort>  
+    <baseDesc>[PAWN_nameDef] trained as a Guardsman and rose to the rank of Sergeat. With this, [PAWN_nameDef] now leads a squad into battle, helping them hold the line with [PAWN_pronoun]</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Melee>3</Melee>    
+      <Construction>2</Construction>
+      <Social>1</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>Cleaning</li>
+    </workDisables>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard11</defName>   
+    <title>Arbitrator</title>  
+    <titleShort>Arbitrator</titleShort>  
+    <baseDesc>[PAWN_nameDef] serves as part of the Adeptus Arbites as part of their military arm. Well trained and extremely loyal, Arbitrators serve as the internal ‘police’ force of the Imperium. Reputed for brutality and dealing with anything deemed heretical or criminally motivated. [PAWN_nameDef] is a dealer of Imperial Justice, not so much a Guardsman, but a vital part of any Imperial force for maintaining law and order without turning to the commissars bullet.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Melee>4</Melee>    
+      <Shooting>2</Shooting>
+      <Social>3</Social>  
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+   <workDisables>
+      <li>PlantWork</li>
+      <li>Animals</li>
+    </workDisables>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <Abrasive>0</Abrasive>
+	  <FBS_Lawsenforce>0</FBS_Lawsenforce>
+    </forcedTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard12</defName>   
+    <title>Hardened Veteran</title>  
+    <titleShort>Veteran</titleShort>  
+    <baseDesc>[PAWN_nameDef] has seen war and conflict before. [PAWN_pronoun] survived where so many others perished. Through good luck, force of will, or simple superior skill, [PAWN_nameDef] has become a hardened Veteran of the Imperial Guard. While similarly equipped as other guardsmen, [PAWN_nameDef] brings far more experience to the field of battle, a determination combined with a steadfast will.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Melee>3</Melee>    
+      <Construction>2</Construction>
+      <Social>1</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Battlehardened>0</FBS_Battlehardened>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard13</defName>   
+    <title>Veteran Sergeant</title>  
+    <titleShort>Veteran Sgt</titleShort>  
+    <baseDesc>[PAWN_nameDef] is a hardened veteran, a skilled soldier who has faced many threats on the field of battle. Ontop of that experience, [PAWN_nameDef] is a Sergeant, a leader of a squad of veterans. With their experience and determination they leads their squad into the thick of battle, where few others dare tread.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Melee>3</Melee>    
+      <Construction>2</Construction>
+      <Social>2</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>Cleaning</li>
+    </workDisables>
+    <forcedTraits>
+      <FBS_Battlehardened>0</FBS_Battlehardened>
+    </forcedTraits>
+   </BackstoryDef>
+                 
+   <BackstoryDef>
+    <defName>Imperialguard14</defName>   
+    <title>Tempestus Scion</title>  
+    <titleShort>Stormtrooper</titleShort>  
+    <baseDesc>[PAWN_nameDef] serves as one of the Astra Militarums Tempestus Scion or Storm Trooper in common tongue. Better equipped and better trained, [PAWN_pronoun] stands a cut far and above other Guardsmen and even hardened Veterans. Well respected for their superior combat tactics, calmness under fire, and skilled shooting, Storm Troopers like [PAWN_nameDef] are a beacon to their comrades and a force to be reckoned with.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Melee>3</Melee>    
+      <Construction>3</Construction>
+      <Social>1</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Elitesoldier>0</FBS_Elitesoldier>
+    </forcedTraits>	
+   </BackstoryDef>
+               
+   <BackstoryDef>
+    <defName>Imperialguard15</defName>   
+    <title>Tempestor</title>  
+    <titleShort>Stormtrooper Sergeant</titleShort>  
+    <baseDesc>[PAWN_nameDef] serves as one of the Astra Militarums Tempestus Scion, or Storm Trooper. Better equipped and better trained, [PAWN_pronoun] stands a cut far and above other Guardsmen and even hardened Veterans. A Tempestor is the Scions equivalent of a Sergeant, grilled and experienced in combat [PAWN_nameDef] leads [PAWN_pronoun] from the front lines with absolute zeal and iron willed determination.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Melee>3</Melee>    
+      <Construction>3</Construction>
+      <Social>2</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <FBS_Elitesoldier>0</FBS_Elitesoldier>
+    </forcedTraits>	
+   </BackstoryDef>
+   
+<!-- High Tier Imperial Guard (Max +12 some Disables) -->  
+           
+   <BackstoryDef>
+    <defName>Imperialguard16</defName>   
+    <title>Junior Officer</title>  
+    <titleShort>Junior Officer</titleShort>  
+    <baseDesc>[PAWN_nameDef] Serves as a Junior Officer, one of the first command ranks of the Astra Militarum leadership. Often in charge of platoons of guardsmen, consisting of several squads, [PAWN_nameDef] has a serious responsibility carrying out the orders passed down by senior officers.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Melee>3</Melee>    
+      <Social>4</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <FBS_Command1>0</FBS_Command1>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard17</defName>   
+    <title>Tempestor Prime</title>  
+    <titleShort>Prime</titleShort>  
+    <baseDesc>[PAWN_nameDef] is part of the Tempestus Scions, Storm Troopers, as a Tempestor Prime. A commander of the most elite soldiers the Astra Militarum has to offer, Tempestor Primes have seen countless battlefields, renowed for their iron will and prowess on the battlefield. [PAWN_nameDef] will stand and lead [PAWN_pronoun] soldiers into battle and ensure victory.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Melee>4</Melee>
+      <Construction>3</Construction>	  
+      <Social>3</Social>
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <FBS_Elitesoldier>0</FBS_Elitesoldier>
+    </forcedTraits>
+   </BackstoryDef>
+   
+      
+   <BackstoryDef>
+    <defName>Imperialguard18</defName>   
+    <title>Senior Officer</title>  
+    <titleShort>Officer</titleShort>  
+    <baseDesc>[PAWN_nameDef] is a Senior Officer of the Astra Militarum, the higher ranking staff who lead platoons into battle and are the primary commander of most Imperial Guard Regiments, surrounded by a small command squad of specialized staff to aid them in leading</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Melee>4</Melee>    
+      <Social>4</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <FBS_Command2>0</FBS_Command2>
+    </forcedTraits>
+   </BackstoryDef>
+   
+<!-- Members of the Adeptus Administratum (cant fight, but get huge bonuses in exchange) (Max Bonus +12)-->
+
+   <BackstoryDef>
+    <defName>Imperialguard19</defName>   
+    <title>Officio Diplomata</title>  
+    <titleShort>Adept Diplomat</titleShort>  
+    <baseDesc>[PAWN_nameDef] Serves as an Adept of the Imperial Officio Diplomata, the diplomatic office that engages with not just internal affairs but also external ones. They have approached various xenos races from time to time, mostly to deliver terms or avoid immediate conflict till time is right.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Social>8</Social>    
+      <Intellectual>4</Intellectual>    
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Diplomat>0</FBS_Diplomat>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard20</defName>   
+    <title>Officio Medicae</title>  
+    <titleShort>Adept Medicae</titleShort>  
+    <baseDesc>[PAWN_nameDef] serves as an Adept under the Officio Medicae, rather than serving as a combatant, [PAWN_pronoun] works off the field of battle if at all possible, tending to the wounded and injured, while also studying plants to use in tending to others.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Medicine>6</Medicine>
+      <Intellectual>2</Intellectual>
+      <Plants>2</Plants>
+      <Crafting>2</Crafting>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Medicae>0</FBS_Medicae>
+	</forcedTraits>
+   </BackstoryDef>
+      
+   <BackstoryDef>
+    <defName>Imperialguard21</defName>   
+    <title>Officio Agricultae</title>  
+    <titleShort>Adept Agri</titleShort>  
+    <baseDesc>[PAWN_nameDef] Works for the Officio Agricultae, a branch of Adepts who oversee the Agri Worlds and their vast production of necessary food for the Imperium. From animals to plants, to the maintaining of those systems, [PAWN_nameDef] is quite skilled.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Plants>6</Plants>    
+      <Animals>6</Animals>
+      <Social>-2</Social>
+	  <Construction>2</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Agricultae>0</FBS_Agricultae>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard22</defName>   
+    <title>Officio Mining Gilda</title>  
+    <titleShort>Adept Miner</titleShort>  
+    <baseDesc>[PAWN_nameDef] is an Adept belonging to one of the many mining guilds from across the Imperium of Man. Trained in leading mining expeditions and ensuring that resources are harvested effectively and transported to where they are needed.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Mining>8</Mining>    
+      <Construction>4</Construction>	  
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Mining>0</FBS_Mining>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard23</defName>   
+    <title>Logos Historica Verita</title>  
+    <titleShort>Adept Researcher</titleShort>  
+    <baseDesc>[PAWN_nameDef] Is an Adept under the Logos Historica Verita, whose sole focus and purpose is research and study of ancient relics and artifacts. [PAWN_nameDef] is critical in the hunt for lost Imperial knowledge that has been scattered across the galaxy over millenia forgotten.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Intellectual>10</Intellectual>    
+      <Social>2</Social>    
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Violent</li>
+    </workDisables>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Historica>0</FBS_Historica>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Imperialguard24</defName>   
+    <title>Officio Aedificantium Artificum</title>  
+    <titleShort>Adept Artisan</titleShort>  
+    <baseDesc>[PAWN_nameDef] works as an Adept with the Officio Aedificantium Artificum, which focus on crafting, building, and manufacturing of the vital supplies needed to sustain the Imperial forces on the front lines. [PAWN_nameDef] is critical to the Astra Militarum war efforts for maintaining campaign supplies.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Crafting>4</Crafting>    
+      <Artistic>4</Artistic>    
+      <Construction>4</Construction>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Aedificantium>0</FBS_Aedificantium>
+	</forcedTraits>
+   </BackstoryDef>
+   
+<!-- Members of the Departmento Munitorum (Max Bonus +16-->
+   <BackstoryDef>
+    <defName>Imperialguard25</defName>   
+    <title>Ministorum Priest</title>  
+    <titleShort>Priest</titleShort>  
+    <baseDesc>[PAWN_nameDef] is a Priest of the Ecclisiarchy, the religious arm of the Imperium of Man. Trained in combat and tasked with rooting out heresy, it is they who instill religious fervor in the Astra Militarum and ensure faith stays strong in the Emperor of Mankind and moral remains high as they fight on the front lines.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>   
+      <Melee>4</Melee>
+      <Social>8</Social>
+	  <Medicine>4</Medicine>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+	  <li>PlantWork</li>
+	  <li>Hunting</li>
+    </workDisables>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Fervor>0</FBS_Fervor>
+	  <Abrasive>0</Abrasive>
+    </forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialguard26</defName>   
+    <title>Commissar</title>  
+    <titleShort>Commissar</titleShort>  
+    <baseDesc>[PAWN_nameDef] found a place in the Officio Prefectus as a Commissar, a policial officer who is deadly on the battlefield to friend and foe alike. Focused on maintaining moral of troops, they will use whatever means to retain order, even execution of cowards and incompetent officers to ensure the loyalty and moral purity of those under them.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Melee>4</Melee>    
+      <Social>8</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <FBS_Commissar>0</FBS_Commissar>
+	  <Abrasive>0</Abrasive>
+    </forcedTraits>
+   </BackstoryDef>
+      
+<!-- Special Backgrounds (partially working) -->
+
+   <BackstoryDef>
+    <defName>Imperialguard27</defName>   
+    <title>Heroic Senior Officer</title>  
+    <titleShort>Senior Officer</titleShort>  
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum, either by volunteering or force. Given little basic training and the barest minimum of equipment, [PAWN_pronoun] and many others were gathered up and shipped off to wage war on the rim.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>1</Shooting>    
+      <Melee>1</Melee>    
+      <Construction>1</Construction>
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialguard28</defName>   
+    <title>Sanctioned Psyker</title>  
+    <titleShort>Psyker</titleShort>  
+    <baseDesc>[PAWN_nameDef] for bad or good possesses psychic abilities that have been trained and honed by the Imperium that has made them a Sanctioned Psyker. Given permission to serve and be 'legal' it is the only way [PAWN_nameDef] survived for to be branded a rogue Psyker is to be hunted by the Inquisition, certain death.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <PsychicSensitivity>1</PsychicSensitivity>
+      <CreepyBreathing>0</CreepyBreathing>
+    </forcedTraits>
+   </BackstoryDef>
+
+<!-- Special Backgrounds (not working) -->
+   
+   <BackstoryDef>
+    <defName>Imperialsupport01</defName>   
+    <title>Techpriest Enginseer</title>  
+    <titleShort>Techpriest</titleShort>  
+    <baseDesc>[PAWN_nameDef] Serves as a member of the Adeptus Mechanicus. The Enginseers are often attached to Imperial Armies as part of an ancient "Treaty of Mars" to serve as mechanics and construction specialists to help maintain the Imperium's equipment and gear.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Social>-3</Social>
+	  <Crafting>4</Crafting>
+	  <Construction>4</Construction>
+	  <Intellectual>4</Intellectual>
+	  <Medicine>2</Medicine>
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>PlantWork</li>
+      <li>Animals</li>	  
+    </workDisables>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialsupport02</defName>   
+    <title>Officio Assassinorum</title>  
+    <titleShort>Assassin</titleShort>  
+    <baseDesc>[PAWN_nameDef] is an Assassin.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>20</Shooting>    
+      <Melee>20</Melee>    
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+    </workDisables>
+    <forcedTraits>
+      <Nerves>2</Nerves>
+      <Tough>0</Tough>
+	  <Psychopath>0</Psychopath>
+    </forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialsupport03</defName>   
+    <title>Ogryn</title>  
+    <titleShort>Ogryn</titleShort>  
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum, either by volunteering or force. Given little basic training and the barest minimum of equipment, [PAWN_pronoun] and many others were gathered up and shipped off to wage war on the rim.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>1</Shooting>    
+      <Melee>1</Melee>    
+      <Construction>1</Construction>
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialsupport04</defName>   
+    <title>Ratling Sniper</title>  
+    <titleShort>Sniper</titleShort>  
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum, either by volunteering or force. Given little basic training and the barest minimum of equipment, [PAWN_pronoun] and many others were gathered up and shipped off to wage war on the rim.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>1</Shooting>    
+      <Melee>1</Melee>    
+      <Construction>1</Construction>
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialsupport05</defName>   
+    <title>Imperial Inquisitor</title>  
+    <titleShort>Inquisitor</titleShort>  
+    <baseDesc>[PAWN_nameDef] is a member of the Imperial Ordo, one of many groups whose sole goal is ensuring the survivial of the Imperium. As an Inquisitor of the Imperial Inquisition, [PAWN_nameDef] is given great power and authority to recruit anyone in the Imperium, from Guardsman to Space Marine. Making deals and plans within plans, whether they are for radical or puritan ideals, it is hard to say. The authority of an Inquisitor knows few boundaries, and their business on the rim shrouded in mystery.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Melee>4</Melee>    
+      <Artistic>2</Artistic>
+      <Crafting>2</Crafting>    
+      <Intellectual>4</Intellectual>    
+      <Medicine>2</Medicine>
+      <Social>8</Social>    
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <Nerves>2</Nerves>
+      <PsychicSensitivity>1</PsychicSensitivity>
+      <Tough>0</Tough>
+    </forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Imperialsupport06</defName>   
+    <title>Rogue Trader</title>  
+    <titleShort>Rogue Trader</titleShort>  
+    <baseDesc>[PAWN_nameDef] carries one of the rarest and most important legal documents of all the Imperium, a Warrent of Trade. This is the piece that makes [PAWN_nameDef] a Rogue Trader. A member of an extensive family going back generations, a dynasty whose Warrent is passed from one to the next within the family. With this Warrent, [PAWN_nameDef] and [PAWN_possessive] family is given an authority perhaps greater than most within the Imperium. They serve as explorers, conquistadors, and merchants in command of their own private fleets and legions of forces. [PAWN_nameDef] has come to the rim, and for whatever [PAWN_possessive] purposes are, they are done for the betterment of the Imperium.</baseDesc>  
+    <slot>Adulthood</slot>  
+	<skillGains>
+      <Shooting>3</Shooting>    
+      <Melee>3</Melee>    
+      <Artistic>4</Artistic>
+      <Crafting>4</Crafting>    
+      <Intellectual>6</Intellectual>    
+      <Social>8</Social>   
+    </skillGains>
+	<spawnCategories><li>Special</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+      <Nerves>2</Nerves>
+      <Tough>0</Tough>
+    </forcedTraits>
+   </BackstoryDef>
+   
+</Defs>

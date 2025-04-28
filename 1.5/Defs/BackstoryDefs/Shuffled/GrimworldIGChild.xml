@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Birth World Backgrounds that serve as childhood backgrounds for Imperial Guard (Max Positive is +3) -->
+<Defs>
+   <BackstoryDef>
+    <defName>Worldbackstory01</defName>   
+    <title>Agri World</title>  
+    <titleShort>Agri World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on an Agri-World, a breadbasket of the Imperium. Its sole purpose is producing the much needed food for the numerous populations from Fortress Worlds to Hive worlds, to even Holy Terra itself. [PAWN_nameDef] was trained how to plant crops and tend to animals, valuable skills that would help them in ensuring an unending supply of food for the machine. Eventually [PAWN_pronoun] was recruited into the Astra Militarum, able to put their skills to use at outposts not just as a combatant, but as a tender of plants.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>2</Plants>    
+      <Animals>2</Animals>    
+      <Cooking>2</Cooking>
+	  <Mining>-3</Mining>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Agri>0</FBS_Agri>
+    </forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Worldbackstory02</defName>   
+    <title>Cardinal World</title>  
+    <titleShort>Cardinal World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Cardinal World, a place of great worship and importance to the Imperium, managed by the ecclesiarchy. Through rigorous teaching [PAWN_pronoun] learned to not just have unwavering faith in the Emperor of Man, but how to ensure that the rest of the Imperial citizens do not falter in their beliefs. [PAWN_nameDef] grew up among the temples, learning the importance of spreading the faith and tending to the masses, an ideal force on the front lines of not just the Astra Militarum, but as Priests. Soldiers and preachers who tend to the beliefs of their comrades as well as fighting alongside them.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Social>4</Social>    
+      <Medicine>2</Medicine>    
+      <Intellectual>-3</Intellectual>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Cardinal>0</FBS_Cardinal>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory03</defName>   
+    <title>Death World</title>  
+    <titleShort>Death World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Death World, one of the most inhospitable places throughout the Imperium of Man, deemed dangerous to human life. From dense jungles full of all manner of hostile fauna, to massive volcanic strewn wastes, to storm ridden planets that never see the light of day. Wherever [PAWN_nameDef] calls home, all they have known is survival from birth. Brutal and effective, [PAWN_pronoun] will fight through horrors that make others tremble with fear.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Shooting>2</Shooting>    
+      <Animals>1</Animals>    
+      <Melee>2</Melee>
+	  <Social>-4</Social>
+	  <Plants>1</Plants>
+	  <Medicine>1</Medicine>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Death>0</FBS_Death>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory04</defName>   
+    <title>Desert World</title>  
+    <titleShort>Desert World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Desert World, a hot, sunscorched arid land that survives by any means, often living underground in special bunkers and shelters which protect them from the surface above. [PAWN_nameDef] grew used to being in enclosed and sealed spaces, learning how to help expand through the underground that served as the shield from the blistering sun. [PAWN_pronoun] was trained to fighting in such conditions as well, eventually recruited into the Astra Militarum as a specialist in desert warfare.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Mining>4</Mining>    
+      <Construction>2</Construction>    
+      <Animals>-1</Animals>
+	  <Plants>-2</Plants>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Desert>0</FBS_Desert>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory05</defName>   
+    <title>Feral World</title>  
+    <titleShort>Feral World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a feral world, home to nomadic hunter-gathering peoples who do not build vast cities seen on other worlds, but rather live in tribes. [PAWN_nameDef] learned many skills, combat with swords, hunting, safe plants, but would never experience Imperial technology until [PAWN_possessive] was taken into the Astra Militarum. Unsure exactly what was going on, [PAWN_nameDef] quickly learned their new purpose was to fight, and in the strange environments, survive.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>2</Plants>    
+      <Animals>2</Animals>    
+      <Melee>2</Melee>
+	  <Intellectual>-2</Intellectual>
+	  <Social>-1</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Feral>0</FBS_Feral>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory06</defName>   
+    <title>Feudal World</title>  
+    <titleShort>Feudal World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Feudal World, a regressed society where knights and kings still play major roles in society. Feudal worlds exist for the simple reason being the Imperium saw no need to adjust or interfere with the way things were run.[PAWN_nameDef] was in service to a noble of some repute, and as part of the tithe they pay the Imperium of man, [PAWN_pronoun] was sent to serve as another body in the Astra Militarum.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Melee>2</Melee>    
+      <Social>1</Social>    
+      <Plants>1</Plants>
+	  <Animals>1</Animals>
+	  <Intellectual>-1</Intellectual>
+	  <Medicine>-1</Medicine>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Feudal>0</FBS_Feudal>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory07</defName>   
+    <title>Forge World</title>  
+    <titleShort>Forge World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Forge World, a massive foundry of construction and production on a planetary scale. From tanks to guns, building materials to aircraft, [PAWN_nameDef] learned many useful skills that made them an asset. Run by the Adeptus Mechanicus, those from this world can serve many purposes, not just joining the Astra Militarum, but also the ranks of the Tech Priests, builders on the front lines and far rims, as well as artisans.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>-4</Plants>    
+      <Animals>-4</Animals>    
+      <Social>-3</Social>
+	  <Crafting>4</Crafting>
+	  <Construction>4</Construction>
+	  <Intellectual>4</Intellectual>
+	  <Medicine>2</Medicine>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Forge>0</FBS_Forge>
+	</forcedTraits>    
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory08</defName>   
+    <title>Fortress World</title>  
+    <titleShort>Fortress World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born a Fortress World, a planet whose sole purpose is to fight, and continue fighting, defending whatever sector they reside in. A literal maze of endless fortifications, defenses, weapon systems, [PAWN_nameDef] grew only knowing war, to treat their comrades, to keep fighting, and to never surrender. It’s because of soldiers like them that the Imperium of Man endures. For the very planet itself will break before [PAWN_nameDef] will.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Shooting>5</Shooting>    
+      <Construction>2</Construction>    
+      <Medicine>2</Medicine>
+	  <Animals>-2</Animals>
+	  <Plants>-2</Plants>
+	  <Artistic>-2</Artistic>	  
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Fortress>0</FBS_Fortress>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory09</defName>   
+    <title>Hive World</title>  
+    <titleShort>Hive World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Hive World, one of the most heavily populated planets of the Imperium of Man. Billions of people crammed into all manner of arcology like cities that stretch high into the sky. [PAWN_pronoun] learned quickly how to produce and build the goods needed to keep the Imperium alive, however, Hive worlds serve another purpose. [PAWN_nameDef] is one of billions of people, a neigh unlimited resource to protect the Imperium of Man from the threats throughout the galaxy. [PAWN_pronoun] was inducted into the Astra Militarum, to fight alongside with billions of others, to defend against all that threaten the Imperium.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Crafting>3</Crafting>    
+      <Artistic>2</Artistic>    
+	  <Social>2</Social>
+	  <Plants>-2</Plants>
+	  <Animals>-2</Animals>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Hive>0</FBS_Hive>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory10</defName>   
+    <title>Ice World</title>  
+    <titleShort>Ice World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on an Ice World,a frozen wasteland covered in massive sheets of ice and mountains of snow. Living inside special structures both above and below the service, [PAWN_pronoun] learned quickly that you had to dig to survive, and hunt for materials to stay warm. [PAWN_nameDef] did, as many eventually do, left [PAWN_pronoun] planet and joined the Astra Militarum to escape the cold of one environment to find their experience useful in another frozen waste.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>-2</Plants>    
+      <Animals>-1</Animals>    
+      <Construction>4</Construction>
+	  <Mining>2</Mining>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Ice>0</FBS_Ice>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory11</defName>   
+    <title>Imperial World</title>  
+    <titleShort>Imperial World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on an Imperial World. Imperial Worlds are one of untold hundreds of thousands of planets that are not overly unique and not unlike what Terra once was before it became a churning planet of production. [PAWN_nameDef] enjoyed an educated life, the civilized world offering ample opportunity with few threats to ever really concern them. Like any Imperial citizen, [PAWN_nameDef] felt the call to join the Astra Militarum, and to serve in the name of the emperor.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Intellectual>2</Intellectual>    
+      <Social>1</Social>    
+      <Artistic>1</Artistic>
+	  <Medicine>1</Medicine>
+	  <Animals>-1</Animals>
+	  <Plants>-1</Plants>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Imperial>0</FBS_Imperial>
+	</forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory12</defName>   
+    <title>Industrial World</title>  
+    <titleShort>Industrial World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Industrial World, a massive foundry of production, mining, or refining. Sparsely populated, [PAWN_nameDef] learned a variety of useful skills that help both on and off the field making them useful among the Astra Militarum.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>-3</Plants>    
+      <Animals>-3</Animals>    
+      <Social>-2</Social>
+	  <Crafting>5</Crafting>
+	  <Artistic>3</Artistic>
+	  <Mining>3</Mining>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Industrial>0</FBS_Industrial>
+	</forcedTraits>    
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory13</defName>   
+    <title>Void Born</title>  
+    <titleShort>Void Born</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born in space aboard one of the billions of ships a part of the Imperial Navy. Rarely setting foot planetside, [PAWN_pronoun] did learn to fly Imperial crafts, as well as how to repair and fix things aboard ship. Exposed to the various technologies, [PAWN_pronoun] gained some understanding of how they work, and what is required to operate them.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>-3</Plants>    
+      <Animals>-3</Animals>    
+      <Social>-2</Social>
+	  <Shooting>2</Shooting>
+	  <Melee>2</Melee>
+	  <Construction>3</Construction>
+	  <Medicine>2</Medicine>
+	  <Intellectual>2</Intellectual>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Void>0</FBS_Void>
+	</forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Worldbackstory14</defName>   
+    <title>Schola Progenium</title>  
+    <titleShort>Schola Progenium</titleShort>  
+    <baseDesc>[PAWN_nameDef] was an orphan whose parent/s perished in the line of duty. These children are the Progena, often resulting in service as part of the Ministorum or other branches of the Adeptus Terra. [PAWN_nameDef] has great potential, as many of these orphans go on to live important and critical roles within the Imperium, some as Tempestus Scions, Commissars, even great leaders and heroes. Many female Progena go on to serve the Adepta Sororita.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Animals>1</Animals>    
+      <Artistic>1</Artistic>    
+      <Construction>1</Construction>
+	  <Cooking>1</Cooking>
+      <Crafting>1</Crafting>    
+      <Medicine>1</Medicine>    
+      <Melee>1</Melee>
+	  <Mining>1</Mining>
+      <Intellectual>1</Intellectual>    
+      <Plants>1</Plants>    
+      <Shooting>1</Shooting>
+	  <Social>1</Social>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li><li>Death Korps</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Schola>0</FBS_Schola>
+	</forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Worldbackstory15</defName>   
+    <title>Mining World</title>  
+    <titleShort>Mining World</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a mining world where the extraction of resources was the primary focus of their early life. [PAWN_pronoun] learned to operate heavy machinery and mining equipment, as well as how to find the best materials and harvest them effectively.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Construction>2</Construction>    
+      <Animals>-2</Animals>    
+      <Plants>-2</Plants>
+	  <Mining>5</Mining>
+    </skillGains>
+	<spawnCategories><li>Grimworld Backstories</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Miner>0</FBS_Miner>
+	</forcedTraits>
+   </BackstoryDef>
+
+<!-- Faction Specific Backgrounds (Max +3) -->
+
+   <BackstoryDef>
+    <defName>Worldbackstory16</defName>   
+    <title>Radioactive Death World of Krieg</title>  
+    <titleShort>Krieg</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on the toxic, radioactive Death World of Krieg. Having been the site of a massive civil war between loyalists and traitors, Krieg was nuked to near oblivion by the Imperium of Man leaving its surface inhospitable. [PAWN_nameDef] grew up in the underground hiveworlds and like so many others, devoutely throws themselves at the enemies of the Imperium in the hopes to redeem the heresy that once stained Krieg.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Shooting>4</Shooting>    
+      <Animals>-3</Animals>    
+      <Melee>4</Melee>
+	  <Social>-3</Social>
+	  <Plants>-3</Plants>
+	  <Construction>4</Construction>
+    </skillGains>
+	<spawnCategories><li>Death Korps</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Deathkorp>0</FBS_Deathkorp>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory17</defName>   
+    <title>Fortress World of Cadia</title>  
+    <titleShort>Cadia</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born a Fortress World, a planet whose sole purpose is to fight, and continue fighting, defending whatever sector they reside in. A literal maze of endless fortifications, defenses, weapon systems, [PAWN_nameDef] grew only knowing war, to treat their comrades, to keep fighting, and to never surrender. It’s because of soldiers like them that the Imperium of Man endures. For the very planet itself will break before [PAWN_nameDef] will.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Shooting>5</Shooting>    
+      <Construction>2</Construction>    
+      <Medicine>2</Medicine>
+	  <Animals>-2</Animals>
+	  <Plants>-2</Plants>
+	  <Artistic>-2</Artistic>	  
+    </skillGains>
+	<spawnCategories><li>Cadia</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Fortress>0</FBS_Fortress>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory18</defName>   
+    <title>Ice World Valhalla</title>  
+    <titleShort>Valhalla</titleShort>
+    <baseDesc>[PAWN_nameDef] was born on an Ice World,a frozen wasteland covered in massive sheets of ice and mountains of snow. Living inside special structures both above and below the service, [PAWN_pronoun] learned quickly that you had to dig to survive, and hunt for materials to stay warm. [PAWN_nameDef] did, as many eventually do, left [PAWN_pronoun] planet and joined the Astra Militarum to escape the cold of one environment to find their experience useful in another frozen waste.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>-2</Plants>    
+      <Animals>-1</Animals>    
+      <Construction>4</Construction>
+	  <Mining>2</Mining>
+    </skillGains>
+	<spawnCategories><li>Valhallan</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Ice>0</FBS_Ice>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory19</defName>   
+    <title>Desert World of Tallarn</title>  
+    <titleShort>Tallarn</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Desert World, a hot, sunscorched arid land that survives by any means, often living underground in special bunkers and shelters which protect them from the surface above. [PAWN_nameDef] grew used to being in enclosed and sealed spaces, learning how to help expand through the underground that served as the shield from the blistering sun. [PAWN_pronoun] was trained to fighting in such conditions as well, eventually recruited into the Astra Militarum as a specialist in desert warfare.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Mining>4</Mining>    
+      <Construction>2</Construction>    
+      <Animals>-1</Animals>
+	  <Plants>-2</Plants>
+    </skillGains>
+	<spawnCategories><li>Tallarn</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Desert>0</FBS_Desert>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory20</defName>   
+    <title>Death World of Catachan</title>  
+    <titleShort>Catachan</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Death World, one of the most inhospitable places throughout the Imperium of Man, deemed dangerous to human life. From dense jungles full of all manner of hostile fauna, to massive volcanic strewn wastes, to storm ridden planets that never see the light of day. Wherever [PAWN_nameDef] calls home, all they have known is survival from birth. Brutal and effective, [PAWN_pronoun] will fight through horrors that make others tremble with fear.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Shooting>2</Shooting>    
+      <Animals>1</Animals>    
+      <Melee>2</Melee>
+	  <Social>-4</Social>
+	  <Plants>1</Plants>
+	  <Medicine>1</Medicine>
+    </skillGains>
+	<spawnCategories><li>Catachan</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <forcedTraits>
+	  <FBS_Death>0</FBS_Death>
+    </forcedTraits>
+   </BackstoryDef>
+   
+   <BackstoryDef>
+    <defName>Worldbackstory21</defName>   
+    <title>Hive World of Armageddon</title>  
+    <titleShort>Armageddon</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Hive World, one of the most heavily populated planets of the Imperium of Man. Billions of people crammed into all manner of arcology like cities that stretch high into the sky. [PAWN_pronoun] learned quickly how to produce and build the goods needed to keep the Imperium alive, however, Hive worlds serve another purpose. [PAWN_nameDef] is one of billions of people, a neigh unlimited resource to protect the Imperium of Man from the threats throughout the galaxy. [PAWN_pronoun] was inducted into the Astra Militarum, to fight alongside with billions of others, to defend against all that threaten the Imperium.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Crafting>3</Crafting>    
+      <Artistic>2</Artistic>    
+	  <Social>2</Social>
+	  <Plants>-2</Plants>
+	  <Animals>-2</Animals>
+    </skillGains>
+	<spawnCategories><li>Armageddon</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Hive>0</FBS_Hive>
+	</forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Worldbackstory22</defName>   
+    <title>Hive World of Mordian</title>  
+    <titleShort>Mordian</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Hive World, one of the most heavily populated planets of the Imperium of Man. Billions of people crammed into all manner of arcology like cities that stretch high into the sky. [PAWN_pronoun] learned quickly how to produce and build the goods needed to keep the Imperium alive, however, Hive worlds serve another purpose. [PAWN_nameDef] is one of billions of people, a neigh unlimited resource to protect the Imperium of Man from the threats throughout the galaxy. [PAWN_pronoun] was inducted into the Astra Militarum, to fight alongside with billions of others, to defend against all that threaten the Imperium.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Crafting>3</Crafting>    
+      <Artistic>2</Artistic>    
+	  <Social>2</Social>
+	  <Plants>-2</Plants>
+	  <Animals>-2</Animals>
+    </skillGains>
+	<spawnCategories><li>Mordian</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Hive>0</FBS_Hive>
+	</forcedTraits>
+   </BackstoryDef>
+
+   <BackstoryDef>
+    <defName>Worldbackstory23</defName>   
+    <title>Industrial World of Vostroya</title>  
+    <titleShort>Vostroya</titleShort>  
+    <baseDesc>[PAWN_nameDef] was born on a Industrial World, a massive foundry of production, mining, or refining. Sparsely populated, [PAWN_nameDef] learned a variety of useful skills that help both on and off the field making them useful among the Astra Militarum.</baseDesc>  
+    <slot>Childhood</slot>  
+	<skillGains>
+      <Plants>-3</Plants>    
+      <Animals>-3</Animals>    
+      <Social>-2</Social>
+	  <Crafting>5</Crafting>
+	  <Artistic>3</Artistic>
+	  <Mining>3</Mining>
+    </skillGains>
+	<spawnCategories><li>Vostroyan</li></spawnCategories>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<forcedTraits>
+	  <FBS_Forge>0</FBS_Forge>
+	</forcedTraits>    
+   </BackstoryDef>
+
+</Defs>

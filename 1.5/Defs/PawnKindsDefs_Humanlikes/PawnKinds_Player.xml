@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>AstramilitarumGeneral</defName>
+    <label>Astra Militarum</label>
+    <defaultFactionType>PlayerGrimworld</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>40kCadianUniform</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <minGenerationAge>20</minGenerationAge>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>AstramilitarumCadia</defName>
+    <label>Cadians</label>
+    <defaultFactionType>PlayerGrimworldCadia</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>40kCadianUniform</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <minGenerationAge>20</minGenerationAge>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>AstramilitarumKrieg</defName>
+    <label>Death Korps</label>
+    <defaultFactionType>PlayerGrimworldKrieg</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>40kDeathKorpsUniform</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <minGenerationAge>20</minGenerationAge>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+    
+</Defs>
