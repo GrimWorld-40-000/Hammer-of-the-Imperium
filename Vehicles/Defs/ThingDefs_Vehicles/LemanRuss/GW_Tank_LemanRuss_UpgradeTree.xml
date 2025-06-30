@@ -8,7 +8,7 @@
 			<li>
 				<key>BattleCannonUpgrade</key>
 				<label>Battle Cannon</label>
-				<description>WIP</description>
+				<description>Main turret upgrade\n\nA standard 120mm tank cannon. A solid, general-purpose weapon, capable of delivering hallowed ordnance from a great distance to devastating effect.\n\nIt is the default armament of the standard Leman Russ.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_BattleCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -50,7 +50,7 @@
 			<li>
 				<key>AnnihilatorUpgrade</key>
 				<label>Annihilator</label>
-				<description>WIP</description>
+				<description>Main turret upgrade\n\nA pair of twin-linked lascannons. It provides reliable anti-armor firepower, quickly cracking open enemy vehicles and heavy infantry.\n\nUsually found in the Leman Russ Annihilator variant.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_TwinLascannons</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 5)</gridCoordinate>
@@ -92,7 +92,7 @@
 			<li>
 				<key>ExterminatorUpgrade</key>
 				<label>Exterminator</label>
-				<description>WIP</description>
+				<description>Main turret upgrade\n\nA pair of twin-linked 20mm autocannons. Though loosing out on anti-armor capability, it can instead focus on crowd control of infantry.\n\nUsually found in the Leman Russ Exterminator variant.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_TwinAutocannons</icon>
 				<work>7500</work>
 				<gridCoordinate>(15, 5)</gridCoordinate>
@@ -134,7 +134,7 @@
 			<li>
 				<key>PunisherUpgrade</key>
 				<label>Punisher</label>
-				<description>WIP</description>
+				<description>Main turret upgrade\n\nA rotary autocannon, firing 20mm explosive rounds. It's ability to lay down an impressive hail of covering fire and shred infantry make the Punisher Gatling Cannon ideal when facing large swarms of hostile ground forces.\n\nUsually found in the Leman Russ Punisher variant.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_PunisherGatlingCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(20, 5)</gridCoordinate>
@@ -175,8 +175,8 @@
 			</li>
 			<li>
 				<key>ExecutionerUpgrade</key>
-				<label>Executioner</label>
-				<description>WIP</description>
+				<label>Plasma destroyer</label>
+				<description>Main turret upgrade\n\nA high-powered plasma cannon. It is able to penetrate almost any armor with immense heat and force, but has a history of being very tempermental.\n\nUsually found in the Leman Russ Executioner variant.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_PlasmaDestroyer</icon>
 				<work>7500</work>
 				<gridCoordinate>(25, 5)</gridCoordinate>
@@ -219,7 +219,7 @@
 			<li>
 				<key>VanquisherUpgrade</key>
 				<label>Vanquisher</label>
-				<description>WIP</description>
+				<description>Main turret upgrade\n\nA more complex variant of the standard-issue Battle Cannon. Vanquisher cannons have exceptional anti-armor capability, but lose some of the blast radius of the standard model.\n\nUsually found in the Leman Russ Vanquisher variant.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_VanquisherCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(30, 5)</gridCoordinate>
@@ -261,7 +261,7 @@
 			<li>
 				<key>DemolisherUpgrade</key>
 				<label>Demolisher</label>
-				<description>WIP</description>
+				<description>Main turret upgrade\n\nA short-barreled 380mm heavy howitzer. While it lacks the range of the standard battle cannon, the sheer power of this weapon makes it an excellent choice for siege warfare.\n\nUsually found in the Leman Russ Demolisher variant.</description>
 				<icon>Things/Vehicles/LemanRuss/MainTurret/GW_HOI_LemanRuss_MainTurret_DemolisherCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(35, 5)</gridCoordinate>
@@ -302,8 +302,8 @@
 			</li>
 			<li>
 				<key>HullBolterUpgrade</key>
-				<label>Hull Bolter</label>
-				<description>WIP</description>
+				<label>Hull heavy bolter</label>
+				<description>Forward hull-mounted weapon upgrade\n\nHeavy bolters, capable of firing long bursts of powerful, armor-piercing, high-caliber rounds referred to as "bolts". They are generally used for anti-infantry or fire support roles.\n\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; 0.998cal Heavy bolter ammo</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_Bolters</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 10)</gridCoordinate>
@@ -352,8 +352,8 @@
 			</li>
 			<li>
 				<key>HullFlamerUpgrade</key>
-				<label>Hull Flamer</label>
-				<description>WIP</description>
+				<label>Hull heavy flamer</label>
+				<description>Forward hull-mounted weapon upgrade\n\nUsing promethium fuel, it projects a spray of volatile chemicals that, when ignited, produce a massive jet of flame that burns and clings to anything it touches. They are generally employed in anti-infantry roles.\n\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Chemfuel</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_HeavyFlamers</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 10)</gridCoordinate>
@@ -402,8 +402,8 @@
 			</li>
 			<li>
 				<key>HullLascannonUpgrade</key>
-				<label>Hull Lascannon</label>
-				<description>WIP</description>
+				<label>Hull lascannon</label>
+				<description>Forward hull-mounted weapon upgrade\n\nLascannons are anti-tank weapons that function much like lasguns but on a vastly larger and more destructive scale, requiring significantly greater energy. They are generally employed in anti-armor roles.\n\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Lascannon battery pack</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_Lascannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(15, 10)</gridCoordinate>
@@ -452,8 +452,8 @@
 			</li>
 			<li>
 				<key>SponsonBolterUpgrade</key>
-				<label>Sponson Bolters</label>
-				<description>WIP</description>
+				<label>Sponson heavy bolters</label>
+				<description>Side-mounted sponson weapons upgrade\n\nHeavy bolters, capable of firing long bursts of powerful, armor-piercing, high-caliber rounds referred to as "bolts". They are generally used for anti-infantry or fire support roles.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Gunner x2\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; 0.998cal Heavy bolter ammo</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_Bolters</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 15)</gridCoordinate>
@@ -526,8 +526,8 @@
 			</li>
 			<li>
 				<key>SponsonFlamerUpgrade</key>
-				<label>Sponson Flamers</label>
-				<description>WIP</description>
+				<label>Sponson flamers</label>
+				<description>Side-mounted sponson weapons upgrade\n\nUsing promethium fuel, it projects a spray of volatile chemicals that, when ignited, produce a massive jet of flame that burns and clings to anything it touches. They are generally employed in anti-infantry roles.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Gunner x2\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Chemfuel</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_HeavyFlamers</icon>
 				<work>7500</work>
 				<gridCoordinate>(10, 15)</gridCoordinate>
@@ -600,8 +600,8 @@
 			</li>
 			<li>
 				<key>SponsonMeltaUpgrade</key>
-				<label>Sponson Meltas</label>
-				<description>WIP</description>
+				<label>Sponson multi-meltas</label>
+				<description>Side-mounted sponson weapons upgrade\n\nA heavy version of a meltagun that has multiple barrels, the multi-melta uses intense superheated beams at a close range to melt through armor and incinerate organic targets. They are generally employed in anti-armor roles.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Gunner x2\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Melta cartridges</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_MultiMeltas</icon>
 				<work>7500</work>
 				<gridCoordinate>(15, 15)</gridCoordinate>
@@ -674,8 +674,8 @@
 			</li>
 			<li>
 				<key>SponsonPlasmaUpgrade</key>
-				<label>Sponson Plasma Cannons</label>
-				<description>WIP</description>
+				<label>Sponson plasma cannons</label>
+				<description>Side-mounted sponson weapons upgrade\n\nHeavy plasma weapons that generate and fire superheated glowing bolts of energy. Upon impact, it reacts with the target’s matter, creating miniature suns that vaporize anything caught within. They are generally employed in anti-heavy infantry roles.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Gunner x2\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Plasmacannon cartridges</description>
 				<icon>Things/Vehicles/LemanRuss/SponsonGuns/GW_HOI_LemanRuss_SponsonTurret_PlasmaCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(20, 15)</gridCoordinate>
@@ -748,8 +748,8 @@
 			</li>
 			<li>
 				<key>DozerBlade</key>
-				<label>Dozer Blade</label>
-				<description>Reinforce the front bumper to allow this vehicle to deal more damage during collisions.</description>
+				<label>Dozer blades</label>
+				<description>Initially designed for moving large quantities of earth and debris, these heavy-duty ceramite blades serve as additional reinforcement, rendering an already resilient tank into a bulwark of steel and fury. In the event that munitions run dry, then these blades allow the tank to serve as an impromptu battering ram. </description>
 				<icon>Things/Vehicles/LemanRuss/DozerBlade/GW_HOI_LemanRuss_Dozer_east</icon>
 				<work>1800</work>
 				<gridCoordinate>(5, 20)</gridCoordinate>
@@ -798,8 +798,8 @@
 			</li>
 			<li>
 				<key>TrackArmor</key>
-				<label>Track Armor</label>
-				<description>Protect the vulnerable tracks with armor plating on top.</description>
+				<label>Track armor</label>
+				<description>Plates of armor are mounted over the tank's tracks, reinforcing the sides and guarding its more vulnerable components from attack.</description>
 				<icon>Things/Vehicles/LemanRuss/TrackArmor/GW_HOI_LemanRuss_TrackArmor_east</icon>
 				<work>1800</work>
 				<gridCoordinate>(10, 20)</gridCoordinate>
@@ -847,8 +847,8 @@
 			</li>
 			<li>
 				<key>PintleStormBolterUpgrade</key>
-				<label>Pintle Storm Bolter</label>
-				<description>WIP</description>
+				<label>Pinte storm bolter</label>
+				<description>Pintle weapon upgrade\n\nA compact, double-barreled version of the Boltgun, it is typically mounted on the vehicles of better off Imperial Regiments. The high-velocity bolts fired by a Storm Bolter can easily penetrate through eight inches of plasteel.</description>
 				<icon>Things/Item/Turrets/StormBolter/GW_PintleMounted_StormBolter</icon>
 				<work>7500</work>
 				<gridCoordinate>(15, 20)</gridCoordinate>
@@ -885,8 +885,8 @@
 			</li>
 			<li>
 				<key>PintleHeavyStubberUpgrade</key>
-				<label>Pintle Heavy Stubber</label>
-				<description>WIP</description>
+				<label>Pinte heavy stubber</label>
+				<description>Pintle-mounted weapon upgrade\n\nA machine gun favored by gangers, insurgents, and lower-tech Planetary Defense Forces. They are better at crowd control than the LMGs of modern rimworlds, as they fire longer and more powerful bursts.</description>
 				<icon>Things/Item/Turrets/HeavyStubber/GW_PintleMount_HeavyStubber</icon>
 				<work>7500</work>
 				<gridCoordinate>(20, 20)</gridCoordinate>

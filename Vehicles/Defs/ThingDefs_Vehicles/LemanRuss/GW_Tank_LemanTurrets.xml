@@ -47,8 +47,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_BattleCannonTurret</defName>
-		<label>Leman Russ battle cannon cannon</label>
-		<description>A turret-mounted Battle Cannon used on the Leman Russ battle tank. Fires 120mm battle cannon shells.</description>
+		<label>Leman Russ Battle cannon</label>
+		<description>Main turret upgrade\n\nA standard 120mm tank cannon. A solid, general-purpose weapon, capable of delivering hallowed ordnance from a great distance to devastating effect.\n\nIt is the default armament of the standard Leman Russ.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_LemanRuss_BattleCannon</projectile>
@@ -103,8 +103,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_AnnihilatorTurret</defName>
-		<label>Leman Russ annihilator cannons</label>
-		<description>Twin-linked lascannons, WIP</description>
+		<label>Leman Russ Twin-linked lascannons</label>
+		<description>Main turret upgrade\n\nA pair of twin-linked lascannons. It provides reliable anti-armor firepower, quickly cracking open enemy vehicles and heavy infantry.\n\nUsually found in the Leman Russ Annihilator variant.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_AM_Lascannon</shotSound>
 		<projectile>GW_LascanonShot</projectile>
@@ -149,8 +149,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_ExterminatorTurret</defName>
-		<label>Leman Russ exterminator cannons</label>
-		<description>Twin-linked auto-cannons, WIP</description>
+		<label>Leman Russ Twin-linked autocannons</label>
+		<description>Main turret upgrade\n\nA pair of twin-linked 20mm autocannons. Though loosing out on anti-armor capability, it can instead focus on crowd control of infantry.\n\nUsually found in the Leman Russ Exterminator variant.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>GW_Bullet_Autocannon</projectile>
@@ -209,8 +209,8 @@
 
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_PunisherTurret</defName>
-		<label>Leman Russ punisher cannon</label>
-		<description>A turret-mounted Punisher Gatling Cannon, much dakka. WIP</description>
+		<label>Leman Russ Punisher gatling cannon</label>
+		<description>Main turret upgrade\n\nA rotary autocannon, firing 20mm explosive rounds. It's ability to lay down an impressive hail of covering fire and shred infantry make the Punisher Gatling Cannon ideal when facing large swarms of hostile ground forces.\n\nUsually found in the Leman Russ Punisher variant.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>GW_Bullet_Assaultcannon</projectile>
@@ -274,8 +274,8 @@
 
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_ExecutionerTurret</defName>
-		<label>Leman Russ executioner plasma cannon</label>
-		<description>A turret-mounted Plasma Cannon used on the Leman Russ battle tank. WIP</description>
+		<label>Leman Russ Plasma destroyer</label>
+		<description>Main turret upgrade\n\nA high-powered plasma cannon. It is able to penetrate almost any armor with immense heat and force, but has a history of being very tempermental.\n\nUsually found in the Leman Russ Executioner variant.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>GW_Tank_PlasmaShot</projectile>
@@ -330,8 +330,8 @@
 
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_VanquisherTurret</defName>
-		<label>Leman Russ vanquisher cannon</label>
-		<description>A turret-mounted Vanquisher Cannon used on the Leman Russ battle tank. Good for Anti-Tank duties.</description>
+		<label>Leman Russ Vanquisher cannon</label>
+		<description>Main turret upgrade\n\nA more complex variant of the standard-issue Battle Cannon. Vanquisher cannons have exceptional anti-armor capability, but lose some of the blast radius of the standard model.\n\nUsually found in the Leman Russ Vanquisher variant.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_LemanRuss_VanquisherCannon</projectile>
@@ -386,8 +386,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_DemolisherTurret</defName>
-		<label>Leman Russ demolisher cannon</label>
-		<description>A turret-mounted Demolisher Cannon used on the Leman Russ battle tank. Good for bunker busting.</description>
+		<label>Leman Russ Demolisher cannon</label>
+		<description>Main turret upgrade\n\nA short-barreled 380mm heavy howitzer. While it lacks the range of the standard battle cannon, the sheer power of this weapon makes it an excellent choice for siege warfare.\n\nUsually found in the Leman Russ Demolisher variant.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>GW_Bullet_Demolisher_Round</projectile>
@@ -442,8 +442,8 @@
 
 	 <Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_HullLascannon</defName>
-		<label>Lascannon</label>
-		<description>A hull-mounted lascannon used on the Imperial vehicles.</description>
+		<label>Hull lascannon</label>
+		<description>Forward hull-mounted weapon upgrade\n\nLascannons are anti-tank weapons that function much like lasguns but on a vastly larger and more destructive scale, requiring significantly greater energy. They are generally employed in anti-armor roles.\n\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Lascannon battery pack</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_AM_Lascannon</shotSound>
 		<projectile>GW_LascanonShot</projectile>
@@ -482,8 +482,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_MultiMelta</defName>
-		<label>Multi-Melta</label>
-		<description>WIP</description>
+		<label>Sponson multi-meltas</label>
+		<description>Side-mounted sponson weapons upgrade\n\nA heavy version of a meltagun that has multiple barrels, the multi-melta uses intense superheated beams at a close range to melt through armor and incinerate organic targets. They are generally employed in anti-armor roles.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Gunner x2\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Melta cartridges</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_Multi_Melta_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_MultiMelta</projectile>
@@ -523,8 +523,8 @@
 
 		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_PlasmaSponson</defName>
-		<label>Plasma Cannon</label>
-		<description>WIP</description>
+		<label>Sponson plasma cannons</label>
+		<description>Side-mounted sponson weapons upgrade\n\nHeavy plasma weapons that generate and fire superheated glowing bolts of energy. Upon impact, it reacts with the target’s matter, creating miniature suns that vaporize anything caught within. They are generally employed in anti-heavy infantry roles.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Gunner x2\n&lt;color=#bb8f04&gt;Ammo:&lt;/color&gt; Plasmacannon cartridges</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_Plasma_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_Plasma_CannonShot</projectile>
