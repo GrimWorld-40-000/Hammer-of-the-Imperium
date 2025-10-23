@@ -13,7 +13,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>30</damageAmountBase>
             <stoppingPower>1.0</stoppingPower>
             <armorPenetrationBase>0.5</armorPenetrationBase>
@@ -35,7 +35,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>46000</WorkToMake>
+            <WorkToMake>24000</WorkToMake>
             <Mass>7</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -124,7 +124,7 @@
 			<li>Things/Projectiles/Melta_Projectile</li>
 		</textures>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>30</damageAmountBase>
             <armorPenetrationBase>0.70</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
@@ -146,7 +146,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>60000</WorkToMake>
+            <WorkToMake>24000</WorkToMake>
             <Mass>7.5</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -260,7 +260,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>30000</WorkToMake>
+            <WorkToMake>18000</WorkToMake>
             <Mass>3</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
@@ -351,7 +351,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-			<damageDef>Burn</damageDef>
+			<damageDef>Vaporize</damageDef>
 			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>1.5</armorPenetrationBase>
@@ -371,7 +371,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>26000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>4.2</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>

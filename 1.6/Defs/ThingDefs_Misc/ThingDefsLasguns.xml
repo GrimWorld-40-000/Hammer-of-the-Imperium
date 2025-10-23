@@ -6,10 +6,10 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>12</damageAmountBase>
-            <armorPenetrationBase>0.20</armorPenetrationBase>
-            <stoppingPower>0.3</stoppingPower>
+            <damageDef>Beam</damageDef>
+            <damageAmountBase>15</damageAmountBase>
+            <armorPenetrationBase>0.30</armorPenetrationBase>
+            <stoppingPower>0.5</stoppingPower>
             <speed>1000</speed>
         </projectile>
         <modExtensions>
@@ -55,12 +55,12 @@
             <texPath>Weapons/GW_HOI_CadianLasGun</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>7000</WorkToMake>
             <Mass>3.5</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.65</AccuracyMedium>
-            <AccuracyLong>0.55</AccuracyLong>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
             <MarketValue>400</MarketValue>
         </statBases>
@@ -122,9 +122,9 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>8</damageAmountBase>
-            <armorPenetrationBase>0.15</armorPenetrationBase>
+            <damageDef>Beam</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <armorPenetrationBase>0.25</armorPenetrationBase>
             <stoppingPower>0.3</stoppingPower>
             <speed>1000</speed>
         </projectile>
@@ -156,7 +156,7 @@
             <li>RangedLight</li>
         </weaponClasses>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>7000</WorkToMake>
             <Mass>1.5</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -214,10 +214,10 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Vaporize</damageDef>
             <damageAmountBase>13</damageAmountBase>
-            <armorPenetrationBase>0.22</armorPenetrationBase>
-            <stoppingPower>0.3</stoppingPower>
+            <armorPenetrationBase>0.87</armorPenetrationBase>
+            <stoppingPower>0.75</stoppingPower>
             <speed>1000</speed>
         </projectile>
         <modExtensions>
@@ -232,10 +232,10 @@
             <texPath>Weapons/GW_HOI_CadianHotshot</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>15000</WorkToMake>
             <Mass>5</Mass>
-            <AccuracyTouch>0.40</AccuracyTouch>
-            <AccuracyShort>0.50</AccuracyShort>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.30</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
@@ -308,10 +308,10 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>Beam</damageDef>
             <damageAmountBase>27</damageAmountBase>
-            <armorPenetrationBase>0.25</armorPenetrationBase>
-            <stoppingPower>0.4</stoppingPower>
+            <armorPenetrationBase>0.45</armorPenetrationBase>
+            <stoppingPower>1</stoppingPower>
             <speed>1000</speed>
         </projectile>
         <modExtensions>
@@ -327,7 +327,7 @@
             <texPath>Weapons/GW_HOI_CadianLongLas</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>4</Mass>
             <AccuracyTouch>0.40</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>

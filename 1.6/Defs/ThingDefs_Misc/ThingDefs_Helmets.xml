@@ -101,7 +101,7 @@
 			<HP_Ceramite>5</HP_Ceramite>
         </costList>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>5000</WorkToMake>
 			<MarketValue>400</MarketValue>
 			<MaxHitPoints>280</MaxHitPoints>
             <Mass>2</Mass>
@@ -140,7 +140,7 @@
 			<HP_Ceramite>5</HP_Ceramite>
         </costList>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>5000</WorkToMake>
 			<MarketValue>400</MarketValue>
 			<MaxHitPoints>280</MaxHitPoints>
             <Mass>2</Mass>
@@ -177,7 +177,7 @@
 			<HP_Ceramite>5</HP_Ceramite>
         </costList>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>4000</WorkToMake>
 			<MarketValue>400</MarketValue>
 			<MaxHitPoints>280</MaxHitPoints>
             <Mass>2</Mass>
@@ -255,7 +255,7 @@
 			<HP_Ceramite>5</HP_Ceramite>
         </costList>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>5000</WorkToMake>
 			<MarketValue>400</MarketValue>
 			<MaxHitPoints>280</MaxHitPoints>
             <Mass>2</Mass>

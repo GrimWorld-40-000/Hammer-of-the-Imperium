@@ -12,7 +12,7 @@
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageAmountBase>55</damageAmountBase>
+			<damageAmountBase>40</damageAmountBase>
 			<armorPenetrationBase>0.40</armorPenetrationBase>
 			<damageDef>Bomb</damageDef>
 			<explosionRadius>6.8</explosionRadius>
@@ -48,7 +48,7 @@
 	<ThingDef ParentName="GW_HOI_LauncherBase">
 		<defName>GW_HOI_Gun_MissileLauncher</defName>
 		<label>Missile launcher Fury pattern</label>
-		<description>A single-shot, shoulder-fired guided missile launcher used by the Astra Militarum. A favorite of Heavy Weapons Teams, these launchers can sling a potent, high-speed missile far outside the range of hand grenades and grenade launchers.\n\nHeavy Weapons Teams aim to destroy what massive volleys of lasgun fire cannot. A direct hit from a krak missile will destroy even a Space Marine Terminator.</description>
+		<description>A Multi-shot, shoulder-fired guided missile launcher used by the Astra Militarum. A favorite of Heavy Weapons Teams, these launchers can sling a potent, high-speed missile far outside the range of hand grenades and grenade launchers.\n\nHeavy Weapons Teams aim to destroy what massive volleys of lasgun fire cannot. A direct hit from a krak missile will destroy even a Space Marine Terminator.</description>
 		<graphicData>
 			<texPath>Weapons/GW_HOI_CadianMissileLauncher</texPath>
 		</graphicData>
@@ -73,7 +73,7 @@
 		</weaponClasses>
 		<verbs>
 			<li>
-				<verbClass>Verb_ShootOneUse</verbClass>
+				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_HOI_Missile</defaultProjectile>
 				<warmupTime>3.2</warmupTime>
@@ -89,7 +89,7 @@
 			</li>
 		</verbs>
 		<statBases>
-			<WorkToMake>35000</WorkToMake>
+			<WorkToMake>1200</WorkToMake>
             <Mass>8</Mass>
             <AccuracyTouch>0.20</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
