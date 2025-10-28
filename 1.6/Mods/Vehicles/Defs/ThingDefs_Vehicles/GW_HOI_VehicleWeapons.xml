@@ -111,7 +111,7 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>10</ticksBetweenShots>
 				<ticksBetweenBursts>10</ticksBetweenBursts>
-				<forceMissRadius>.5</forceMissRadius>
+				<forcedMissRadius>.5</forcedMissRadius>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
