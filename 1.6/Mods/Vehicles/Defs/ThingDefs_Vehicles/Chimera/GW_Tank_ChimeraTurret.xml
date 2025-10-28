@@ -22,28 +22,39 @@
 		<maxRange>28.9</maxRange>
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
-			<li>
-				<shotsPerBurst>1</shotsPerBurst>
-				<ticksBetweenShots>9</ticksBetweenShots>
-				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<label>Single</label>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
-			</li>
-			<li>
-				<shotsPerBurst>2</shotsPerBurst>
-				<ticksBetweenShots>9</ticksBetweenShots>
-				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
-				<label>Burst</label>
-				<texPath>UI/Gizmos/FireRate_Burst</texPath>
-			</li>
-			<li>
-				<shotsPerBurst>5</shotsPerBurst>
-				<ticksBetweenShots>9</ticksBetweenShots>
-				<ticksBetweenBursts>90</ticksBetweenBursts>
-				<label>Auto</label>
-				<texPath>UI/Gizmos/FireRate_Auto</texPath>
-			</li>
+				<li>
+					<shotsPerBurst>5</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>30</ticksBetweenBursts>
+					<accuracyTouch>0.9</accuracyTouch>
+					<accuracyShort>0.85</accuracyShort>
+					<accuracyMedium>0.65</accuracyMedium>
+					<accuracyLong>0.55</accuracyLong>
+					<label>Single</label>
+					<texPath>UI/Gizmos/FireRate_Single</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>10</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>30</ticksBetweenBursts>
+					<accuracyTouch>0.75</accuracyTouch>
+					<accuracyShort>0.65</accuracyShort>
+					<accuracyMedium>0.45</accuracyMedium>
+					<accuracyLong>0.35</accuracyLong>
+					<label>Burst</label>
+					<texPath>UI/Gizmos/FireRate_Burst</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>25</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>45</ticksBetweenBursts>
+					<accuracyTouch>0.60</accuracyTouch>
+					<accuracyShort>0.60</accuracyShort>
+					<accuracyMedium>0.40</accuracyMedium>
+					<accuracyLong>0.25</accuracyLong>
+					<label>Auto</label>
+					<texPath>UI/Gizmos/FireRate_Auto</texPath>
+				</li>
 		</fireModes>
 		<gizmoIconTexPath>Things/Vehicles/Chimera/Chimera_CannonSide</gizmoIconTexPath>
 		<graphicData>
@@ -80,28 +91,39 @@
 		<maxRange>28.9</maxRange>
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
-			<li>
-				<shotsPerBurst>5</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<label>Single</label>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
-			</li>
-			<li>
-				<shotsPerBurst>10</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
-				<label>Burst</label>
-				<texPath>UI/Gizmos/FireRate_Burst</texPath>
-			</li>
-			<li>
-				<shotsPerBurst>25</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>45</ticksBetweenBursts>
-				<label>Auto</label>
-				<texPath>UI/Gizmos/FireRate_Auto</texPath>
-			</li>
+				<li>
+					<shotsPerBurst>5</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>30</ticksBetweenBursts>
+					<accuracyTouch>0.9</accuracyTouch>
+					<accuracyShort>0.85</accuracyShort>
+					<accuracyMedium>0.65</accuracyMedium>
+					<accuracyLong>0.55</accuracyLong>
+					<label>Single</label>
+					<texPath>UI/Gizmos/FireRate_Single</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>10</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>30</ticksBetweenBursts>
+					<accuracyTouch>0.75</accuracyTouch>
+					<accuracyShort>0.65</accuracyShort>
+					<accuracyMedium>0.45</accuracyMedium>
+					<accuracyLong>0.35</accuracyLong>
+					<label>Burst</label>
+					<texPath>UI/Gizmos/FireRate_Burst</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>25</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>45</ticksBetweenBursts>
+					<accuracyTouch>0.60</accuracyTouch>
+					<accuracyShort>0.60</accuracyShort>
+					<accuracyMedium>0.40</accuracyMedium>
+					<accuracyLong>0.25</accuracyLong>
+					<label>Auto</label>
+					<texPath>UI/Gizmos/FireRate_Auto</texPath>
+				</li>
 		</fireModes>
 		<gizmoIconTexPath>Things/Vehicles/Chimera/Turret/Chimera_Bolter_Turret</gizmoIconTexPath>
 		<graphicData>
@@ -123,8 +145,8 @@
         <label>lascannon shot</label>
         <description>An heavily charged beam of focused light fired from a lascannon.</description>
 		<projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>120</damageAmountBase>
+            <damageDef>Beam</damageDef>
+            <damageAmountBase>60</damageAmountBase>
             <armorPenetrationBase>1.2</armorPenetrationBase>
             <stoppingPower>1</stoppingPower>
             <speed>1000</speed>
@@ -152,11 +174,15 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>1</shotsPerBurst>
-				<ticksBetweenShots>0</ticksBetweenShots>
+				<shotsPerBurst>15</shotsPerBurst>
+				<ticksBetweenShots>2</ticksBetweenShots>
 				<ticksBetweenBursts>20</ticksBetweenBursts>
-				<label>Single</label>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
+				<accuracyTouch>0.85</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.55</accuracyMedium>
+				<accuracyLong>0.35</accuracyLong>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
 		</fireModes>
 		<gizmoIconTexPath>Things/Vehicles/Chimera/Turret/Chimera_Lasgun_Turret</gizmoIconTexPath>
@@ -177,8 +203,8 @@
 	
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Chimera_Sponsor</defName>
-		<label>Chimera Sponsor</label>
-		<description>ToDo.</description>
+		<label>Chimera Sponson</label>
+		<description>A sponson mounted heavy bolter turrets. </description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
@@ -194,28 +220,39 @@
 		<maxRange>28.9</maxRange>
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
-			<li>
-				<shotsPerBurst>5</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<label>Single</label>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
-			</li>
-			<li>
-				<shotsPerBurst>10</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>30</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
-				<label>Burst</label>
-				<texPath>UI/Gizmos/FireRate_Burst</texPath>
-			</li>
-			<li>
-				<shotsPerBurst>25</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>45</ticksBetweenBursts>
-				<label>Auto</label>
-				<texPath>UI/Gizmos/FireRate_Auto</texPath>
-			</li>
+				<li>
+					<shotsPerBurst>5</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>30</ticksBetweenBursts>
+					<accuracyTouch>0.9</accuracyTouch>
+					<accuracyShort>0.85</accuracyShort>
+					<accuracyMedium>0.65</accuracyMedium>
+					<accuracyLong>0.55</accuracyLong>
+					<label>Single</label>
+					<texPath>UI/Gizmos/FireRate_Single</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>10</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>30</ticksBetweenBursts>
+					<accuracyTouch>0.75</accuracyTouch>
+					<accuracyShort>0.65</accuracyShort>
+					<accuracyMedium>0.45</accuracyMedium>
+					<accuracyLong>0.35</accuracyLong>
+					<label>Burst</label>
+					<texPath>UI/Gizmos/FireRate_Burst</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>25</shotsPerBurst>
+					<ticksBetweenShots>5</ticksBetweenShots>
+					<ticksBetweenBursts>45</ticksBetweenBursts>
+					<accuracyTouch>0.60</accuracyTouch>
+					<accuracyShort>0.60</accuracyShort>
+					<accuracyMedium>0.40</accuracyMedium>
+					<accuracyLong>0.25</accuracyLong>
+					<label>Auto</label>
+					<texPath>UI/Gizmos/FireRate_Auto</texPath>
+				</li>
 		</fireModes>
 		<gizmoIconTexPath>Things/Vehicles/Chimera/Chimera_CannonSide</gizmoIconTexPath>
 		<graphicData>

@@ -98,7 +98,10 @@
 				<shotsPerBurst>2</shotsPerBurst>
 				<ticksBetweenShots>2</ticksBetweenShots>
 				<ticksBetweenBursts>150</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<accuracyTouch>0.60</accuracyTouch>
+				<accuracyShort>0.65</accuracyShort>
+				<accuracyMedium>0.75</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -122,7 +125,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Stormhammer_HeavyBolter</defName>
 		<label>Stormhammer main cannon</label>
-		<description>Armored Boltor Baneblade cannon.</description>
+		<description>Armored Bolter Baneblade cannon.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
@@ -149,9 +152,13 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>30</shotsPerBurst>
+				<shotsPerBurst>45</shotsPerBurst>
 				<ticksBetweenShots>3</ticksBetweenShots>
 				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<accuracyTouch>0.65</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.30</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -179,7 +186,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Stormhammer_HeavyBolterCen</defName>
 		<label>Stormhammer main cannon</label>
-		<description>Armored Boltor Baneblade cannon.</description>
+		<description>Armored Bolter Baneblade cannon.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>GW_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
@@ -206,9 +213,13 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>50</shotsPerBurst>
+				<shotsPerBurst>65</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<accuracyTouch>0.70</accuracyTouch>
+				<accuracyShort>0.50</accuracyShort>
+				<accuracyMedium>0.40</accuracyMedium>
+				<accuracyLong>0.35</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>

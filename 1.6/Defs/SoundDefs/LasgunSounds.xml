@@ -152,4 +152,20 @@
           </li>
         </subSounds>
 	</SoundDef>
+  <SoundDef>
+		<defName>GW_Lascannon_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/HammerOfTheImperium/Lasgun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>80~100</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
 </Defs>
