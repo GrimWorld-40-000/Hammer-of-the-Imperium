@@ -121,17 +121,21 @@
   
   <!-- ====================== Kantrael MG Defender  ===================== -->
 
-      <ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
+       <ThingDef ParentName="BaseBullet">
         <defName>GW_HOI_Bullet_Laspistol</defName>
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef></damageDef>
+            <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationBase>0.25</armorPenetrationBase>
             <stoppingPower>0.3</stoppingPower>
             <speed>1000</speed>
         </projectile>
+        <graphicData>
+            <texPath>Things/Projectile/Shot_Las</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
         <modExtensions>
         </modExtensions>
     </ThingDef>
