@@ -6,9 +6,12 @@
         <label>Laser</label>
         <description>a laser</description>
         <graphicData>
-            <texPath>Things/Projectile/Shot_Las</texPath>
+            <texPath>Things/Projectiles/Las_Bolt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+	        <drawSize>4</drawSize>
         </graphicData>
+        <projectile>
+
         <projectile>
             <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>15</damageAmountBase>
@@ -133,8 +136,9 @@
             <speed>1000</speed>
         </projectile>
         <graphicData>
-            <texPath>Things/Projectile/Shot_Las</texPath>
+            <texPath>Things/Projectiles/Las_Bolt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+	        <drawSize>4</drawSize>
         </graphicData>
         <modExtensions>
         </modExtensions>
