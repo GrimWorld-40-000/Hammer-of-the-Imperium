@@ -56,7 +56,7 @@
     <corpseDamageFactor>4</corpseDamageFactor>
     <isRanged>true</isRanged>
     <makesAnimalsFlee>true</makesAnimalsFlee>
-    <fireStartChance>0</fireStartChance>
+    <canInterruptJobs>false</canInterruptJobs>
     <soundExplosion>GunShotA</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
