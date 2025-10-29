@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
+    <ThingDef ParentName="baseBullet">
         <defName>GW_HOI_Bullet_Lasgun</defName>
         <label>Laser</label>
         <description>a laser</description>
+        <graphicData>
+        <texPath>Things/Projectile/Shot_Las</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
         <projectile>
             <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>15</damageAmountBase>
