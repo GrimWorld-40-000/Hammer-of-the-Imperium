@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="baseBullet">
+    <ThingDef ParentName="BaseBullet">
         <defName>GW_HOI_Bullet_Lasgun</defName>
         <label>Laser</label>
         <description>a laser</description>
