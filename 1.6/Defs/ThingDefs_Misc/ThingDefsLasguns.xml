@@ -6,7 +6,7 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Beam</damageDef>
+            <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>15</damageAmountBase>
             <armorPenetrationBase>0.30</armorPenetrationBase>
             <stoppingPower>0.5</stoppingPower>
@@ -122,7 +122,7 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Beam</damageDef>
+            <damageDef></damageDef>
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationBase>0.25</armorPenetrationBase>
             <stoppingPower>0.3</stoppingPower>
@@ -308,7 +308,7 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Beam</damageDef>
+            <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>27</damageAmountBase>
             <armorPenetrationBase>0.45</armorPenetrationBase>
             <stoppingPower>1</stoppingPower>

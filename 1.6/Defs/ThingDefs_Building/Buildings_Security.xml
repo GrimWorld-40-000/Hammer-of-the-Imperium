@@ -603,7 +603,7 @@
         <label>lascannon shot</label>
         <description>An heavily charged beam of focused light fired from a lascannon.</description>
         <projectile>
-            <damageDef>Beam</damageDef>
+            <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>50</damageAmountBase>
             <armorPenetrationBase>0.7</armorPenetrationBase>
             <stoppingPower>1.5</stoppingPower>
