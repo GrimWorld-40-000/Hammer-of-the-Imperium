@@ -11,8 +11,6 @@
 	        <drawSize>4</drawSize>
         </graphicData>
         <projectile>
-
-        <projectile>
             <damageDef>LasgunBeam</damageDef>
             <damageAmountBase>15</damageAmountBase>
             <armorPenetrationBase>0.30</armorPenetrationBase>
