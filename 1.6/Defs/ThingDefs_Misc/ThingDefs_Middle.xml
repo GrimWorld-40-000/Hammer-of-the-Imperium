@@ -73,7 +73,7 @@
         </thingCategories>
         <statBases>
             <MaxHitPoints>350</MaxHitPoints>
-            <WorkToMake>12000</WorkToMake>
+            <WorkToMake>8000</WorkToMake>
 			<MarketValue>340</MarketValue>
             <Mass>2.5</Mass>
 			<ArmorRating_Sharp>0.82</ArmorRating_Sharp>
@@ -124,7 +124,7 @@
         </thingCategories>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
-            <WorkToMake>35000</WorkToMake>
+            <WorkToMake>70000</WorkToMake>
 			<MarketValue>500</MarketValue>
             <Mass>1.5</Mass>
             <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
@@ -138,7 +138,7 @@
 			    <HP_Ceramite>10</HP_Ceramite>
         </costList>	
         <equippedStatOffsets>
-			<PsychicSensitivity>0.1</PsychicSensitivity>
+			<PsychicSensitivity>0.5</PsychicSensitivity>
 			<PsychicEntropyMax MayRequire="ludeon.rimworld.royalty">6</PsychicEntropyMax>
 			<PsychicSensitivityOffset MayRequire="ludeon.rimworld.royalty">0.15</PsychicSensitivityOffset>
 			<PsychicEntropyRecoveryRate MayRequire="ludeon.rimworld.royalty">0.1</PsychicEntropyRecoveryRate>

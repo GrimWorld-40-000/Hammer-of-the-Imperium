@@ -9,7 +9,7 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>15</damageAmountBase>
+            <damageAmountBase>20</damageAmountBase>
             <speed>70</speed>
         </projectile>
     </ThingDef>
@@ -65,7 +65,7 @@
             </skillRequirements>
         </recipeMaker>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>5000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -131,7 +131,7 @@
             </skillRequirements>
         </recipeMaker>
         <statBases>
-            <WorkToMake>9000</WorkToMake>
+            <WorkToMake>7000</WorkToMake>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>

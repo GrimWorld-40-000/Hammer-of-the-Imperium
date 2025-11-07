@@ -301,7 +301,7 @@
   
   <!-- ====================== Zarona MKII  ===================== -->
   
-    <ThingDef ParentName="GW_AM_AutogunBase">
+<!-- <ThingDef ParentName="GW_AM_AutogunBase">
         <defName>Gun_Zarona</defName>
         <label>Zarona MKII</label>
         <description>A stub revolver firing solid-slug rounds. Tough and powerful, this gun is well-suited for Imperial frontiersmen. \n\nThese weapons are generally not used in a military capacity. However, they have been seen in the hands of irregular troops under the Inquisition, such as on the planet of Atoma Prime. There, the Inquisition’s “Rejects” fight against a Chaos cult and the traitor Moebian 6th Regiment in the hive city of Tertium.</description>
@@ -367,7 +367,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
   
   <!-- ====================== Hiveworld Autopistol  ===================== -->
   
@@ -443,7 +443,7 @@
   
   <!-- ====================== Heavy Stubber  ===================== -->
   
-    <ThingDef ParentName="GW_AM_AutogunBase">
+   <!-- <ThingDef ParentName="GW_AM_AutogunBase">
         <defName>Gun_Heavystubber</defName>
         <label>Heavy stubber</label>
         <description>A machine gun favored by gangers, insurgents, and lower-tech Planetary Defense Forces. They are better at crowd control than the LMGs of modern rimworlds, as they fire longer and more powerful bursts. \n\nWhile Astra Militarum Guardsmen prefer the harder-hitting Storm Bolter as a crowd-control emplacement and vehicle-mounted weapon, heavy stubbers can sometimes be found filling these roles in times of shortage.</description>
@@ -510,7 +510,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef>-->
   
   <!-- ====================== Militarum Shotgun  ===================== -->
   

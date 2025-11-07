@@ -45,6 +45,10 @@
 				<shotsPerBurst>3</shotsPerBurst>
 				<ticksBetweenShots>9</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<accuracyTouch>0.9</accuracyTouch>
+				<accuracyShort>0.85</accuracyShort>
+				<accuracyMedium>0.65</accuracyMedium>
+				<accuracyLong>0.55</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -52,6 +56,10 @@
 				<shotsPerBurst>8</shotsPerBurst>
 				<ticksBetweenShots>9</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.65</accuracyShort>
+				<accuracyMedium>0.45</accuracyMedium>
+				<accuracyLong>0.35</accuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -59,6 +67,10 @@
 				<shotsPerBurst>15</shotsPerBurst>
 				<ticksBetweenShots>9</ticksBetweenShots>
 				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<accuracyTouch>0.60</accuracyTouch>
+				<accuracyShort>0.50</accuracyShort>
+				<accuracyMedium>0.40</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -92,13 +104,14 @@
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.0</rotationSpeed>
 		<projectileOffset>2.0</projectileOffset>
-		<maxRange>15.9</maxRange>
+		<maxRange>19.9</maxRange>
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>10</ticksBetweenShots>
 				<ticksBetweenBursts>10</ticksBetweenBursts>
+				<forcedMissRadius>.5</forcedMissRadius>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>

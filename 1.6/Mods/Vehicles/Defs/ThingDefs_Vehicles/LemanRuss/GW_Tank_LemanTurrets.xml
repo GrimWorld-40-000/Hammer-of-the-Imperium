@@ -14,7 +14,7 @@
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>80</damageAmountBase>
 			<speed>90</speed>
-			<explosionRadius>5.9</explosionRadius>
+			<explosionRadius>6.9</explosionRadius>
 			<armorPenetrationBase>1</armorPenetrationBase>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
@@ -34,10 +34,10 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>80</damageAmountBase>
+			<damageAmountBase>120</damageAmountBase>
 			<speed>90</speed>
 			<armorPenetrationBase>2</armorPenetrationBase>
-			<explosionRadius>4.9</explosionRadius>
+			<explosionRadius>3.9</explosionRadius>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
@@ -77,6 +77,7 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>12</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<spreadRadius>1.5</spreadRadius>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -131,7 +132,10 @@
 				<ticksBetweenShots>0</ticksBetweenShots>
 				<ticksBetweenBursts>10</ticksBetweenBursts>
 				<label>Single</label>
-				<spreadRadius>0</spreadRadius>
+				<accuracyTouch>0.55</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.85</accuracyLong>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 		</fireModes>
@@ -177,6 +181,7 @@
 				<shotsPerBurst>2</shotsPerBurst>
 				<ticksBetweenShots>0</ticksBetweenShots>
 				<ticksBetweenBursts>35</ticksBetweenBursts>
+				<spreadRadius>.5</spreadRadius>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -192,6 +197,7 @@
 				<shotsPerBurst>24</shotsPerBurst>
 				<ticksBetweenShots>8</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<spreadRadius>1.5</spreadRadius>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -239,17 +245,13 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>10</shotsPerBurst>
-				<ticksBetweenShots>0.5</ticksBetweenShots>
-				<ticksBetweenBursts>20</ticksBetweenBursts>
-				<label>Single</label>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
-			</li>
-			<li>
 				<shotsPerBurst>25</shotsPerBurst>
 				<ticksBetweenShots>0.5</ticksBetweenShots>
 				<ticksBetweenBursts>20</ticksBetweenBursts>
-				<spreadRadius>1</spreadRadius>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.45</accuracyShort>
+				<accuracyMedium>0.35</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -257,6 +259,10 @@
 				<shotsPerBurst>50</shotsPerBurst>
 				<ticksBetweenShots>0.5</ticksBetweenShots>
 				<ticksBetweenBursts>35</ticksBetweenBursts>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.45</accuracyShort>
+				<accuracyMedium>0.35</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -308,6 +314,10 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>22</ticksBetweenShots>
 				<ticksBetweenBursts>70</ticksBetweenBursts>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.95</accuracyShort>
+				<accuracyMedium>0.85</accuracyMedium>
+				<accuracyLong>0.75</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -365,6 +375,10 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>12</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.95</accuracyMedium>
+				<accuracyLong>0.85</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -422,6 +436,7 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>12</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<spreadRadius>1.0</spreadRadius>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -470,6 +485,10 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>0</ticksBetweenShots>
 				<ticksBetweenBursts>10</ticksBetweenBursts>
+				<accuracyTouch>0.85</accuracyTouch>
+				<accuracyShort>0.95</accuracyShort>
+				<accuracyMedium>0.66</accuracyMedium>
+				<accuracyLong>0.40</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -512,6 +531,10 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>0</ticksBetweenShots>
 				<ticksBetweenBursts>20</ticksBetweenBursts>
+				<accuracyTouch>0.85</accuracyTouch>
+				<accuracyShort>0.95</accuracyShort>
+				<accuracyMedium>0.66</accuracyMedium>
+				<accuracyLong>0.40</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -553,6 +576,10 @@
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>0</ticksBetweenShots>
 				<ticksBetweenBursts>15</ticksBetweenBursts>
+				<accuracyTouch>0.65</accuracyTouch>
+				<accuracyShort>0.85</accuracyShort>
+				<accuracyMedium>0.75</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>

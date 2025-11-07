@@ -60,18 +60,18 @@
             <texPath>Things/Cadian/Middle/GW_HOI_CadianFlakArmor</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>9500</WorkToMake>
             <MaxHitPoints>800</MaxHitPoints>
             <Mass>4</Mass>
-            <ArmorRating_Sharp>0.79</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.41</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.48</ArmorRating_Heat>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
             <Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<MentalBreakThreshold>-0.15</MentalBreakThreshold>
         </equippedStatOffsets>
         <costList>
             <Steel>55</Steel>
@@ -107,7 +107,7 @@
             <texPath>Things/Cadian/Middle/GW_HOI_CadianCrewFlakArmor</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>8000</WorkToMake>
             <MaxHitPoints>800</MaxHitPoints>
             <Mass>4</Mass>
             <ArmorRating_Sharp>0.79</ArmorRating_Sharp>
@@ -119,11 +119,11 @@
         </statBases>
         <equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+            <MoveSpeed>1</MoveSpeed>
         </equippedStatOffsets>
         <costList>
             <Steel>55</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
-			<HP_Ceramite>20</HP_Ceramite>
         </costList>	
         <apparel>
             <!-- <wornGraphicPath>Things/Cadian/Middle/GW_HOI_CadianCrewFlakArmor</wornGraphicPath> -->
@@ -153,20 +153,20 @@
             <texPath>Things/Cadian/Middle/GW_HOI_CadianCastellanArmor</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>850</MaxHitPoints>
 			<MarketValue>1250</MarketValue>
             <Mass>5</Mass>
-            <ArmorRating_Sharp>0.82</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
             <ArmorRating_Heat>0.50</ArmorRating_Heat>
             <Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-			<SocialImpact>0.1</SocialImpact>
-			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<SocialImpact>0.2</SocialImpact>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>
         <costList>
@@ -198,7 +198,7 @@
             <texPath>Things/Cadian/Middle/GW_HOI_CadianOfficerArmor</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>10000</WorkToMake>
             <MaxHitPoints>850</MaxHitPoints>
 			<MarketValue>1250</MarketValue>
             <Mass>5</Mass>
@@ -210,7 +210,7 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-			<SocialImpact>0.1</SocialImpact>
+			<SocialImpact>0.2</SocialImpact>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<SlaveSuppressionOffset MayRequire="Ludeon.Rimworld.Ideology">0.1</SlaveSuppressionOffset>
         </equippedStatOffsets>
@@ -243,12 +243,12 @@
             <texPath>Things/Cadian/Middle/GW_HOI_KarskinCarapaceArmor</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>52000</WorkToMake>
+            <WorkToMake>13000</WorkToMake>
             <MaxHitPoints>1100</MaxHitPoints>
 			<MarketValue>1500</MarketValue>
             <Mass>9</Mass>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
             <ArmorRating_Heat>0.55</ArmorRating_Heat>
             <Insulation_Cold>30.0</Insulation_Cold>
 			<Insulation_Heat>8</Insulation_Heat>
@@ -311,11 +311,11 @@
             <texPath>Things/Cadian/Middle/GW_HOI_KarskinCarapaceHeavyArmor</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>60000</WorkToMake>
+            <WorkToMake>15000</WorkToMake>
             <MaxHitPoints>1100</MaxHitPoints>
 			<MarketValue>1500</MarketValue>
             <Mass>10.5</Mass>
-            <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+            <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.54</ArmorRating_Blunt>
             <ArmorRating_Heat>0.60</ArmorRating_Heat>
             <Insulation_Cold>32.0</Insulation_Cold>
@@ -323,7 +323,7 @@
             <EquipDelay>6</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <MoveSpeed>-0.1</MoveSpeed>
+            <MoveSpeed>-0.5</MoveSpeed>
         </equippedStatOffsets>
 		<costList>
 			<Steel>120</Steel>
