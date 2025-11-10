@@ -8,7 +8,7 @@
         <graphicData>
             <texPath>Things/Projectiles/Las_Bolt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-	        <drawSize>4</drawSize>
+	        <drawSize>2</drawSize>
         </graphicData>
         <projectile>
             <damageDef>LasgunBeam</damageDef>
@@ -136,7 +136,7 @@
         <graphicData>
             <texPath>Things/Projectiles/Las_Bolt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-	        <drawSize>4</drawSize>
+	        <drawSize>2</drawSize>
         </graphicData>
         <modExtensions>
         </modExtensions>
