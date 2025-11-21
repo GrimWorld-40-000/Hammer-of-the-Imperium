@@ -15,7 +15,7 @@
             <damageAmountBase>15</damageAmountBase>
             <armorPenetrationBase>0.30</armorPenetrationBase>
             <stoppingPower>0.5</stoppingPower>
-            <speed>1000</speed>
+            <speed>200</speed>
         </projectile>
         <modExtensions>
         </modExtensions>
@@ -41,7 +41,7 @@
         </thingSetMakerTags>
         <recipeMaker>
             <skillRequirements>
-                <Crafting>8</Crafting>
+                <Crafting>5</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="false">
                 <li>HP_AM_MilitarumFabricationBench</li>
@@ -322,7 +322,7 @@
             <damageAmountBase>27</damageAmountBase>
             <armorPenetrationBase>0.45</armorPenetrationBase>
             <stoppingPower>1</stoppingPower>
-            <speed>1000</speed>
+            <speed>200</speed>
         </projectile>
         <graphicData>
             <texPath>Things/Projectiles/Las_Bolt</texPath>
