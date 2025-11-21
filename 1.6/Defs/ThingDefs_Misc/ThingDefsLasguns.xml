@@ -313,7 +313,7 @@
   
   <!-- ====================== Longlas  ===================== -->
 
-  <ThingDef ParentName="GW_LaserBullet" Class="VEF.Weapons.LaserBeamDef">
+  <ThingDef ParentName="BaseBullet">
         <defName>GW_HOI_Bullet_Longlas</defName>
         <label>Laser</label>
         <description>a laser</description>
@@ -324,6 +324,11 @@
             <stoppingPower>1</stoppingPower>
             <speed>1000</speed>
         </projectile>
+        <graphicData>
+            <texPath>Things/Projectiles/Las_Bolt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+	        <drawSize>2</drawSize>
+        </graphicData>
         <modExtensions>
         </modExtensions>
     </ThingDef>
