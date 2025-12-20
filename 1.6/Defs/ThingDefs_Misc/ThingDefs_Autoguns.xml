@@ -37,6 +37,9 @@
         <recipeMaker>
             <researchPrerequisite>GW_Autoguns</researchPrerequisite>
             <displayPriority>420</displayPriority>
+			<recipeUsers Inherit="False">
+				<li>HP_AM_MilitarumFabricationBench</li>
+			</recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
