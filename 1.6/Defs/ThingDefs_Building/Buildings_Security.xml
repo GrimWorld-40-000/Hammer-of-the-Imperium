@@ -499,7 +499,7 @@
             <texPath>Things/Building/Emplacement/TarantulaTurret_Base</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(2.5, 2.5)</drawSize>
-            <drawOffset>(0,0,0)</drawOffset>
+            <!-- <drawOffset>(0,0,1)</drawOffset> -->
             <damageData>
                 <rect>(0.2,0.2,0.6,0.6)</rect>
             </damageData>
@@ -512,6 +512,7 @@
         <minifiedDef>MinifiedThing</minifiedDef>
         <altitudeLayer>Building</altitudeLayer>
         <stealable>false</stealable>
+		<rotatable>false</rotatable>		
         <size>(3,3)</size>
         <passability>PassThroughOnly</passability>
         <pathCost>50</pathCost>
@@ -552,7 +553,7 @@
         <building>
             <turretGunDef>GW_HOI_BuildingGun_TarantulaLascannon</turretGunDef>
 			<turretTopDrawSize>2.5</turretTopDrawSize>
-			<turretTopOffset>(0,0.5)</turretTopOffset>
+			<turretTopOffset>(0,-0.1)</turretTopOffset>
             <turretBurstCooldownTime>3.2</turretBurstCooldownTime>
         </building>
         <placeWorkers>
@@ -572,6 +573,7 @@
         <graphicData>
             <texPath>Things/Building/Emplacement/TarantulaTurretlas_Top</texPath>
             <drawSize>(1,1)</drawSize>
+			<drawOffset>(0,0,0)</drawOffset>
         </graphicData>
 		<statBases>
 		  <AccuracyTouch>0.22</AccuracyTouch>
