@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Taurox</defName>
 		<label>Taurox</label>
-		<description>A tracked armored personnel carrier used by the Astra Militarum. Relatively fast for an APC, it can rapidly deploy large numbers of Guardsmen to exploit weaknesses in the enemy’s defenses or plug up holes in Imperial lines. \n\nThis design is unarmed, but older versions used to possess heavy bolters and lascannons for defense. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x11\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>	
+		<description>A tracked armored personnel carrier used by the Astra Militarum. Relatively fast for an APC, it can rapidly deploy large numbers of Guardsmen to exploit weaknesses in the enemy’s defenses or plug up holes in Imperial lines. \n\nThis design is unarmed, but older versions used to possess heavy bolters and lascannons for defense. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>	
 		<graphicData>
 			<texPath>Things/Vehicles/Taurox/Taurox</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
