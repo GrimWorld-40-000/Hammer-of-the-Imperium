@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>MarauderBomberpawn</defName>
 		<label>Marauder</label>
-		<description>The Marauder is the standard heavy bomber of the Aeronautica Imperialis, the branch of the Navis Imperialis dedicated to in-atmosphere aircraft. A versatile craft, it can be used for strategic bombing, air interdiction, and close air support, bringing its heavy payload into play. \n\nSeeing little need for the former two missions on the mostly-wilderness rimworld, the Aeronautica Imperialis here has made heavy use of the Marauder Destroyer variant, which shrinks its array of bombs in favour of a truly fearsome array of guns - perfect for providing close air support for Imperial troops. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2 Passengers x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Marauder is the standard heavy bomber of the Aeronautica Imperialis, the branch of the Navis Imperialis dedicated to in-atmosphere aircraft. A versatile craft, it can be used for strategic bombing, air interdiction, and close air support, bringing its heavy payload into play. \n\nSeeing little need for the former two missions on the mostly-wilderness rimworld, the Aeronautica Imperialis here has made heavy use of the Marauder Destroyer variant, which shrinks its array of bombs in favour of a truly fearsome array of guns - perfect for providing close air support for Imperial troops. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2 Gunner x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/Marauder/marauder</texPath>
