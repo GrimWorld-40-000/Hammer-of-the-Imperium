@@ -63,7 +63,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>Valkyriepawn</defName>
 		<label>Valkyrie</label>
-		<description>The Valkyrie Assault Carrier in GrimWorld 40,000 symbolizes airborne supremacy. Adorned with aerodynamic plating, it reflects its service in war. Tailored for rapid assault, it allows for troop deployment and close air support, crucial in the Imperium's strategy against threats. As it navigates the skies, the Valkyrie represents the Imperium's command, offering mobility and firepower. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2 Passengers x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Valkyrie Assault Carrier in GrimWorld 40,000 symbolizes airborne supremacy. Adorned with aerodynamic plating, it reflects its service in war. Tailored for rapid assault, it allows for troop deployment and close air support, crucial in the Imperium's strategy against threats. As it navigates the skies, the Valkyrie represents the Imperium's command, offering mobility and firepower. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x1 Passengers x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/Valkyrie/Valkyrie</texPath>
