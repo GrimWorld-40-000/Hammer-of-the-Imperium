@@ -267,7 +267,7 @@
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
-	<VehicleTurretDef>
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
     <defName>GW_HOI_EarthshakerVehicleTurret</defName>
     <label>Earthshaker cannon</label>
 
@@ -284,7 +284,6 @@
     <maxRotation>30</maxRotation>
 
     <requiresStationary>true</requiresStationary>
-</VehicleTurretDef>
-
+</Vehicles.VehicleTurretDef>
 
 </Defs>
