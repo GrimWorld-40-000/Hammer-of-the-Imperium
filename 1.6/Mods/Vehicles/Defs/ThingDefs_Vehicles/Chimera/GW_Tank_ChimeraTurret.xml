@@ -267,5 +267,95 @@
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
+	<!--===== Earthshaker Turret for Chimera =====-->
+    <Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+        <defName>GW_HOI_EarthshakerVehicleTurret</defName>
+        <label>Earthshaker cannon</label>
 
+        <gunDef>GW_HOI_Artillery_Earthshaker_VehicleGun</gunDef>
+
+        <graphicData>
+            <texPath>Things/Building/Emplacement/GW_Earthshaker_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+
+        <renderLayer>3</renderLayer>
+
+        <angleRestricted>
+            <min>-30</min>
+            <max>30</max>
+        </angleRestricted>
+
+        <rotationSpeed>0.25</rotationSpeed>
+        <requiresStationary>true</requiresStationary>
+
+        <fireModes>
+            <li>
+                <shotsPerBurst>3</shotsPerBurst>
+                <ticksBetweenShots>20</ticksBetweenShots>
+                <ticksBetweenBursts>600</ticksBetweenBursts>
+                <forcedMissRadius>12</forcedMissRadius>
+                <label>Barrage</label>
+                <texPath>UI/Gizmos/FireRate_Burst</texPath>
+            </li>
+            <li>
+                <shotsPerBurst>1</shotsPerBurst>
+                <ticksBetweenShots>0</ticksBetweenShots>
+                <ticksBetweenBursts>300</ticksBetweenBursts>
+                <forcedMissRadius>3</forcedMissRadius>
+                <label>Single</label>
+                <texPath>UI/Gizmos/FireRate_Single</texPath>
+            </li>
+        </fireModes>
+
+        <ammunition>
+            <li>GW_HOI_132mm_HighExplosive</li>
+            <li>GW_HOI_132mm_Smoke</li>
+            <li>GW_HOI_132mm_Incendiary</li>
+            <li>GW_HOI_132mm_AP</li>
+        </ammunition>
+
+        <modExtensions>
+            <li Class="Vehicles.VehicleTurretExtension" />
+        </modExtensions>
+    </Vehicles.VehicleTurretDef>
+
+
+    <!--===== Vehicle Gun Wrapper =====-->
+    <ThingDef ParentName="BaseGun">
+        <defName>GW_HOI_Artillery_Earthshaker_VehicleGun</defName>
+        <label>Earthshaker cannon (vehicle)</label>
+
+        <description>
+            Vehicle-mounted version of the Earthshaker artillery cannon.
+            Used by the Basilisk and other self-propelled artillery platforms.
+        </description>
+
+        <graphicData>
+            <texPath>Things/Building/Emplacement/GW_Earthshaker_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <warmupTime>4.0</warmupTime>
+                <range>200</range>
+                <soundCast>Artillery_Shoot</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>2.0</muzzleFlashScale>
+                <defaultProjectile>GW_HOI_Bullet_132mm_HighExplosive</defaultProjectile>
+            </li>
+        </verbs>
+
+        <comps>
+            <li Class="CompProperties_ChangeableProjectile" />
+        </comps>
+
+        <modExtensions>
+            <li Class="Vehicles.CompProperties_VehicleTurretGun" />
+        </modExtensions>
+    </ThingDef>
 </Defs>
