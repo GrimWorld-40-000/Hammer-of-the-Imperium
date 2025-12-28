@@ -267,23 +267,61 @@
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
-	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-    <defName>GW_HOI_EarthshakerVehicleTurret</defName>
-    <label>Earthshaker cannon</label>
+	<Defs>
+    <Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+        <defName>GW_HOI_EarthshakerVehicleTurret</defName>
+        <label>Earthshaker cannon</label>
 
-    <gunDef>GW_HOI_Artillery_Earthshaker</gunDef>
+        <gunDef>GW_HOI_Artillery_Earthshaker</gunDef>
 
-    <graphicData>
-        <texPath>Things/Building/Emplacement/GW_Earthshaker_Base</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-        <drawSize>(3,3)</drawSize>
-    </graphicData>
+        <graphicData>
+            <texPath>Things/Building/Emplacement/GW_Earthshaker_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
 
-    <rotationSpeed>0.25</rotationSpeed>
-    <minRotation>-30</minRotation>
-    <maxRotation>30</maxRotation>
+        <renderLayer>3</renderLayer>
 
-    <requiresStationary>true</requiresStationary>
-</Vehicles.VehicleTurretDef>
+        <angleRestricted>
+            <min>-30</min>
+            <max>30</max>
+        </angleRestricted>
+
+        <rotationSpeed>0.25</rotationSpeed>
+
+        <requiresStationary>true</requiresStationary>
+
+        <fireModes>
+    	<li>
+        	<shotsPerBurst>3</shotsPerBurst>
+        	<ticksBetweenShots>20</ticksBetweenShots>
+        	<ticksBetweenBursts>600</ticksBetweenBursts>
+			<forcedMissRadius>12</forcedMissRadius>
+			<label>Barrage</label>
+       		<texPath>UI/Gizmos/FireRate_Burst</texPath>
+    	</li>
+		<li>
+    		<shotsPerBurst>1</shotsPerBurst>
+    		<ticksBetweenShots>0</ticksBetweenShots>
+    		<ticksBetweenBursts>300</ticksBetweenBursts>
+
+   		 	<forcedMissRadius>3</forcedMissRadius>
+
+    		<label>Single</label>
+   			<texPath>UI/Gizmos/FireRate_Single</texPath>
+		</li>
+
+
+        </fireModes>
+
+        <ammunition>
+            <li>GW_HOI_132mm_HighExplosive</li>
+            <li>GW_HOI_132mm_Smoke</li>
+            <li>GW_HOI_132mm_Incendiary</li>
+            <li>GW_HOI_132mm_AP</li>
+        </ammunition>
+    </Vehicles.VehicleTurretDef>
+</Defs>
+
 
 </Defs>
