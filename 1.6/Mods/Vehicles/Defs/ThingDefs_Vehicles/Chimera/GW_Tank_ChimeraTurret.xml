@@ -267,5 +267,24 @@
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
+	<VehicleTurretDef>
+    <defName>GW_HOI_EarthshakerVehicleTurret</defName>
+    <label>Earthshaker cannon</label>
+
+    <gunDef>GW_HOI_Artillery_Earthshaker</gunDef>
+
+    <graphicData>
+        <texPath>Things/Building/Emplacement/GW_Earthshaker_Base</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(3,3)</drawSize>
+    </graphicData>
+
+    <rotationSpeed>0.25</rotationSpeed>
+    <minRotation>-30</minRotation>
+    <maxRotation>30</maxRotation>
+
+    <requiresStationary>true</requiresStationary>
+</VehicleTurretDef>
+
 
 </Defs>
