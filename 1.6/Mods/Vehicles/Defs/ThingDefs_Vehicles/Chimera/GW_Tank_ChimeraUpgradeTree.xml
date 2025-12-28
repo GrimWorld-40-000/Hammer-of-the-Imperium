@@ -298,6 +298,7 @@
 					<li>ChimeraMultiMeltaUpgrade</li>
 					<li>ChimeraMultiAutocannonUpgrade</li>
 					<li>ChimeraInfernalCannonUpgrade</li>
+					<li>EarthshakerArtilleryUpgrade</li>
 				</disableIfUpgradeNodesEnabled>
 				<prerequisiteNodes>
 					<li>ChimeraTurretMount</li>
@@ -337,6 +338,68 @@
 				</upgrades>
 			</li>
 			<li>
+    <key>EarthshakerArtilleryUpgrade</key>
+    <label>Earthshaker artillery cannon</label>
+    <description>
+        Installs a 132mm Earthshaker artillery cannon onto the vehicle. This massive gun
+        fires long-range high-explosive, smoke, incendiary, and armor-piercing shells.
+        Extremely powerful but slow to fire, and requires specialized ammunition. The Astra Militarium calls this configuration a "Basilisk" and it is a potent weapon of war.
+    </description>
+
+    <disableIfUpgradeNodesEnabled>
+        <li>ChimeraMultiLaserUpgrade</li>
+        <li>ChimeraHeavyBolterUpgrade</li>
+        <li>ChimeraMultiAutocannonUpgrade</li>
+        <li>ChimeraInfernalCannonUpgrade</li>
+    </disableIfUpgradeNodesEnabled>
+
+    <prerequisiteNodes>
+        <li>ChimeraTurretMount</li>
+    </prerequisiteNodes>
+
+    <icon>Things/Vehicles/Earthshaker/Earthshaker_Turret_Icon</icon>
+
+    <work>4500</work>
+    <ingredients>
+        <Steel>300</Steel>
+        <GW_VehicleCannon>1</GW_VehicleCannon>
+        <HP_Ceramite>200</HP_Ceramite>
+        <ComponentIndustrial>8</ComponentIndustrial>
+    </ingredients>
+
+    <gridCoordinate>(7, 11)</gridCoordinate>
+    <drawSize>(100, 100)</drawSize>
+
+    <upgrades>
+        <li Class="Vehicles.TurretUpgrade">
+            <turrets>
+                <li>
+                    <turretDef>GW_HOI_EarthshakerVehicleTurret</turretDef>
+
+                    <renderProperties>
+                        <north>(0.0, 1.2)</north>
+                        <south>(0.0, -0.4)</south>
+                        <east>(0.4, 0.3)</east>
+                        <west>(-0.4, 0.3)</west>
+                    </renderProperties>
+
+                    <gizmoLabel>Earthshaker Cannon</gizmoLabel>
+
+                    <angleRestricted>
+                        <min>-30</min>
+                        <max>30</max>
+                    </angleRestricted>
+
+                    <aimPieOffset>(0, 2.0)</aimPieOffset>
+                    <drawLayer>3</drawLayer>
+                    <key>earthshakerTurret</key>
+                </li>
+            </turrets>
+        </li>
+    </upgrades>
+</li>
+
+			<li>
 				<key>ChimeraMultiLaserUpgrade</key>
 				<label>Multi-laser turret</label>
 				<description>Chimera multi-laser is a turret-mounted energy weapon that fires rapid, concentrated laser beams, effective against infantry and lightly armored targets.</description>
@@ -344,6 +407,7 @@
 					<li>ChimeraHeavyBolterUpgrade</li>
 					<li>ChimeraMultiAutocannonUpgrade</li>
 					<li>ChimeraInfernalCannonUpgrade</li>
+					<li>EarthshakerArtilleryUpgrade</li>
 				</disableIfUpgradeNodesEnabled>
 				<prerequisiteNodes>
 					<li>ChimeraTurretMount</li>
