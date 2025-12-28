@@ -153,7 +153,7 @@
 			</playerFaction>
 			<parts>
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
-					<def>ConfigurePawnsKindDefs</def>
+					<def>GW_ConfigurePawnsKindDefs</def>
 					<pawnChoiceCount>1</pawnChoiceCount>
 					<leftBehindPawnKind>GW_HOI_FaultyRecon_Starter</leftBehindPawnKind>
 					<kindCounts>
