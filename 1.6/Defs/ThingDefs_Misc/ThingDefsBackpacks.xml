@@ -602,7 +602,7 @@
 	<ThingDef ParentName="GW_HOI_BackpackBase">
 		<defName>GW_HOI_CadianFlamerWebbing</defName>
 		<label>Cadian flamer webbing</label>
-		<description>ToDo.</description>
+		<description>Special webbings which allow guardsman to wield flamer.</description>
 		<graphicData>
 			<texPath>Things/Cadian/Webbing/GW_HOI_CadianFlamerWebbing</texPath>
 			<drawSize>(1,1)</drawSize>
@@ -660,7 +660,7 @@
 	<ThingDef ParentName="GW_HOI_BackpackBase">
 		<defName>GW_HOI_PowerpackWebbing</defName>
 		<label>Cadian powerpack webbing</label>
-		<description>ToDo.</description>
+		<description>Special webbings which allow guardsman to wield power weapons such plasmagun.</description>
 		<graphicData>
 			<texPath>Things/Cadian/Webbing/GW_HOI_CadianPowerpackWebbing</texPath>
 			<drawSize>(1,1)</drawSize>
