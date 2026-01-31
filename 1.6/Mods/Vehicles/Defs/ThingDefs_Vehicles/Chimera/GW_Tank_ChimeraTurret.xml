@@ -204,7 +204,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Chimera_Sponsor</defName>
 		<label>Chimera Sponson</label>
-		<description>A sponson mounted heavy bolter turrets. </description>
+		<description>A sponson mounted heavy bolter turrets.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
