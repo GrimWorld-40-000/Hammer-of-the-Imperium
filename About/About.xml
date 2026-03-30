@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>GrimWorld 40,000 - Hammer of the Imperium</name>
-  <author>Clashgore, Odzmang, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Maxim, Shun The Witch, Samael, Con</author>
+  <author>Clashgore, Odzmang, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Maxim, Shun The Witch, Samael, Con, atxmatt2510</author>
   <packageId>Grimworld.AstraMilitarum</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/HammeroftheImperiumModIcon</modIconPath>
   <supportedVersions>
