@@ -12,9 +12,9 @@
         </graphicData>
         <projectile>
             <damageDef>LasgunBeam</damageDef>
-            <damageAmountBase>15</damageAmountBase>
-            <armorPenetrationBase>0.30</armorPenetrationBase>
-            <stoppingPower>0.5</stoppingPower>
+            <damageAmountBase>10</damageAmountBase>
+            <armorPenetrationBase>0.10</armorPenetrationBase>
+            <stoppingPower>0.0</stoppingPower>
             <speed>200</speed>
         </projectile>
         <modExtensions>
@@ -85,7 +85,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>GW_HOI_Bullet_Lasgun</defaultProjectile>
-                <warmupTime>1.00</warmupTime>
+                <warmupTime>2.00</warmupTime>
                 <range>30.0</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>1</burstShotCount>
@@ -225,9 +225,9 @@
         <description>a laser</description>
         <projectile>
             <damageDef>Vaporize</damageDef>
-            <damageAmountBase>13</damageAmountBase>
-            <armorPenetrationBase>0.87</armorPenetrationBase>
-            <stoppingPower>0.75</stoppingPower>
+            <damageAmountBase>14</damageAmountBase>
+            <armorPenetrationBase>0.37</armorPenetrationBase>
+            <stoppingPower>0.15</stoppingPower>
             <speed>1000</speed>
         </projectile>
         <modExtensions>
@@ -248,7 +248,7 @@
             <AccuracyShort>0.70</AccuracyShort>
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.30</AccuracyLong>
-            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
             <MarketValue>650</MarketValue>
         </statBases>
 		<equippedStatOffsets>
