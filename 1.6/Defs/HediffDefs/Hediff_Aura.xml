@@ -1,4 +1,39 @@
 <Defs>
+	<ThingDef ParentName="MoteBase">
+		<defName>GW40k_AM_VoxAuraMote</defName>
+		<thingClass>MoteAttached</thingClass>
+		<altitudeLayer>LightingOverlay</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<mote>
+			<solidTime>9999999</solidTime>
+			<needsMaintenance>true</needsMaintenance>
+		</mote>
+		<graphicData>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<texPath>Effects/AuraW</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(0.35,0.65,1,0.12)</color>
+			<drawSize>15</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="MoteBase">
+		<defName>GW40k_AM_KarskinVoxAuraMote</defName>
+		<thingClass>MoteAttached</thingClass>
+		<altitudeLayer>LightingOverlay</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<mote>
+			<solidTime>9999999</solidTime>
+			<needsMaintenance>true</needsMaintenance>
+		</mote>
+		<graphicData>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<texPath>Effects/AuraW</texPath>
+			<shaderType>MoteGlow</shaderType>
+			<color>(0.35,0.65,1,0.12)</color>
+			<drawSize>18</drawSize>
+		</graphicData>
+	</ThingDef>
 
 	<HediffDef>
 		<defName>GW40k_AM_VoxAura</defName>
@@ -8,6 +43,22 @@
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_GiveHediffsInRange">
+				<range>7.5</range>
+				<mote>GW40k_AM_VoxAuraMote</mote>
+				<hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+				<targetingParameters>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetAnimals>false</canTargetAnimals>
+					<canTargetMechs>false</canTargetMechs>
+					<canTargetSubhumans>false</canTargetSubhumans>
+				</targetingParameters>
+				<hediff>GW40k_AM_VoxAuraBuff</hediff>
+				<initialSeverity>1</initialSeverity>
+				<onlyPawnsInSameFaction>true</onlyPawnsInSameFaction>
+			</li>
+		</comps>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>				
@@ -23,6 +74,22 @@
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_GiveHediffsInRange">
+				<range>9.9</range>
+				<mote>GW40k_AM_KarskinVoxAuraMote</mote>
+				<hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+				<targetingParameters>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetAnimals>false</canTargetAnimals>
+					<canTargetMechs>false</canTargetMechs>
+					<canTargetSubhumans>false</canTargetSubhumans>
+				</targetingParameters>
+				<hediff>GW40k_AM_KarskinVoxAuraBuff</hediff>
+				<initialSeverity>1</initialSeverity>
+				<onlyPawnsInSameFaction>true</onlyPawnsInSameFaction>
+			</li>
+		</comps>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>				

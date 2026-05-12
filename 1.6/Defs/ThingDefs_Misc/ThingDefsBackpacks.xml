@@ -348,11 +348,6 @@
 		<comps>
 			<li Class="GW40kHediffAura.CompProperties_WornApparelHediffAura">
 				<wearerHediff>GW40k_AM_VoxAura</wearerHediff>
-				<allyOrNeutralHediff>GW40k_AM_VoxAuraBuff</allyOrNeutralHediff>
-				<ownerFactionHediff>GW40k_AM_VoxAuraBuff</ownerFactionHediff>
-				<radius>7.5</radius>
-				<severityPerTrigger>1</severityPerTrigger>
-				<tickInterval>250</tickInterval>
 			</li>
 		</comps>
 		<apparel>
@@ -407,11 +402,6 @@
 		<comps>
 			<li Class="GW40kHediffAura.CompProperties_WornApparelHediffAura">
 				<wearerHediff>GW40k_AM_KarskinVoxAura</wearerHediff>
-				<allyOrNeutralHediff>GW40k_AM_KarskinVoxAuraBuff</allyOrNeutralHediff>
-				<ownerFactionHediff>GW40k_AM_KarskinVoxAuraBuff</ownerFactionHediff>
-				<radius>9.9</radius>
-				<severityPerTrigger>1</severityPerTrigger>
-				<tickInterval>250</tickInterval>
 			</li>
 		</comps>
 		<apparel>
