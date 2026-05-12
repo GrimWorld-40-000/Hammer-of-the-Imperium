@@ -325,7 +325,7 @@
 		<description>A large backpack containing a vox-caster, an Imperial Guard device. Similar to a modern radio backpack, this vox-caster allows the user to communicate over long distances on the battlefield. This particular vox-caster communicates with all nearby soldiers, increasing their mobility and shooting accuracy.</description>
 		<graphicData>
 			<texPath>Things/Backpacks/GW_HOI_CadianVoxBackpack_north</texPath>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
@@ -346,8 +346,13 @@
 		<stuffCategories Inherit="false" IsNull="True" />
 		<costStuffCount Inherit="false" />
 		<comps>
-			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
-				<hediffDef>GW40k_AM_VoxAura</hediffDef>
+			<li Class="GW40kHediffAura.CompProperties_WornApparelHediffAura">
+				<wearerHediff>GW40k_AM_VoxAura</wearerHediff>
+				<allyOrNeutralHediff>GW40k_AM_VoxAuraBuff</allyOrNeutralHediff>
+				<ownerFactionHediff>GW40k_AM_VoxAuraBuff</ownerFactionHediff>
+				<radius>7.5</radius>
+				<severityPerTrigger>1</severityPerTrigger>
+				<tickInterval>250</tickInterval>
 			</li>
 		</comps>
 		<apparel>
@@ -378,7 +383,7 @@
 		<description>An adapted version of the standard Kasrkin backpack, it comes with vox network accessibility, allowing for the unit to communicate with distant vox signals.\n\nIt provides power to weapons.</description>
 		<graphicData>
 			<texPath>Things/Backpacks/GW_HOI_KarskinVoxBackpack_north</texPath>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(1.3,1.3)</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_CadianShockTroops</researchPrerequisite>
@@ -400,8 +405,13 @@
 		<stuffCategories Inherit="false" IsNull="True" />
 		<costStuffCount Inherit="false" />
 		<comps>
-			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
-				<hediffDef>GW40k_AM_KarskinVoxAura</hediffDef>
+			<li Class="GW40kHediffAura.CompProperties_WornApparelHediffAura">
+				<wearerHediff>GW40k_AM_KarskinVoxAura</wearerHediff>
+				<allyOrNeutralHediff>GW40k_AM_KarskinVoxAuraBuff</allyOrNeutralHediff>
+				<ownerFactionHediff>GW40k_AM_KarskinVoxAuraBuff</ownerFactionHediff>
+				<radius>9.9</radius>
+				<severityPerTrigger>1</severityPerTrigger>
+				<tickInterval>250</tickInterval>
 			</li>
 		</comps>
 		<apparel>

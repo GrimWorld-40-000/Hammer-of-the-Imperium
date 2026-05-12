@@ -8,18 +8,6 @@
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<isBad>false</isBad>
-		<comps>
-			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
-				<allyOrNeutralHediff>GW40k_AM_VoxAuraBuff</allyOrNeutralHediff>
-				<ownerFactionHediff>GW40k_AM_VoxAuraBuff</ownerFactionHediff>
-				<radius>7.5</radius>
-				<severityPerTrigger>1</severityPerTrigger>
-				<tickInterval>250</tickInterval>
-				<mote>GW40k_HOI_Vox_Aura</mote>
-				<uiIconEnabled>Things/Backpacks/GW_HOI_CadianVoxBackpack_north</uiIconEnabled>
-				<uiIconDisabled>Things/Backpacks/GW_HOI_CadianVoxBackpack_north</uiIconDisabled>
-			</li>
-		</comps>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>				
@@ -35,18 +23,6 @@
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>1</maxSeverity>
 		<isBad>false</isBad>
-		<comps>
-			<li Class="GW40kHediffAura.HediffCompProperties_AuraAndMote">
-				<allyOrNeutralHediff>GW40k_AM_KarskinVoxAuraBuff</allyOrNeutralHediff>
-				<ownerFactionHediff>GW40k_AM_KarskinVoxAuraBuff</ownerFactionHediff>
-				<radius>7.5</radius>
-				<severityPerTrigger>1</severityPerTrigger>
-				<tickInterval>250</tickInterval>
-				<mote>GW40k_HOI_Vox_Aura</mote>
-				<uiIconEnabled>Things/Backpacks/GW_HOI_KarskinVoxBackpack_north</uiIconEnabled>
-				<uiIconDisabled>Things/Backpacks/GW_HOI_KarskinVoxBackpack_north</uiIconDisabled>
-			</li>
-		</comps>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>				
@@ -64,16 +40,16 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>250</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+				<disappearsAfterTicks>325</disappearsAfterTicks>
 			</li>
 		</comps>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
 				<statOffsets>
-					<PainShockThreshold>0.15</PainShockThreshold>
-					<AimingDelayFactor>-0.12</AimingDelayFactor>
+					<PainShockThreshold>0.10</PainShockThreshold>
+					<AimingDelayFactor>-0.08</AimingDelayFactor>
 				</statOffsets>
 			</li>
 		</stages>
@@ -89,8 +65,8 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_Disappears">
-				<showRemainingTime>true</showRemainingTime>
-				<disappearsAfterTicks>250</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+				<disappearsAfterTicks>325</disappearsAfterTicks>
 			</li>
 		</comps>
 		<stages>
